@@ -41,24 +41,24 @@ Test 3/891: SVL-N tseegkesovvi  1990  Saemiej  Rijhkesaervien nualan.   Dihte   
 freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt.xml
 [  3/891][PASS tp] gaskems:gaskemsh (pp,con, (pp,con)) => gaskems:[gaskemsh] (typo)
 freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt.xml
-[  3/891][PASS tp] lihtsegh:lïhtsegh (vowc,i-ï, (vowc,i-ï)) => lihtsegh:[lïhtsegh] (typo)
+[  3/891][PASS tp] lihtsegh:lïhtsegh (vowc,i-ï, (vowc,i-ï)) => lihtsegh:[lïhtsegh] (typo)  
+freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt.xml 
+[  3/891][FAIL fp2] : (, ()) => Saemiej  Rijhkesaervien:[Saemiej Rijhkesaervien, rïjhke-saervien, rïjhkesaervien] (typo)  # fix 
 freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt.xml
-[  3/891][FAIL fp2] : (, ()) => Saemiej  Rijhkesaervien:[Saemiej Rijhkesaervien, rïjhke-saervien, rïjhkesaervien] (typo)
+[  3/891][FAIL fp2] : (, ()) => .   Dihte:[. Dihte, Dïhte] (typo)  # fix
 freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt.xml
-[  3/891][FAIL fp2] : (, ()) => .   Dihte:[. Dihte, Dïhte] (typo)
+[  3/891][FAIL fp2] : (, ()) => lea    ektese-vyøki:[lea ektese-vyøki, ektese-vyöki, ektesevyöki] (typo)  # fix
 freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt.xml
-[  3/891][FAIL fp2] : (, ()) => lea    ektese-vyøki:[lea ektese-vyøki, ektese-vyöki, ektesevyöki] (typo)
+[  3/891][FAIL fp2] : (, ()) => :[siebrie Nöörjen] (double-space-before)  # fix
 freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt.xml
-[  3/891][FAIL fp2] : (, ()) => :[siebrie Nöörjen] (double-space-before)
+[  3/891][FAIL fp2] : (, ()) => :[Sveerjen   jih Såevmien] (double-space-before)  # fix
 freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt.xml
-[  3/891][FAIL fp2] : (, ()) => :[Sveerjen   jih Såevmien] (double-space-before)
+[  3/891][FAIL fp2] : (, ()) => :[saavremen     gaavhtan. Saemiej] (double-space-before)  # fix
 freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt.xml
-[  3/891][FAIL fp2] : (, ()) => :[saavremen     gaavhtan. Saemiej] (double-space-before)
-freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt.xml
-[  3/891][FAIL fp2] : (, ()) => :[gusnie 2000] (double-space-before)
+[  3/891][FAIL fp2] : (, ()) => :[gusnie 2000] (double-space-before)  # fix
 freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt.xml
 [  3/891][FAIL fn2] Rijhkesaervien:Rïjhkesaervien (vowc,i-ï, (vowc,i-ï)) => :[] ()
-freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt.xml
+freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt
 [  3/891][FAIL fn2] Dihte:Dïhte (vowc,i-ï, (vowc,i-ï)) => :[] ()
 freecorpus//goldstandard/converted/sma/facta/other_files/infonuorra_saavreme.correct.txt.xml
 [  3/891][FAIL fn2] ektese-vyøki-siebrie:ektesevyökisiebrie (hyph-0;hyph- 0, (hyph-0;hyph- 0)) => :[] ()
@@ -7889,9 +7889,9 @@ freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
 [298/891][PASS tp] bäjjoehtidh:bæjjoehtidh (vowc,ä-æ, (vowc,ä-æ)) => bäjjoehtidh:[bæjjoehtidh] (typo)
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
-[298/891][FAIL fp1] siebredahkeste:siebriedahkeste (vowc,e-ie,, (vowc,e-ie,)) => siebredahkeste:[seabradahkeste, seabredahkeste, sïebre-dahkeste, sïebredahkeste] (typo)
-freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
-[298/891][FAIL fp1] Gärhkoe:gærhkoe (vowc,ä-æ, (vowc,ä-æ)) => Gärhkoe:[Gærhkoe] (typo)
+[298/891][FAIL fp1] siebredahkeste:siebriedahkeste (vowc,e-ie,, (vowc,e-ie,)) => siebredahkeste:[seabradahkeste, seabredahkeste, sïebre-dahkeste, sïebredahkeste] (typo) # fixed
+freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml 
+[298/891][FAIL fp1] Gärhkoe:gærhkoe (vowc,ä-æ, (vowc,ä-æ)) => Gärhkoe:[Gærhkoe] (typo) # fixed
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
 [298/891][FAIL fn2] dan:dehtie (infl,sggen-sgela, (infl,sggen-sgela)) => :[] ()
 Test 298 - Passes: 8, Fails: 3, Total: 11
@@ -7913,9 +7913,9 @@ freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
 [299/891][PASS tp] gärhkoem:gærhkoem (vowc,ä-æ, (vowc,ä-æ)) => gärhkoem:[gærhkoem] (typo)
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
-[299/891][FAIL fp1] darjomesojkesjämman:darjomesoejkesjæmman (vowc,ä-æ, (vowc,ä-æ)) => darjomesojkesjämman:[darjomesojkesjæmman] (typo)
+[299/891][FAIL fp1] darjomesojkesjämman:darjomesoejkesjæmman (vowc,ä-æ, (vowc,ä-æ)) => darjomesojkesjämman:[darjomesojkesjæmman] (typo) # fixed
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
-[299/891][FAIL fp2] : (, ()) => vihkeles:[vihkele] (msyn-adj-attr-pred)
+[299/891][FAIL fp2] : (, ()) => vihkeles:[vihkele] (msyn-adj-attr-pred) # fixed
 Test 299 - Passes: 6, Fails: 2, Total: 8
 
 ----------
@@ -7933,9 +7933,9 @@ freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
 [300/891][PASS tp] naasjovne:nasjovne (vowc,aa-a, (vowc,aa-a)) => naasjovne:[nasjovne] (typo)
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
-[300/891][FAIL fp1] driekte:rïekte (init,dr-r, (init,dr-r)) => driekte:[drïekte] (typo)
+[300/891][FAIL fp1] driekte:rïekte (init,dr-r, (init,dr-r)) => driekte:[drïekte] (typo) # fixed
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
-[300/891][FAIL fp1] siebredahkesne:siebriedahkesne (vowc,e-ie, (vowc,e-ie)) => siebredahkesne:[seabradahkesne, seabredahkesne, sïebre-dahkesne, sïebredahkesne] (typo)
+[300/891][FAIL fp1] siebredahkesne:siebriedahkesne (vowc,e-ie, (vowc,e-ie)) => siebredahkesne:[seabradahkesne, seabredahkesne, sïebre-dahkesne, sïebredahkesne] (typo) #fixed
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
 [300/891][FAIL fn2] åårganisasjovne:organisasjovne (noun,vow, (noun,vow)) => :[] ()
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
@@ -7963,9 +7963,9 @@ freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
 [301/891][PASS tp] saalmegärjam:saalmegærjam (vowc,ä-æ, (vowc,ä-æ)) => saalmegärjam:[saalme-gærjam, saalmegærjam] (typo)
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
-[301/891][FAIL fp1] jarkoesteminie:jarkosteminie (vowc,oe-o, (vowc,oe-o)) => jarkoesteminie:[jarkaåesteminie] (typo)
+[301/891][FAIL fp1] jarkoesteminie:jarkosteminie (vowc,oe-o, (vowc,oe-o)) => jarkoesteminie:[jarkaåesteminie] (typo) # fixed
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
-[301/891][FAIL fp1] vuartasjiminie:vuartesjeminie (vowlat,a-e, (vowlat,a-e)) => vuartasjiminie:[vuartasjimmine] (typo)
+[301/891][FAIL fp1] vuartasjiminie:vuartesjeminie (vowlat,a-e, (vowlat,a-e)) => vuartasjiminie:[vuartasjimmine] (typo) # fixed
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
 [301/891][FAIL fp2] : (, ()) => j.j.:[j. j.] (no-space-after-punct-mark)
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
@@ -7991,11 +7991,11 @@ freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
 [302/891][PASS tp] naasjovne:nasjovne (vowc,aa-a, (vowc,aa-a)) => naasjovne:[nasjovne] (typo)
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
-[302/891][FAIL fp1] Sápmien:Saepmien (vowc,á-ae, (vowc,á-ae)) => Sápmien:[Repmien, Gupmien, Ipmien, Hipmien, Bupmien, Rupmien] (typo)
+[302/891][FAIL fp1] Sápmien:Saepmien (vowc,á-ae, (vowc,á-ae)) => Sápmien:[Repmien, Gupmien, Ipmien, Hipmien, Bupmien, Rupmien] (typo) # fixed
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
-[302/891][FAIL fp1] daltesne:daltesisnie (fin,esne-isnie, (fin,esne-isnie)) => daltesne:[daltese] (typo)
+[302/891][FAIL fp1] daltesne:daltesisnie (fin,esne-isnie, (fin,esne-isnie)) => daltesne:[daltese] (typo) # fix
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
-[302/891][FAIL fp1] gärhkoe-åålmeginie:gærhkoeåålmeginie (vowc,ä-æ,hyph-0, (vowc,ä-æ,hyph-0)) => gärhkoe-åålmeginie:[gærhkoe-åålmeginie] (typo)
+[302/891][FAIL fp1] gärhkoe-åålmeginie:gærhkoeåålmeginie (vowc,ä-æ,hyph-0, (vowc,ä-æ,hyph-0)) => gärhkoe-åålmeginie:[gærhkoe-åålmeginie] (typo) # fixed
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
 [302/891][FAIL fp2] : (, ()) => stiftine:[staatine, siktine, siltine, stihtjine, stååtine, stådtine, stihkine, stieline, stierine, stijvine] (typo)
 freecorpus//goldstandard/converted/sma/facta/other_files/buerie_boeteme_svienske_gaerhkose.correct.txt.xml
