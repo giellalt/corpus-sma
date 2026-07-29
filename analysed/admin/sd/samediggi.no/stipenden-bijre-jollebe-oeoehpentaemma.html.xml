@@ -1,0 +1,756 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>191</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/Lierehtimmie/Dotkeme-jih-jollebe-oeoehpehtimmie/Stipeanda-ja-doarjja/Stipenden-bijre-jollebe-oeoehpentaemma</origFileName><parallel_text xml:lang="nob" location="stipend-for-hoeyere-utdanning.html"/><parallel_text xml:lang="sme" location="stipeanda-alit-ohppui.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Stipenden>"
+	"stipende" N Sem/Money Sg Gen @>P #1->2
+: 
+"<bïjre>"
+	"bïjre" Po @ADVL> #2->10
+: 
+"<jollebe>"
+	"jolle" Ex/A Der/Comp A Sg Nom @X #3->0
+: 
+"<ööhpentæmma>"
+	"ööhpentæmma" ? @X #4->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #5->6
+: 
+"<Stipeanda>"
+	"Stipeanda" ? @X #6->0
+: 
+"<ja>"
+	"ja" CC @CNP #7->6
+: 
+"<doarjja>"
+	"doarjja" ? @X #8->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #9->10
+: 
+"<Dotkeme>"
+	"dotkedh" <mv> V TV PrfPrc @IMV #10->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #11->10
+: 
+"<jollebe ööhpehtimmie>"
+	"jollebe ööhpehtimmie" N Sem/Act Sg Nom @X #12->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #13->14
+: 
+"<Lïerehtimmie>"
+	"lïerehtimmie" N Sem/Act Sg Nom @X #14->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #15->16
+: 
+"<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @X #16->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #17->18
+: 
+"<Sametinget>"
+	"Sametinget" N Prop Sem/Org Sg Nom @X #18->0
+: 
+"<¶>"
+	"¶" CLB #19->10
+:\n
+"<Stipenden>"
+	"stipende" N Sem/Money Sg Gen @>P #1->2
+: 
+"<bïjre>"
+	"bïjre" Po @ADVL #2->3
+: 
+"<jollebe>"
+	"jolle" Ex/A Der/Comp A Sg Nom @X #3->0
+: 
+"<ööhpentæmma>"
+	"ööhpentæmma" ? @X #4->0
+: 
+"<¶>"
+	"¶" CLB #5->2
+:\n
+"<Datne>"
+	"datne" Pron Pers Sg2 Nom @SUBJ> #1->2
+: 
+"<maahtah>"
+	"maehtedh" <aux> V TV Ind Prs Sg2 @FAUX #2->0
+: 
+"<stipendem>"
+	"stipende" N Sem/Money Sg Acc @OBJ> #3->4
+: 
+"<åadtjodh>"
+	"åadtjodh" <mv> V TV Inf @IMV #4->2
+: 
+"<jis>"
+	"jis" CS @CVP #5->8
+: 
+"<datne>"
+	"datne" Pron Pers Sg2 Nom @SUBJ> #6->8
+: 
+"<studente>"
+	"studente" N Sem/Hum Sg Nom @SUBJ> #7->8
+: 
+"<aktene>"
+	"aktanidh" <mv> V IV Ind Prs Sg3 @FS-<ADVL #8->4
+: 
+"<daejstie>"
+	"daate" Pron Dem Pl Ela @<ADVL #9->8
+: 
+"<studijinie>"
+	"studije" N Sem/Edu Ess @<SPRED #10->8
+	"studije" N Sem/Edu Pl Ine @<ADVL-ine #10->8
+	"studije" N Sem/Edu Sg Com @<ADVL-ine #10->8
+: 
+"<jaepien>"
+	"jaepie" N Sem/Time Sg Gen @<ADVL #11->8
+: 
+"<2016>"
+	"2016" Num Arab Sem/Year Sg Nom @<ADVL #12->8
+"<:>"
+	":" CLB #13->2
+:  
+"<¶>"
+	"¶" CLB #14->2
+:\n
+"<Jollebe ööhpehtimmie>"
+	"jollebe ööhpehtimmie" N Sem/Act Sg Nom @HNOUN #1->0
+: 
+"<åarjel->"
+	"åarjel" N Sem/Cat Cmp/SgNom Cmp/SplitR Cmp @>N #2->4
+"<,>"
+	"," CLB #3->2
+: 
+"<julev->"
+	"julev" N Sem/Dummytag Cmp/SgNom Cmp/SplitR Cmp @>N #4->7
+: 
+"<jallh>"
+	"jallh" CC @CNP #5->4
+: 
+"<noerhtesaemien>"
+	"noerhtesaemien" A Attr @>N #6->2
+: 
+"<gïelesne>"
+	"gielie" N Sem/Dummytag Sg Ine @X #7->0
+	"gïele" N Sem/Lang_Tool Sg Ine @X #7->0
+: 
+"<¶>"
+	"¶" CLB #8->1
+:\n
+"<Saemien>"
+	"saemien" A Attr @>N #1->2
+: 
+"<maanagïertelohkehtæjjaööhpehtimmie>"
+	"ööhpehtimmie" N Sem/Edu Sg Nom @HNOUN #2->0
+		"lohkehtæjja" N Sem/Hum Cmp/SgNom Cmp #2->0
+			"gïerte" N Sem/Plc Cmp/SgNom Cmp #2->0
+				"maana" N Sem/Hum Cmp/SgNom Cmp #2->0
+	"lohkehtæjjaööhpehtimmie" N Sem/Edu Sg Nom @HNOUN #2->0
+		"gïerte" N Sem/Plc Cmp/SgNom Cmp #2->0
+			"maana" N Sem/Hum Cmp/SgNom Cmp #2->0
+	"ööhpehtimmie" N Sem/Edu Sg Nom @HNOUN #2->0
+		"lohkehtæjja" N Sem/Hum Cmp/SgNom Cmp #2->0
+			"maanagïerte" N Sem/Build_Org Cmp/SgNom Cmp #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Jeatjah>"
+	"jeatjah" A Attr @>N #1->2
+: 
+"<maanagïertelohkehtæjjaööhpehtimmie>"
+	"ööhpehtimmie" N Sem/Edu Sg Nom @HNOUN #2->0
+		"lohkehtæjja" N Sem/Hum Cmp/SgNom Cmp #2->0
+			"gïerte" N Sem/Plc Cmp/SgNom Cmp #2->0
+				"maana" N Sem/Hum Cmp/SgNom Cmp #2->0
+	"lohkehtæjjaööhpehtimmie" N Sem/Edu Sg Nom @HNOUN #2->0
+		"gïerte" N Sem/Plc Cmp/SgNom Cmp #2->0
+			"maana" N Sem/Hum Cmp/SgNom Cmp #2->0
+	"ööhpehtimmie" N Sem/Edu Sg Nom @HNOUN #2->0
+		"lohkehtæjja" N Sem/Hum Cmp/SgNom Cmp #2->0
+			"maanagïerte" N Sem/Build_Org Cmp/SgNom Cmp #2->0
+: 
+"<studentide>"
+	"studente" N Sem/Hum Pl Acc @OBJ> #3->4
+: 
+"<illeme>"
+	"illedh" <mv> V TV PrfPrc @IMV #4->0
+: 
+"<eksameninie>"
+	"eksaamene" N Err/Orth Sem/Event Ess @<OPRED #5->3
+	"eksaamene" N Err/Orth Sem/Event Pl Ine @<ADVL-ine #5->3
+	"eksaamene" N Err/Orth Sem/Event Sg Com @<ADVL-ine #5->3
+"</>"
+	"/" PUNCT MIDDLE #6->7
+"<galhkuvekarakterine>"
+	"karakteere" N Err/Orth Sem/Sign Ess @<OPRED #7->3
+		"galhkuve" A Cmp/Attr Cmp #7->3
+	"karakteere" N Err/Orth Sem/Sign Pl Ine @<ADVL-ine #7->3
+		"galhkuve" A Cmp/Attr Cmp #7->3
+	"karakteere" N Err/Orth Sem/Sign Sg Com @<ADVL-ine #7->3
+		"galhkuve" A Cmp/Attr Cmp #7->3
+: 
+"<saemien>"
+	"saemien" A Attr @>N #8->9
+: 
+"<gïelesne>"
+	"gielie" N Sem/Dummytag Sg Ine @<ADVL-ine #9->4
+	"gïele" N Sem/Lang_Tool Sg Ine @<ADVL-ine #9->4
+: 
+"<1.>"
+	"1" A Arab Ord Attr @>N #10->13
+"<jallh>"
+	"jallh" CC @CNP #11->10
+: 
+"<2.>"
+	"2" A Arab Ord Attr @>N #12->10
+"<gïeline>"
+	"gielie" N Sem/Dummytag Ess @<OPRED #13->3
+	"gielie" N Sem/Dummytag Pl Ine @<ADVL-ine #13->3
+	"gielie" N Sem/Dummytag Sg Com @<ADVL-ine #13->3
+	"gïele" N Sem/Lang_Tool Ess @<OPRED #13->3
+	"gïele" N Sem/Lang_Tool Pl Ine @<ADVL-ine #13->3
+	"gïele" N Sem/Lang_Tool Sg Com @<ADVL-ine #13->3
+: 
+"<jåarhkeööhpehtimmeste>"
+	"jåarhkeööhpehtimmie" N Sem/Edu Sg Ela @<ADVL #14->4
+: 
+"<jallh>"
+	"jallh" CC @CNP #15->14
+: 
+"<plearoeh>"
+	"plearoeh" A Attr @>N #16->17
+: 
+"<njieptjeste>"
+	"njieptjie" N Sem/Dummytag Sg Ela @<ADVL #17->14
+: 
+"<¶>"
+	"¶" CLB #18->2
+:\n
+"<Saemien>"
+	"saemien" A Attr @>N #1->2
+: 
+"<lohkehtæjjaööhpehtimmie>"
+	"lohkehtæjjaööhpehtimmie" N Sem/Edu Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Lohkehtæjjaööhpehtimmie>"
+	"lohkehtæjjaööhpehtimmie" N Sem/Edu Sg Nom @HNOUN #1->0
+: 
+"<5.-10.>"
+	"5.-10" A Arab Ord Attr @>N #2->3
+: 
+"<daltese>"
+	"daltese" N Sem/Plc Sg Nom @HNOUN #3->1
+: 
+"<–>"
+	"–" PUNCT MIDDLE #4->5
+: 
+"<maastere->"
+	"maastere" N Sem/Edu Cmp/SgNom Cmp/SplitR Cmp @>N #5->7
+: 
+"<noerhtesaemien>"
+	"noerhtesaemien" A Attr @>N #6->7
+: 
+"<ammesgïeline>"
+	"ammesgïele" N Sem/Lang Ess @<SPRED #7->3
+	"ammesgïele" N Sem/Lang Pl Ine @<ADVL #7->3
+	"ammesgïele" N Sem/Lang Sg Com @<ADVL #7->3
+: 
+"<¶>"
+	"¶" CLB #8->1
+:\n
+"<Jeatjah>"
+	"jeatjah" A Attr @>N #1->2
+: 
+"<lohkehtæjjaööhpehtimmie>"
+	"lohkehtæjjaööhpehtimmie" N Sem/Edu Sg Nom @HNOUN #2->0
+: 
+"<studentide>"
+	"studente" N Sem/Hum Pl Acc @OBJ> #3->4
+: 
+"<illeme>"
+	"illedh" <mv> V TV PrfPrc @IMV #4->0
+: 
+"<eksameninie>"
+	"eksaamene" N Err/Orth Sem/Event Ess @<OPRED #5->3
+	"eksaamene" N Err/Orth Sem/Event Pl Ine @<ADVL-ine #5->3
+	"eksaamene" N Err/Orth Sem/Event Sg Com @<ADVL-ine #5->3
+"</>"
+	"/" PUNCT MIDDLE #6->7
+"<galhkuvekarakterine>"
+	"karakteere" N Err/Orth Sem/Sign Ess @<OPRED #7->3
+		"galhkuve" A Cmp/Attr Cmp #7->3
+	"karakteere" N Err/Orth Sem/Sign Pl Ine @<ADVL-ine #7->3
+		"galhkuve" A Cmp/Attr Cmp #7->3
+	"karakteere" N Err/Orth Sem/Sign Sg Com @<ADVL-ine #7->3
+		"galhkuve" A Cmp/Attr Cmp #7->3
+: 
+"<saemien>"
+	"saemie" N Sem/Hum_Lang Sg Gen @>A #8->9
+	"saemien" A Attr @>A #8->9
+: 
+"<1.>"
+	"1" A Arab Ord Attr @>N #9->12
+: 
+"<jallh>"
+	"jallh" CC @CNP #10->9
+: 
+"<2.>"
+	"2" A Arab Ord Attr @>N #11->9
+: 
+"<gïeline>"
+	"gielie" N Sem/Dummytag Ess @<OPRED #12->3
+	"gielie" N Sem/Dummytag Pl Ine @<ADVL-ine #12->3
+	"gielie" N Sem/Dummytag Sg Com @<ADVL-ine #12->3
+	"gïele" N Sem/Lang_Tool Ess @<OPRED #12->3
+	"gïele" N Sem/Lang_Tool Pl Ine @<ADVL-ine #12->3
+	"gïele" N Sem/Lang_Tool Sg Com @<ADVL-ine #12->3
+: 
+"<jåarhkelïerehtimmeste>"
+	"jåarhkelïerehtimmie" N Sem/Edu Sg Ela @<ADVL #13->4
+: 
+"<jallh>"
+	"jallh" CC @CNP #14->13
+: 
+"<plearoeh>"
+	"plearoeh" A Attr @>N #15->16
+: 
+"<njieptjeste>"
+	"njieptjie" N Sem/Dummytag Sg Ela @<ADVL #16->13
+: 
+"<¶>"
+	"¶" CLB #17->2
+:\n
+"<Bachelor>"
+	"Bachelor" N Prop Sem/Obj Sg Nom @HNOUN #1->0
+: 
+"<skïemtjesujhtemisnie>"
+	"sujhtedh" Ex/V TV Der/NomAct N Sg Ine @ADVL> #2->4
+		"skïemtje" A Cmp/Attr Cmp #2->4
+: 
+"<studentide>"
+	"studente" N Sem/Hum Pl Acc @OBJ> #3->4
+: 
+"<illeme>"
+	"illedh" <mv> V TV PrfPrc @IMV #4->0
+: 
+"<eksameninie>"
+	"eksaamene" N Err/Orth Sem/Event Ess @<OPRED #5->3
+	"eksaamene" N Err/Orth Sem/Event Pl Ine @<ADVL-ine #5->3
+	"eksaamene" N Err/Orth Sem/Event Sg Com @<ADVL-ine #5->3
+: 
+"<saemien>"
+	"saemien" A Attr @>N #6->7
+: 
+"<gïelesne>"
+	"gielie" N Sem/Dummytag Sg Ine @<ADVL-ine #7->4
+	"gïele" N Sem/Lang_Tool Sg Ine @<ADVL-ine #7->4
+: 
+"<1.>"
+	"1" A Arab Ord Attr @>N #8->11
+: 
+"<jallh>"
+	"jallh" CC @CNP #9->8
+: 
+"<2.>"
+	"2" A Arab Ord Attr @>N #10->8
+: 
+"<gïeline>"
+	"gielie" N Sem/Dummytag Ess @<OPRED #11->3
+	"gielie" N Sem/Dummytag Pl Ine @<ADVL-ine #11->3
+	"gielie" N Sem/Dummytag Sg Com @<ADVL-ine #11->3
+	"gïele" N Sem/Lang_Tool Ess @<OPRED #11->3
+	"gïele" N Sem/Lang_Tool Pl Ine @<ADVL-ine #11->3
+	"gïele" N Sem/Lang_Tool Sg Com @<ADVL-ine #11->3
+: 
+"<jåarhkelïerehtimmeste>"
+	"jåarhkelïerehtimmie" N Sem/Edu Sg Ela @<ADVL #12->4
+: 
+"<jallh>"
+	"jallh" CC @CNP #13->12
+: 
+"<plearoeh>"
+	"plearoeh" A Attr @>N #14->15
+: 
+"<njieptjeste>"
+	"njieptjie" N Sem/Dummytag Sg Ela @<ADVL #15->12
+"<.>"
+	"." CLB #16->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Gie>"
+	"gie" Pron Interr Sg Nom @SUBJ> #1->2
+: 
+"<maahta>"
+	"maehtedh" <aux> V TV Ind Prs Sg3 @FAUX #2->0
+: 
+"<stipendem>"
+	"stipende" N Sem/Money Sg Acc @OBJ> #3->4
+: 
+"<ohtsedh>"
+	"ohtsedh" <mv> V TV Inf @IMV #4->2
+"<?>"
+	"?" CLB #5->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Studenth>"
+	"studente" N Sem/Hum Pl Nom @HNOUN #1->0
+: 
+"<jïlleskuvline>"
+	"jïlleskuvle" N Sem/Edu_Org Ess @<SPRED #2->1
+	"jïlleskuvle" N Sem/Edu_Org Pl Ine @<ADVL #2->1
+	"jïlleskuvle" N Sem/Edu_Org Sg Com @<ADVL #2->1
+: 
+"<jïh>"
+	"jïh" CC @CNP #3->2
+: 
+"<universiteetine>"
+	"universiteete" N Sem/Build_Edu_Org Ess @<SPRED #4->2
+	"universiteete" N Sem/Build_Edu_Org Pl Ine @<ADVL #4->2
+	"universiteete" N Sem/Build_Edu_Org Sg Com @<ADVL #4->2
+: 
+"<Nöörjesne>"
+	"Nöörje" N Prop Sem/Plc Sg Ine @X #5->0
+"<.>"
+	"." CLB #6->1
+: 
+"<Studenth>"
+	"studente" N Sem/Hum Pl Nom @SPRED> #1->0
+: 
+"<mah>"
+	"mij" Pron Rel Pl Nom @SUBJ> #2->3
+: 
+"<leah>"
+	"lea" <mv> V IV Ind Prs Pl3 @FS-N< #3->1
+: 
+"<almetjeregisterisnie>"
+	"registeere" N Sem/Dummytag Err/Orth Sg Ine @<ADVL-ine #4->3
+		"almetje" N Sem/Hum Cmp/SgNom Cmp #4->3
+: 
+"<Nöörjesne>"
+	"Nöörje" N Prop Sem/Plc Sg Ine @<ADVL-ine #5->3
+: 
+"<maehtieh>"
+	"maehtedh" <aux> V TV Ind Prs Pl3 @FAUX #6->0
+: 
+"<lissine>"
+	"lissie" N Sem/Money Ess @<SPRED #7->3
+	"lissie" N Sem/Money Pl Ine @ADVL> #7->3
+	"lissie" N Sem/Money Sg Com @ADVL> #7->3
+: 
+"<stipendem>"
+	"stipende" N Sem/Money Sg Acc @OBJ> #8->10
+: 
+"<studijidie>"
+	"studije" N Sem/Edu Pl Acc @OBJ> #9->10
+: 
+"<åadtjodh>"
+	"åadtjodh" <mv> V TV Inf @IMV #10->6
+: 
+"<saemien>"
+	"saemien" A Attr @>N #11->12
+: 
+"<gïeline>"
+	"gielie" N Sem/Dummytag Ess @<OPRED #12->9
+	"gielie" N Sem/Dummytag Pl Ine @<ADVL-ine #12->9
+	"gielie" N Sem/Dummytag Sg Com @<ADVL-ine #12->9
+	"gïele" N Sem/Lang_Tool Ess @<OPRED #12->9
+	"gïele" N Sem/Lang_Tool Pl Ine @<ADVL-ine #12->9
+	"gïele" N Sem/Lang_Tool Sg Com @<ADVL-ine #12->9
+: 
+"<jïlleskuvline>"
+	"jïlleskuvle" N Sem/Edu_Org Ess @<OPRED #13->9
+	"jïlleskuvle" N Sem/Edu_Org Pl Ine @<ADVL-ine #13->9
+	"jïlleskuvle" N Sem/Edu_Org Sg Com @<ADVL-ine #13->9
+: 
+"<jïh>"
+	"jïh" CC @CNP #14->13
+: 
+"<universiteetine>"
+	"universiteete" N Sem/Build_Edu_Org Ess @<OPRED #15->13
+	"universiteete" N Sem/Build_Edu_Org Pl Ine @<ADVL-ine #15->13
+	"universiteete" N Sem/Build_Edu_Org Sg Com @<ADVL-ine #15->13
+: 
+"<Såevmesne>"
+	"Såevmie" N Prop Sem/Plc Sg Ine @<ADVL-ine #16->10
+: 
+"<jïh>"
+	"jïh" CC @CNP #17->16
+: 
+"<Sveerjesne>"
+	"Sveerje" N Prop Sem/Plc Sg Ine @<ADVL-ine #18->10
+"<.>"
+	"." CLB #19->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Stipendi>"
+	"stipende" N Sem/Money Pl Gen @>N #1->2
+: 
+"<stoeredahke>"
+	"stoeredahke" N Sem/Dummytag Sg Nom @HNOUN #2->0
+"<:>"
+	":" CLB #3->2
+:  
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<kr>"
+	"kr" N Sem/Curr ABBR Gram/TNumAbbr Sg Acc @>Num #1->2
+	"kr" N Sem/Curr ABBR Gram/TNumAbbr Sg Gen @>Num #1->2
+	"kr" N Sem/Curr ABBR Gram/TNumAbbr Sg Nom @>Num #1->2
+: 
+"<3 000>"
+	"3 000" Num Arab Sg Acc Attr @>N #2->3
+	"3 000" Num Arab Sg Ela Attr @>N #2->3
+	"3 000" Num Arab Sg Gen Attr @>N #2->3
+	"3 000" Num Arab Sg Ill Attr @>N #2->3
+	"3 000" Num Arab Sg Ine Attr @>N #2->3
+	"3 000" Num Arab Sg Nom @>N #2->3
+: 
+"<studijidie>"
+	"studije" N Sem/Edu Pl Ill @ADVL> #3->4
+: 
+"<gaskem>"
+	"gaskedh" <mv> V IV Ind Prs Sg1 @FMV #4->0
+: 
+"<10>"
+	"10" Num Arab Sem/Time-clock Sg Nom @<ADVL #5->4
+: 
+"<jïh>"
+	"jïh" CC @CNP #6->5
+: 
+"<14>"
+	"14" Num Arab Sem/Time-clock Sg Nom @>N #7->8
+: 
+"<studijepoengh>"
+	"studijepoenge" N Sem/Dummytag Pl Nom @<SUBJ #8->4
+: 
+"<fierhten>"
+	"fïerhte" Pron Indef Sg Gen @>N #9->10
+: 
+"<boelhken>"
+	"boelhke" N Sem/Part Sg Gen @<ADVL #10->4
+: 
+"<¶>"
+	"¶" CLB #11->4
+:\n
+"<kr>"
+	"kr" N Sem/Curr ABBR Gram/TNumAbbr Sg Acc @>Num #1->2
+	"kr" N Sem/Curr ABBR Gram/TNumAbbr Sg Gen @>Num #1->2
+	"kr" N Sem/Curr ABBR Gram/TNumAbbr Sg Nom @>Num #1->2
+: 
+"<5 000>"
+	"5 000" Num Arab Sg Acc Attr @>N #2->3
+	"5 000" Num Arab Sg Ela Attr @>N #2->3
+	"5 000" Num Arab Sg Gen Attr @>N #2->3
+	"5 000" Num Arab Sg Ill Attr @>N #2->3
+	"5 000" Num Arab Sg Ine Attr @>N #2->3
+	"5 000" Num Arab Sg Nom @>N #2->3
+: 
+"<studijidie>"
+	"studije" N Sem/Edu Pl Ill @ADVL> #3->4
+: 
+"<gaskem>"
+	"gaskedh" <mv> V IV Ind Prs Sg1 @FMV #4->0
+: 
+"<15>"
+	"15" Num Arab Sem/Time-clock Sg Nom @<ADVL #5->4
+: 
+"<jïh>"
+	"jïh" CC @CNP #6->5
+: 
+"<29>"
+	"29" Num Arab Sem/Time-clock Sg Nom @>N #7->8
+: 
+"<studijepoengh>"
+	"studijepoenge" N Sem/Dummytag Pl Nom @<SUBJ #8->4
+: 
+"<fïerhten>"
+	"fïerhte" Pron Indef Sg Gen @>N #9->10
+: 
+"<boelhken>"
+	"boelhke" N Sem/Part Sg Gen @<ADVL #10->4
+: 
+"<¶>"
+	"¶" CLB #11->4
+:\n
+"<kr>"
+	"kr" N Sem/Curr ABBR Gram/TNumAbbr Sg Acc @>Num #1->2
+	"kr" N Sem/Curr ABBR Gram/TNumAbbr Sg Gen @>Num #1->2
+	"kr" N Sem/Curr ABBR Gram/TNumAbbr Sg Nom @>Num #1->2
+: 
+"<10 000>"
+	"10 000" Num Arab Sg Acc Attr @>N #2->3
+	"10 000" Num Arab Sg Ela Attr @>N #2->3
+	"10 000" Num Arab Sg Gen Attr @>N #2->3
+	"10 000" Num Arab Sg Ill Attr @>N #2->3
+	"10 000" Num Arab Sg Ine Attr @>N #2->3
+	"10 000" Num Arab Sg Nom @>N #2->3
+: 
+"<studijidie>"
+	"studije" N Sem/Edu Pl Ill @<ADVL #3->3
+: 
+"<unnemes>"
+	"onne" Ex/A Der/Superl A Attr @>A #4->5
+	"unnies" Ex/A Der/Superl A Attr @>A #4->5
+: 
+"<30>"
+	"30" A Arab Ord Attr CLBfinal @>N #5->6
+: 
+"<studijepoengigujmie>"
+	"studijepoenge" N Sem/Dummytag Pl Com @HNOUN #6->3
+: 
+"<fïerhten>"
+	"fïerhte" Pron Indef Sg Gen @>N #7->8
+: 
+"<boelhken>"
+	"boelhke" N Sem/Part Sg Gen @X #8->0
+: 
+"<¶>"
+	"¶" CLB #9->9
+:\n
+"<Stipendenjoelkedassine>"
+	"njoelkedasse" N Sem/Rule Ess @ADVL> #1->5
+		"stipende" N Sem/Money Cmp/SgNom Cmp #1->5
+	"njoelkedasse" N Sem/Rule Pl Ine @ADVL> #1->5
+		"stipende" N Sem/Money Cmp/SgNom Cmp #1->5
+	"njoelkedasse" N Sem/Rule Sg Com @ADVL> #1->5
+		"stipende" N Sem/Money Cmp/SgNom Cmp #1->5
+: 
+"<jollebe ööhpehtæmman>"
+	"jollebe ööhpehtimmie" N Sem/Act Sg Ill @ADVL> #2->5
+: 
+"<jïjtsh>"
+	"jïjtje" Pron Refl Gen PxPl3 @>N #3->4
+: 
+"<nænnoestimmieh>"
+	"nænnoestimmie" N Sem/Act Pl Nom @SUBJ> #4->5
+: 
+"<gååvnesieh>"
+	"gååvnesidh" <mv> V IV Ind Prs Pl3 @FMV #5->0
+: 
+"<reektemen>"
+	"reektedh" Ex/V TV Der/NomAct N Sg Gen @>N #6->8
+"<,>"
+	"," CLB #7->6
+: 
+"<gïehtjedimmien>"
+	"giehtjedimmie" N Sem/Act Sg Gen @<ADVL #8->5
+	"gïehtjedimmie" N Sem/Act Sg Gen @<ADVL #8->5
+"<,>"
+	"," CLB #9->8
+: 
+"<bååstedemaaksoen>"
+	"bååstedemaaksoen" ? @X #10->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #11->10
+: 
+"<hiejhtemen>"
+	"hiejhtedh" Ex/V TV Der/NomAct N Sg Gen @>P #12->13
+: 
+"<bïjre>"
+	"bïjre" Po @<ADVL #13->5
+: 
+"<stipendeste>"
+	"stipende" N Sem/Money Sg Ela @<ADVL #14->5
+"<,>"
+	"," CLB #15->14
+: 
+"<gaskem jeatjah>"
+	"gaskem jeatjah" Adv @<ADVL #16->5
+"<:>"
+	":" CLB #17->5
+:  
+"<¶>"
+	"¶" CLB #18->5
+:\n
+"<Edtja>"
+	"edtjedh" <aux> V IV Ind Prs Sg3 @FAUX #1->0
+: 
+"<vihtiestimmiem>"
+	"vihtiestimmie" N Sem/Act Sg Acc @OBJ> #2->3
+: 
+"<deelledh>"
+	"deelledh" <mv> V TV Inf @IMV #3->1
+: 
+"<eksamene>"
+	"eksaamene" N Err/Orth Sem/Event Sg Nom @SUBJ> #4->5
+: 
+"<lea>"
+	"lea" <aux> V IV Ind Prs Sg3 @FAUX #5->1
+: 
+"<illeme>"
+	"illedh" <mv> V TV PrfPrc @IMV #6->5
+: 
+"<gïjreboelhkese>"
+	"boelhke" N Sem/Part Sg Ill @<ADVL #7->6
+		"gïjre" N Sem/Time Cmp/SgNom Cmp #7->6
+: 
+"<åvtelen>"
+	"åvtele" N Sem/Tool Sg Gen @>Num #8->9
+	"åvtelen" Adv @>Num #8->9
+	"åvtelen" Pr @>Num #8->9
+: 
+"<01.10.>"
+	"01.10." Num Arab Sem/Date Sg Gen @ADVL-ine> #9->9
+: 
+"<budsjedtejaepien>"
+	"budsjehtejaepie" N Err/Orth Sem/Time Sg Gen @<ADVL #10->6
+:  
+"<¶>"
+	"¶" CLB #11->1
+:\n
+"<Edtja>"
+	"edtjedh" <aux> V IV Ind Prs Sg3 @FAUX #1->0
+: 
+"<vihtiestimmiem>"
+	"vihtiestimmie" N Sem/Act Sg Acc @OBJ> #2->3
+: 
+"<deelledh>"
+	"deelledh" <mv> V TV Inf @IMV #3->1
+: 
+"<eksamene>"
+	"eksaamene" N Err/Orth Sem/Event Sg Nom @SUBJ> #4->5
+: 
+"<lea>"
+	"lea" <aux> V IV Ind Prs Sg3 @FAUX #5->1
+: 
+"<illeme>"
+	"illedh" <mv> V TV PrfPrc @IMV #6->5
+: 
+"<tjaktjeboelhkese>"
+	"boelhke" N Sem/Part Sg Ill @<ADVL #7->6
+		"tjaktje" N Sem/Time Cmp/SgNom Cmp #7->6
+: 
+"<åvtelen>"
+	"åvtele" N Sem/Tool Sg Gen @>Num #8->9
+	"åvtelen" Adv @>Num #8->9
+: 
+"<01.02>"
+	"01.02." Num Arab Sem/Date Sg Gen CLBfinal @>A #9->10
+: 
+"<minngeben>"
+	"minngie" Ex/N Sem/Dummytag Der/Comp A Sg Gen @>N #10->11
+: 
+"<jaepien>"
+	"jaepie" N Sem/Time Sg Gen @<ADVL #11->6
+"<.>"
+	"." CLB #12->1
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

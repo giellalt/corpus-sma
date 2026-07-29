@@ -1,0 +1,788 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title>Preessegovlehtallijh</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="nob"/><year>2017</year><wordcount>230</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><origFileName>https://www.saemiedigkie.no/Preesse/Preessegovlehtallijh</origFileName><parallel_text xml:lang="nob" location="pressekontakter.html"/><parallel_text xml:lang="sme" location="preassaoktavuodat.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Preessegovlehtallijh>"
+	"govlehtallije" N Sem/Hum Pl Nom @HNOUN #1->0
+		"presse" N Sem/Dummytag Err/Orth Cmp/SgNom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Gaskesadth>"
+	"gaskesadtedh" <mv> V IV Imprt Sg2 @FMV #1->0
+: 
+"<dom>"
+	"dohte" Pron Dem Sg Acc @>N #2->3
+: 
+"<faageektievoetem>"
+	"ektievoete" N Sem/Org Sg Acc @<OBJ #3->1
+		"faage" N Sem/Edu Cmp/SgNom Cmp #3->1
+: 
+"<mij>"
+	"mij" Pron Rel Sg Nom @SUBJ> #4->6
+: 
+"<bööremeslaakan>"
+	"bööremeslaakan" Adv Gram/Superl @ADVL> #5->9
+: 
+"<maahta>"
+	"maehtedh" <aux> V TV Ind Prs Sg3 @FS-N< #6->3
+: 
+"<dov>"
+	"datne" Pron Pers Sg2 Gen @>N #7->8
+: 
+"<gyhtjelassh>"
+	"gyhtjelasse" N Sem/Prod-ling Pl Nom @OBJ> #8->9
+	"gyhtjeles" N Sem/Prod-ling Pl Nom @OBJ> #8->9
+: 
+"<vaestiedidh>"
+	"vaestiedidh" <mv> V TV Inf @FS-N<IMV #9->6
+"<.>"
+	"." CLB #10->1
+: 
+"<Sïejhme>"
+	"sïejhme" A Attr @>N #1->2
+: 
+"<gyhtjelassh>"
+	"gyhtjelasse" N Sem/Prod-ling Pl Nom @SUBJ> #2->3
+	"gyhtjeles" N Sem/Prod-ling Pl Nom @SUBJ> #2->3
+: 
+"<maahta>"
+	"maehtedh" <aux> V TV Ind Prs Sg3 @FAUX #3->0
+: 
+"<govlesadtemegoevtesem>"
+	"goevtese" N Sem/Org Sg Acc @OBJ> #4->5
+		"govlesadtedh" Ex/V IV Der/NomAct N Cmp/SgNom Cmp #4->5
+: 
+"<gihtjedh>"
+	"gihtjedh" <mv> V TV Inf @IMV #5->3
+: 
+"<(>"
+	"(" PUNCT LEFT #6->7
+"<GUL>"
+	"GUL" N Prop Sem/Org ACR Dyn Sg Nom @<SUBJ #7->3
+"<)>"
+	")" PUNCT RIGHT #8->7
+"<.>"
+	"." CLB #9->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Goevtesedirektöörh>"
+	"goevtesedirektööre" N Sem/Hum Pl Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Rune>"
+	"Rune" N Prop Sem/Mal Attr @>N #1->2
+: 
+"<Sverre>"
+	"Sverre" N Prop Sem/Mal Attr @>N #2->3
+: 
+"<Fjellheim>"
+	"Fjellheim" N Prop Sem/Sur Sg Nom @HNOUN #3->0
+: 
+"<,>"
+	"," CLB #4->3
+: 
+"<direktööre>"
+	"direktööre" N Sem/Hum Sg Nom @HNOUN #5->3
+"<,>"
+	"," CLB #6->5
+: 
+"<78>"
+	"78" Num Arab Sg Nom @HNOUN #7->5
+: 
+"<47>"
+	"47" Num Arab Sg Gen Attr @>Num #8->9
+: 
+"<40>"
+	"40" Num Arab Sg Nom @HNOUN #9->5
+: 
+"<40>"
+	"40" Num Arab Sg Nom @HNOUN #10->5
+"<,>"
+	"," CLB #11->10
+: 
+"<910>"
+	"910" Num Arab Sg Nom @HNOUN #12->5
+: 
+"<09>"
+	"09" Num Arab Sem/Time-clock Sg Nom @HNOUN #13->5
+: 
+"<320>"
+	"320" Num Arab Sg Nom @>N #14->15
+: 
+"<Siv>"
+	"Siv" N Prop Sem/Fem Attr @>N #15->16
+: 
+"<Eli>"
+	"Eli" N Prop Sem/Fem Attr @>N #16->17
+: 
+"<Vuolab>"
+	"Vuolab" N Prop Sem/Sur Sg Nom @HNOUN #17->5
+: 
+"<,>"
+	"," CLB #18->17
+: 
+"<govlesadtemegoevtese>"
+	"goevte" N Sem/Time Sg Ill @<ADVL #19->17
+		"govlesadtedh" Ex/V IV Der/NomAct N Cmp/SgNom Cmp #19->17
+	"goevtese" N Sem/Org Sg Nom @HNOUN #19->17
+		"govlesadtedh" Ex/V IV Der/NomAct N Cmp/SgNom Cmp #19->17
+"<,>"
+	"," CLB #20->19
+: 
+"<78>"
+	"78" Num Arab Sg Nom @HNOUN #21->19
+: 
+"<47>"
+	"47" Num Arab Sg Gen Attr @>Num #22->23
+: 
+"<41>"
+	"41" Num Arab Sg Nom @HNOUN #23->19
+: 
+"<19>"
+	"19" Num Arab Sem/Time-clock Sg Nom @HNOUN #24->19
+"<,>"
+	"," CLB #25->24
+: 
+"<951>"
+	"951" Num Arab Sg Nom @HNOUN #26->19
+: 
+"<68 927>"
+	"68 927" Num Arab Sg Nom @>N #27->28
+: 
+"<Tommy>"
+	"Tommy" N Prop Sem/Mal Attr @>N #28->29
+: 
+"<Somby>"
+	"Somby" N Prop Sem/Sur Sg Nom @HNOUN #29->19
+: 
+"<,>"
+	"," CLB #30->29
+: 
+"<reeremegoevtese>"
+	"reeremegoevtese" N Sem/Dummytag Sg Nom @HNOUN #31->29
+"<,>"
+	"," CLB #32->31
+: 
+"<78>"
+	"78" Num Arab Sg Nom @HNOUN #33->31
+: 
+"<47>"
+	"47" Num Arab Sg Gen Attr @>Num #34->35
+: 
+"<40>"
+	"40" Num Arab Sg Nom @HNOUN #35->31
+: 
+"<70>"
+	"70" Num Arab Sg Nom @HNOUN #36->31
+"<,>"
+	"," CLB #37->36
+: 
+"<958>"
+	"958" Num Arab Sg Nom @HNOUN #38->31
+: 
+"<22 121>"
+	"22 121" Num Arab Sg Nom @>N #39->40
+: 
+"<Risten>"
+	"Risten" N Prop Sem/Fem Attr @>N #40->41
+: 
+"<Länsman>"
+	"Länsman" N Prop Sem/Sur Sg Nom @HNOUN #41->31
+: 
+"<,>"
+	"," CLB #42->41
+: 
+"<gïelegoevtese>"
+	"gïelegoevtese" N Sem/Dummytag Sg Nom @HNOUN #43->41
+"<,>"
+	"," CLB #44->43
+: 
+"<78>"
+	"78" Num Arab Sg Nom @HNOUN #45->43
+: 
+"<48>"
+	"48" Num Arab Sg Gen Attr @>Num #46->47
+: 
+"<42>"
+	"42" Num Arab Sg Nom @HNOUN #47->43
+: 
+"<08>"
+	"08" Num Arab Sem/Time-clock Sg Nom @>N #48->49
+: 
+"<Brita>"
+	"Brita" N Prop Sem/Fem Attr @>N #49->50
+: 
+"<Oskal>"
+	"Oskal" N Prop Sem/Sur Attr @>N #50->51
+: 
+"<Eira>"
+	"Eira" N Prop Sem/Fem Sg Nom @HNOUN #51->43
+	"Eira" N Prop Sem/Sur Sg Nom @HNOUN #51->43
+: 
+"<,>"
+	"," CLB #52->51
+: 
+"<byjjenimmien>"
+	"byjjenimmie" N Sem/Act Sg Gen @>N #53->56
+: 
+"<jïh>"
+	"jïh" CC @CNP #54->53
+: 
+"<lïerehtimmien>"
+	"lïerehtimmie" N Sem/Act Sg Gen @>N #55->53
+: 
+"<goevtese>"
+	"goevte" N Sem/Time Sg Ill @<ADVL #56->51
+	"goevtese" N Sem/Org Sg Nom @HNOUN #56->51
+"<,>"
+	"," CLB #57->56
+: 
+"<78>"
+	"78" Num Arab Sg Nom @HNOUN #58->56
+: 
+"<48>"
+	"48" Num Arab Sg Gen Attr @>Num #59->60
+: 
+"<42>"
+	"42" Num Arab Sg Nom @HNOUN #60->56
+: 
+"<45>"
+	"45" Num Arab Sg Nom @HNOUN #61->56
+"<,>"
+	"," CLB #62->61
+: 
+"<950>"
+	"950" Num Arab Sg Nom @HNOUN #63->56
+: 
+"<45 154>"
+	"45 154" Num Arab Sg Nom @>N #64->65
+: 
+"<Magne>"
+	"Magne" N Prop Sem/Mal Attr @>N #65->66
+: 
+"<Svineng>"
+	"Svineng" N Prop Sem/Sur Sg Nom @HNOUN #66->56
+: 
+"<,>"
+	"," CLB #67->66
+: 
+"<jielemen>"
+	"jieleme" N Sem/Act Sg Gen @>N #68->70
+"<,>"
+	"," CLB #69->68
+: 
+"<kultuvren>"
+	"kultuvre" N Sem/Domain Sg Gen @>N #70->73
+: 
+"<jïh>"
+	"jïh" CC @CNP #71->70
+: 
+"<healsoen>"
+	"healsoe" N Sem/Feat-psych Sg Gen @>N #72->68
+: 
+"<goevtese>"
+	"goevte" N Sem/Time Sg Ill @<ADVL #73->66
+	"goevtese" N Sem/Org Sg Nom @HNOUN #73->66
+"<,>"
+	"," CLB #74->73
+: 
+"<78>"
+	"78" Num Arab Sg Nom @HNOUN #75->73
+: 
+"<47>"
+	"47" Num Arab Sg Gen Attr @>Num #76->77
+: 
+"<41>"
+	"41" Num Arab Sg Nom @HNOUN #77->73
+: 
+"<57>"
+	"57" Num Arab Sg Nom @HNOUN #78->73
+"<,>"
+	"," CLB #79->78
+: 
+"<915>"
+	"915" Num Arab Sg Nom @HNOUN #80->73
+: 
+"<42 098>"
+	"42 098" Num Arab Sg Nom @>N #81->82
+: 
+"<Sunniva>"
+	"Sunniva" N Prop Sem/Fem Attr @>N #82->83
+: 
+"<Skålnes>"
+	"Skålnes" N Prop Sem/Sur Sg Nom @HNOUN #83->73
+: 
+"<,>"
+	"," CLB #84->83
+: 
+"<kultuvremojhtesi>"
+	"kultuvremojhtese" N Sem/Feat-psych Pl Gen @>N #85->87
+"<,>"
+	"," CLB #86->85
+: 
+"<arealen>"
+	"areaale" N Sem/Dummytag Err/Orth Sg Gen @>N #87->90
+: 
+"<jïh>"
+	"jïh" CC @CNP #88->87
+: 
+"<byjresen>"
+	"byjrese" N Sem/Plc Sg Gen @>N #89->85
+: 
+"<goevtese>"
+	"goevte" N Sem/Time Sg Ill @<ADVL #90->83
+	"goevtese" N Sem/Org Sg Nom @HNOUN #90->83
+"<,>"
+	"," CLB #91->90
+: 
+"<78>"
+	"78" Num Arab Sg Nom @HNOUN #92->90
+: 
+"<48>"
+	"48" Num Arab Sg Gen Attr @>Num #93->94
+: 
+"<42>"
+	"42" Num Arab Sg Nom @HNOUN #94->90
+: 
+"<55>"
+	"55" Num Arab Sg Nom @HNOUN #95->90
+"<,>"
+	"," CLB #96->95
+: 
+"<976>"
+	"976" Num Arab Sg Nom @HNOUN #97->90
+: 
+"<63 709>"
+	"63 709" Num Arab Sg Nom @>N #98->99
+: 
+"<Hege>"
+	"Hege" N Prop Sem/Fem Attr @>N #99->100
+: 
+"<Fjellheim>"
+	"Fjellheim" N Prop Sem/Sur Sg Nom @HNOUN #100->90
+: 
+"<,>"
+	"," CLB #101->100
+: 
+"<reaktaj>"
+	"reakta" N Sem/Rule Pl Gen @>N #102->106
+	"reaktah" N Sem/Rule Pl Gen @>N #102->106
+: 
+"<jïh>"
+	"jïh" CC @CNP #103->102
+: 
+"<gaskenasjonaale>"
+	"gaskenasjonaale" A Attr @>N #104->105
+: 
+"<gyhtjelassi>"
+	"gyhtjelasse" N Sem/Prod-ling Pl Gen @>N #105->102
+: 
+"<goevtese>"
+	"goevte" N Sem/Time Sg Ill @<ADVL #106->100
+	"goevtese" N Sem/Org Sg Nom @HNOUN #106->100
+: 
+"<78>"
+	"78" Num Arab Sg Gen Attr @>Num #107->108
+: 
+"<47>"
+	"47" Num Arab Sg Gen Attr @>Num #108->109
+: 
+"<40>"
+	"40" Num Arab Sg Nom @HNOUN #109->106
+: 
+"<47>"
+	"47" Num Arab Sg Nom @HNOUN #110->106
+"<,>"
+	"," CLB #111->110
+: 
+"<994>"
+	"994" Num Arab Sg Nom @HNOUN #112->106
+: 
+"<59 211>"
+	"59 211" Num Arab Sg Nom @>N #113->114
+: 
+"<Rávdná>"
+	"Rávdná" N Prop Sem/Fem Attr @>N #114->115
+: 
+"<Buljo>"
+	"Buljo" N Prop Sem/Sur Attr @>N #115->116
+: 
+"<Gaup>"
+	"Gaup" N Prop Sem/Sur Sg Nom @HNOUN #116->106
+: 
+"<,>"
+	"," CLB #117->116
+: 
+"<stoerretjåanghkoedåehkie>"
+	"dåehkie" N Sem/Group_Hum_Plc Sg Nom @HNOUN #118->116
+		"tjåanghkoe" N Sem/Event Cmp/SgNom Cmp #118->116
+			"stoerre" A Cmp/Attr Cmp #118->116
+	"dåehkie" N Sem/Group_Hum_Plc Sg Nom @HNOUN #118->116
+		"tjåanghkoe" N Sem/Event Cmp/SgNom Cmp #118->116
+			"stoerre" A Cmp/SgNom Cmp #118->116
+	"dåehkie" N Sem/Group_Hum_Plc Sg Nom @HNOUN #118->116
+		"stoerretjåanghkoe" N Sem/Event Cmp/SgNom Cmp #118->116
+"<,>"
+	"," CLB #119->118
+: 
+"<78>"
+	"78" Num Arab Sg Nom @HNOUN #120->118
+: 
+"<47>"
+	"47" Num Arab Sg Gen Attr @>Num #121->122
+: 
+"<41>"
+	"41" Num Arab Sg Nom @HNOUN #122->118
+: 
+"<53>"
+	"53" Num Arab Sg Nom @HNOUN #123->118
+"<,>"
+	"," CLB #124->123
+: 
+"<416>"
+	"416" Num Arab Sg Nom @HNOUN #125->118
+: 
+"<45 739>"
+	"45 739" Num Arab Sg Nom @HNOUN #126->118
+: 
+"<¶>"
+	"¶" CLB #127->3
+:\n
+"<Govlesadtemegoevtese>"
+	"goevte" N Sem/Time Sg Ill @HNOUN #1->0
+		"govlesadtedh" Ex/V IV Der/NomAct N Cmp/SgNom Cmp #1->0
+	"goevtese" N Sem/Org Sg Nom @HNOUN #1->0
+		"govlesadtedh" Ex/V IV Der/NomAct N Cmp/SgNom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Siv>"
+	"Siv" N Prop Sem/Fem Attr @>N #1->2
+: 
+"<Eli>"
+	"Eli" N Prop Sem/Fem Attr @>N #2->3
+: 
+"<Vuolab>"
+	"Vuolab" N Prop Sem/Sur Sg Nom @HNOUN #3->0
+: 
+"<,>"
+	"," CLB #4->3
+: 
+"<govlesadtemedirektööre>"
+	"direktööre" N Sem/Hum Sg Nom @HNOUN #5->3
+		"govlesadtedh" Ex/V IV Der/NomAct N Cmp/SgNom Cmp #5->3
+"<,>"
+	"," CLB #6->5
+: 
+"<78>"
+	"78" Num Arab Sg Nom @HNOUN #7->5
+: 
+"<47>"
+	"47" Num Arab Sg Gen Attr @>Num #8->9
+: 
+"<41>"
+	"41" Num Arab Sg Nom @HNOUN #9->5
+: 
+"<19>"
+	"19" Num Arab Sem/Time-clock Sg Nom @HNOUN #10->5
+"<,>"
+	"," CLB #11->10
+: 
+"<951>"
+	"951" Num Arab Sg Nom @HNOUN #12->5
+: 
+"<68 927>"
+	"68 927" Num Arab Sg Nom @HNOUN #13->5
+: 
+"<¶>"
+	"¶" CLB #14->3
+:\n
+"<Saemiedigkieraerie>"
+	"saemiedigkieraerie" N Sem/Hum_Org Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Aili>"
+	"Aili" N Prop Sem/Fem Attr @>N #1->2
+: 
+"<Keskitalo>"
+	"Keskitalo" N Prop Sem/Sur Sg Nom @HNOUN #2->0
+: 
+"<,>"
+	"," CLB #3->2
+: 
+"<president>"
+	"presidente" N Sem/Hum Sg Nom Err/Orth @HNOUN #4->2
+"<,>"
+	"," CLB #5->4
+: 
+"<NSR>"
+	"NSR" N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #6->4
+	"NSR" N Prop Sem/Org ACR Sg Nom @HNOUN #6->4
+"<,>"
+	"," CLB #7->6
+: 
+"<971>"
+	"971" Num Arab Sg Nom @HNOUN #8->6
+: 
+"<29 305>"
+	"29 305" Num Arab Sg Nom @>N #9->10
+: 
+"<Henrik>"
+	"Henrik" N Prop Sem/Mal Attr @>N #10->11
+: 
+"<Olsen>"
+	"Olsen" N Prop Sem/Sur Sg Nom @HNOUN #11->6
+: 
+"<,>"
+	"," CLB #12->11
+: 
+"<rådsmedlem>"
+	"rådsmedlem" ? @X #13->0
+"<,>"
+	"," CLB #14->13
+: 
+"<NSR>"
+	"NSR" N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #15->11
+	"NSR" N Prop Sem/Org ACR Sg Nom @HNOUN #15->11
+"<,>"
+	"," CLB #16->15
+: 
+"<907>"
+	"907" Num Arab Sg Nom @HNOUN #17->15
+: 
+"<75 219>"
+	"75 219" Num Arab Sg Nom @>N #18->19
+: 
+"<Silje>"
+	"Silje" N Prop Sem/Fem Attr @>N #19->20
+: 
+"<Karine>"
+	"Karine" N Prop Sem/Fem Attr @>N #20->21
+: 
+"<Muotka>"
+	"Muotka" N Prop Sem/Sur Sg Nom @HNOUN #21->15
+: 
+"<,>"
+	"," CLB #22->21
+: 
+"<rådsmedlem>"
+	"rådsmedlem" ? @X #23->0
+"<,>"
+	"," CLB #24->23
+: 
+"<NSR>"
+	"NSR" N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #25->21
+	"NSR" N Prop Sem/Org ACR Sg Nom @HNOUN #25->21
+"<,>"
+	"," CLB #26->25
+: 
+"<984>"
+	"984" Num Arab Sg Nom @HNOUN #27->25
+: 
+"<87 576>"
+	"87 576" Num Arab Sg Nom @>N #28->29
+: 
+"<Mikkel>"
+	"Mikkel" N Prop Sem/Mal Attr @>N #29->30
+: 
+"<Eskil>"
+	"Eskil" N Prop Sem/Mal Attr @>N #30->31
+: 
+"<Mikkelsen>"
+	"Mikkelsen" N Prop Sem/Sur Sg Nom @HNOUN #31->25
+: 
+"<,>"
+	"," CLB #32->31
+: 
+"<rådsmedlem>"
+	"rådsmedlem" ? @X #33->0
+"<,>"
+	"," CLB #34->33
+: 
+"<NSR>"
+	"NSR" N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #35->31
+	"NSR" N Prop Sem/Org ACR Sg Nom @HNOUN #35->31
+"<,>"
+	"," CLB #36->35
+: 
+"<917>"
+	"917" Num Arab Sg Nom @HNOUN #37->35
+: 
+"<42 161>"
+	"42 161" Num Arab Sg Nom @>N #38->39
+: 
+"<Hans>"
+	"Hans" N Prop Sem/Mal Attr @>N #39->40
+: 
+"<Ole>"
+	"Ole" N Prop Sem/Mal Attr @>N #40->41
+: 
+"<Eira>"
+	"Eira" N Prop Sem/Fem Sg Nom @HNOUN #41->35
+	"Eira" N Prop Sem/Sur Sg Nom @HNOUN #41->35
+: 
+"<,>"
+	"," CLB #42->41
+: 
+"<rådsmedlem>"
+	"rådsmedlem" ? @X #43->0
+"<,>"
+	"," CLB #44->43
+: 
+"<Sp>"
+	"Sp" ? @X #45->0
+"<,>"
+	"," CLB #46->45
+: 
+"<918>"
+	"918" Num Arab Sg Nom @HNOUN #47->41
+: 
+"<61 471>"
+	"61 471" Num Arab Sg Nom @HNOUN #48->41
+: 
+"<¶>"
+	"¶" CLB #49->2
+:\n
+"<Stoerretjåanghkoeståvroe>"
+	"ståvroe" N Sem/Org Sg Nom @HNOUN #1->0
+		"tjåanghkoe" N Sem/Event Cmp/SgNom Cmp #1->0
+			"Stoerre" N Prop Sem/Plc Cmp/SgNom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tom>"
+	"Tom" N Prop Sem/Mal Attr @>N #1->2
+: 
+"<Sottinen>"
+	"Sottinen" N Prop Sem/Sur Sg Nom @HNOUN #2->0
+: 
+"<,>"
+	"," CLB #3->2
+: 
+"<Ap>"
+	"Ap" N Prop Sem/Org Sg Nom @HNOUN #4->2
+"<,>"
+	"," CLB #5->4
+: 
+"<leder>"
+	"leder" ? @X #6->0
+"<,>"
+	"," CLB #7->6
+: 
+"<412>"
+	"412" Num Arab Sg Nom @HNOUN #8->4
+: 
+"<72 386>"
+	"72 386" Num Arab Sg Nom @>N #9->10
+: 
+"<Tor>"
+	"Tor" N Prop Sem/Mal Attr @>N #10->11
+: 
+"<Gunnar>"
+	"Gunnar" N Prop Sem/Mal Attr @>N #11->12
+: 
+"<Nystad>"
+	"Nystad" N Prop Sem/Sur Sg Nom @HNOUN #12->4
+: 
+"<,>"
+	"," CLB #13->12
+: 
+"<NSR>"
+	"NSR" N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #14->12
+	"NSR" N Prop Sem/Org ACR Sg Nom @HNOUN #14->12
+"<,>"
+	"," CLB #15->14
+: 
+"<nestleder>"
+	"nestleder" ? @X #16->0
+"<,>"
+	"," CLB #17->16
+: 
+"<917>"
+	"917" Num Arab Sg Nom @HNOUN #18->14
+: 
+"<51 470>"
+	"51 470" Num Arab Sg Nom @>N #19->20
+: 
+"<Aili>"
+	"Aili" N Prop Sem/Fem Attr @>N #20->21
+: 
+"<Guttorm>"
+	"Guttorm" N Prop Sem/Sur Sg Nom @HNOUN #21->14
+: 
+"<,>"
+	"," CLB #22->21
+: 
+"<NSR>"
+	"NSR" N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #23->21
+	"NSR" N Prop Sem/Org ACR Sg Nom @HNOUN #23->21
+"<,>"
+	"," CLB #24->23
+: 
+"<413>"
+	"413" Num Arab Sg Nom @HNOUN #25->23
+: 
+"<51 019>"
+	"51 019" Num Arab Sg Nom @>N #26->27
+: 
+"<Bjørn>"
+	"Björn" N Prop Sem/Mal Attr @>N #27->28
+	"Bjørn" N Prop Sem/Mal Attr @>N #27->28
+: 
+"<Thomas>"
+	"Thomas" N Prop Sem/Mal Attr @>N #28->29
+: 
+"<Åhrén>"
+	"Åhrén" N Prop Sem/Sur Sg Nom @HNOUN #29->23
+: 
+"<,>"
+	"," CLB #30->29
+: 
+"<NSR>"
+	"NSR" N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #31->29
+	"NSR" N Prop Sem/Org ACR Sg Nom @HNOUN #31->29
+"<,>"
+	"," CLB #32->31
+: 
+"<908>"
+	"908" Num Arab Sg Nom @HNOUN #33->31
+: 
+"<39 663>"
+	"39 663" Num Arab Sg Nom @>N #34->35
+: 
+"<Kåre>"
+	"Kåre" N Prop Sem/Mal Attr @>N #35->36
+: 
+"<Olli>"
+	"Olli" N Prop Sem/Sur Sg Nom @HNOUN #36->31
+: 
+"<,>"
+	"," CLB #37->36
+: 
+"<partipolitisk>"
+	"partipolitisk" ? @X #38->0
+: 
+"<uavhengig>"
+	"uavhengig" ? @X #39->0
+"<,>"
+	"," CLB #40->39
+: 
+"<468>"
+	"468" Num Arab Sg Nom @HNOUN #41->36
+: 
+"<40 661>"
+	"40 661" Num Arab Sg Nom @HNOUN #42->36
+: 
+"<¶>"
+	"¶" CLB #43->2
+:\n
+
+]]></dependency></body></document>

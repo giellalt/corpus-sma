@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>55</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://veiledninger.udir.no/Samisk%20som%20f%f8rstespr%e5k/www.udir.no/Lareplaner/Veiledninger-til-lareplaner/Revidert-2013/Veiledning-til-lareplan-i-Samisk-som-forstespra/Samisk-som-forstesprak-Sorsamisk/Hoyremeny/Vurderingsskjemaer-skjemaer-/index-8.html</origFileName><parallel_text xml:lang="sme" location="sfs_veiledning_32_vurderingsskjemaer-skjemaer-kopierings.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Udir.no>"
+	"Udir.no" N Prop Sem/Org Sg Nom @HNOUN #1->0
+	"Udir.no" URL #1->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #2->3
+: 
+"<Disposisjovne>"
+	"disposisjovne" N Sem/Dummytag Sg Nom @HNOUN #3->1
+: 
+"<akten>"
+	"akte" Num Sg Gen @>N #4->5
+	"akte" Num Sg Ill Attr @>N #4->5
+: 
+"<faageartihkelasse>"
+	"artihkele" N Sem/Txt Sg Ill @<ADVL #5->3
+		"faage" N Sem/Edu Cmp/SgNom Cmp #5->3
+: 
+"<¶>"
+	"¶" CLB #6->1
+:\n
+"<Disposisjovne>"
+	"disposisjovne" N Sem/Dummytag Sg Nom @HNOUN #1->0
+: 
+"<akten>"
+	"akte" Num Sg Gen @>N #2->3
+	"akte" Num Sg Ill Attr @>N #2->3
+: 
+"<faageartihkelasse>"
+	"artihkele" N Sem/Txt Sg Ill @<ADVL #3->1
+		"faage" N Sem/Edu Cmp/SgNom Cmp #3->1
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Aamhtese>"
+	"aamhte" N Sem/Dummytag Sg Ill @HNOUN #1->0
+	"aamhtese" N Sem/Semcon Sg Nom @HNOUN #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Mov>"
+	"manne" Pron Pers Sg1 Gen @>N #1->2
+: 
+"<åejvieulmie>"
+	"åejvieulmie" N Sem/Feat-measr Sg Nom @SUBJ> #2->4
+: 
+"<artihkelinie>"
+	"artihkele" N Sem/Txt Ess @SPRED> #3->4
+	"artihkele" N Sem/Txt Pl Ine @ADVL> #3->4
+	"artihkele" N Sem/Txt Sg Com @ADVL> #3->4
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #4->0
+"<:>"
+	":" CLB #5->4
+: 
+"<¶>"
+	"¶" CLB #6->4
+:\n
+"<Bijjietjaalege>"
+	"bijjietjaalege" N Sem/Txt Sg Nom @HNOUN #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Aalkove>"
+	"aalkoe" N Sem/Time Sg Nom @HNOUN #1->0
+	"aalkove" N Sem/Feat_Plant Sg Nom @HNOUN #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Aalkove>"
+	"aalkoe" N Sem/Time Sg Nom @SUBJ> #1->2
+	"aalkove" N Sem/Feat_Plant Sg Nom @SUBJ> #1->2
+: 
+"<edtja>"
+	"edtjedh" <aux> V IV Ind Prs Sg3 @FAUX #2->0
+: 
+"<iedtjem>"
+	"ïedtje" N Sem/Prod-cogn Sg Acc @OBJ> #3->4
+: 
+"<gåaskodh>"
+	"gåaskodh" <mv> V TV Inf @IMV #4->2
+"<,>"
+	"," CLB #5->15
+: 
+"<soptsestidh>"
+	"soptsestidh" <mv> V TV Inf @IMV #6->4
+: 
+"<mij>"
+	"mij" Pron Rel Sg Nom @SUBJ> #7->8
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FS-N< #8->6
+: 
+"<aamhtesen>"
+	"aamhtese" N Sem/Semcon Sg Gen @>N #9->10
+: 
+"<dåeriesmoeretsiehkie>"
+	"dåeriesmoeretsiehkie" N Sem/Dummytag Sg Nom @<SPRED #10->8
+"<,>"
+	"," CLB #11->12
+: 
+"<jïh>"
+	"jïh" CC @CVP #12->8
+: 
+"<guktie>"
+	"guktie" Adv Subqst <cs> @ADVL> #13->17
+: 
+"<datne>"
+	"datne" Pron Pers Sg2 Nom @SUBJ> #14->15
+: 
+"<sïjhth>"
+	"sïjhtedh" <aux> V TV Ind Prs Sg2 @FS-<ADVL #15->8
+: 
+"<dam>"
+	"dïhte" Pron Pers Sg3 Acc @OBJ> #16->17
+: 
+"<buektiehtidh>"
+	"buektiehtidh" <mv> V TV Inf @IMV #17->15
+"<.>"
+	"." CLB #18->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Åejviebielie>"
+	"bielie" N Sem/Part Sg Nom @HNOUN #1->0
+		"åejvie" N Sem/Hum Cmp/SgNom Cmp #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tjaelieh>"
+	"tjaeledh" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<tjoevtenjebaakoeh>"
+	"baakoe" N Sem/Cat Pl Nom @<OBJ #2->1
+		"tjoevtenje" N Sem/Tool Cmp/SgNom Cmp #2->1
+: 
+"<aamhteselahtesi>"
+	"lahtese" N Sem/Cat Pl Gen @>P #3->4
+		"aamhtese" N Sem/Semcon Cmp/SgNom Cmp #3->4
+: 
+"<bïjre>"
+	"bïjre" Po @<ADVL #4->1
+: 
+"<mejtie>"
+	"mejtie" CS @CVP #5->6
+: 
+"<sïjhth>"
+	"sïjhtedh" <aux> V TV Ind Prs Sg2 @FS-<ADVL #6->1
+: 
+"<tjaalegisnie>"
+	"tjaalege" N Sem/Txt Sg Ine @ADVL> #7->8
+: 
+"<nåhtadidh>"
+	"nåhtadidh" <mv> V TV Inf @FS-IMV #8->6
+"<.>"
+	"." CLB #9->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Galhkuve>"
+	"galhkove" N Err/Orth Sem/Dummytag Sg Nom @HNOUN #1->0
+:  
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Tjaelieh>"
+	"tjaeledh" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<galhkuvem>"
+	"galhkove" N Err/Orth Sem/Dummytag Sg Acc @<OBJ #2->1
+: 
+"<artihkelasse>"
+	"artihkele" N Sem/Txt Sg Ill @<ADVL #3->1
+"<.>"
+	"." CLB #4->1
+: 
+"<Maam>"
+	"mij" Pron Interr Sg Acc @OBJ> #1->2
+: 
+"<gaavnehtamme>"
+	"gaavnehtidh" <mv> V TV PrfPrc @IMV #2->0
+"<?>"
+	"?" CLB #3->2
+: 
+"<Datne>"
+	"datne" Pron Pers Sg2 Nom @SUBJ> #1->2
+: 
+"<vaestiedamme>"
+	"vaestiedidh" <mv> V TV PrfPrc @IMV #2->0
+: 
+"<dam>"
+	"dïhte" Pron Pers Sg3 Acc @<OBJ #3->2
+: 
+"<maam>"
+	"mij" Pron Interr Sg Acc @OBJ> #4->5
+: 
+"<tjeelih>"
+	"tjaeledh" <mv> V TV Ind Prt Sg2 @FMV #5->0
+: 
+"<datne>"
+	"datne" Pron Pers Sg2 Nom @SUBJ> #6->7
+: 
+"<sïjhtih>"
+	"sïjhtedh" <aux> V TV Ind Prt Sg2 @FAUX #7->5
+: 
+"<goerehtidh>"
+	"goerehtidh" <mv> V TV Inf @IMV #8->7
+: 
+"<aalkovisnie>"
+	"aalkoe" N Sem/Time Sg Ine @<ADVL-ine #9->8
+"<?>"
+	"?" CLB #10->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

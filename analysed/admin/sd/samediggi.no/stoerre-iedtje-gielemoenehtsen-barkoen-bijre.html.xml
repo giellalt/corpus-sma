@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title>Stoerre ïedtje Gïelemoenehtsen barkoen bïjre / Bïevnesh saemien gïeli bïjre / Gïele / Saemiedigkie - Sametinget</title><genre code="admin"/><author><unknown/></author><wordcount>178</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Giele/Bievnesh-saemien-gieli-bijre/Stoerre-iedtje-Gielemoenehtsen-barkoen-bijre</origFileName><parallel_text xml:lang="nob" location="stor-interesse-rundt-spraakutvalgets-arbeid.html"/><parallel_text xml:lang="sme" location="stuorra-berostupmi-giellalavdegotti-barggus.html"/><parallel_text xml:lang="smj" location="stuorra-berustibme-giellanammadusa-bargguj.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Stoerre>"
+	"stoerre" A Attr @>N #1->2
+: 
+"<ïedtje>"
+	"ïedtje" N Sem/Prod-cogn Sg Nom @HNOUN #2->0
+: 
+"<Gïelemoenehtsen>"
+	"gïelemoenehtse" N Sem/Dummytag Sg Gen @>N #3->4
+: 
+"<barkoen>"
+	"barkoe" N Sem/Act_Plc Sg Gen @>P #4->5
+: 
+"<bïjre>"
+	"bïjre" Po @ADVL #5->0
+: 
+"<¶>"
+	"¶" CLB #6->2
+:\n
+"<Saemien>"
+	"saemien" A Attr @>N #1->2
+: 
+"<gïelemoenehtsen>"
+	"gïelemoenehtse" N Sem/Dummytag Sg Gen @>N #2->3
+: 
+"<åvtehke>"
+	"åvtehke" N Sem/Hum Sg Nom @SUBJ> #3->10
+"<,>"
+	"," CLB #4->3
+: 
+"<Bård>"
+	"Bård" N Prop Sem/Mal Attr @>N #5->6
+: 
+"<Magne>"
+	"Magne" N Prop Sem/Mal Attr @>N #6->7
+: 
+"<Pedersen>"
+	"Pedersen" N Prop Sem/Sur Attr @>N #7->9
+: 
+"<stoerre>"
+	"stoerre" A Attr @>N #8->9
+: 
+"<ïedtjem>"
+	"ïedtje" N Sem/Prod-cogn Sg Acc @OBJ> #9->10
+: 
+"<vuajna>"
+	"vuejnedh" <mv> V TV Ind Prs Sg3 @FMV #10->0
+: 
+"<dan>"
+	"dïhte" Pron Dem Sg Gen @>N #11->12
+: 
+"<barkoen>"
+	"barkoe" N Sem/Act_Plc Sg Gen @>P #12->13
+: 
+"<bïjre>"
+	"bïjre" Po @<ADVL #13->10
+: 
+"<mejnie>"
+	"mij" Pron Rel Sg Com @ADVL> #14->16
+	"mij" Pron Rel Pl Ine @ADVL> #14->16
+: 
+"<moenehtse>"
+	"moenehtse" N Sem/Org Sg Nom @HNOUN #15->12
+: 
+"<nïerhkeme>"
+	"nïerhkedh" <mv> V TV PrfPrc @FS-N<IMV #16->12
+"<.>"
+	"." CLB #17->10
+: 
+"<Moenehtse>"
+	"moenehtse" N Sem/Org Sg Nom @SUBJ> #1->2
+: 
+"<edtja>"
+	"edtjedh" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<orre>"
+	"orre" A Attr @>N #3->4
+: 
+"<öörnegh>"
+	"öörnege" N Sem/Rule Pl Nom @OBJ> #4->9
+"<,>"
+	"," CLB #5->11
+: 
+"<råajvarimmieh>"
+	"råajvarimmie" N Sem/Act Pl Nom @OBJ> #6->4
+: 
+"<jïh>"
+	"jïh" CC @CNP #7->6
+: 
+"<njoelkedassh>"
+	"njoelkedasse" N Sem/Rule Pl Nom @OBJ> #8->4
+: 
+"<raeriestidh>"
+	"raeriestidh" <mv> V TV Inf @IMV #9->2
+: 
+"<mah>"
+	"mah" CS @CVP #10->11
+: 
+"<leah>"
+	"lea" <aux> V IV Ind Prs Pl3 @FS-<ADVL #11->9
+: 
+"<ektiedamme>"
+	"ektiedidh" <mv> V TV PrfPrc @FS-IMV #12->11
+: 
+"<vaarjelæmman>"
+	"vaarjelimmie" N Sem/Act Sg Ill @<ADVL #13->12
+: 
+"<jïh>"
+	"jïh" CC @CNP #14->13
+: 
+"<evtiedæmman>"
+	"evtiedimmie" N Sem/Dummytag Sg Ill @<ADVL #15->13
+: 
+"<dejstie>"
+	"dïhte" Pron Dem Pl Ela @>N #16->18
+: 
+"<saemien>"
+	"saemien" A Attr @>N #17->18
+: 
+"<gïelijste>"
+	"gielie" N Sem/Dummytag Pl Ela @<ADVL #18->12
+	"gïele" N Sem/Lang_Tool Pl Ela @<ADVL #18->12
+: 
+"<julevsaemien>"
+	"julevsaemie" N Sem/Hum_Lang Sg Gen @<ADVL #19->12
+	"julevsaemien" Adv @<ADVL #19->12
+"<,>"
+	"," CLB #20->10
+: 
+"<åarjelsaemien>"
+	"åarjelsaemien" A Attr @X #21->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #22->21
+: 
+"<noerhtesaemien>"
+	"noerhtesaemien" A Attr @X #23->0
+"<.>"
+	"." CLB #24->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

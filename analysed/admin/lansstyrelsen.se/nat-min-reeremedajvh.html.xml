@@ -1,0 +1,744 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>182</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.lansstyrelsen.se/stockholm/Sv/manniska-och-samhalle/nationella-minoriteter/aarjelsaemien/Pages/reeremedajvh.aspx</origFileName><parallel_text xml:lang="fin" location="nat-min-hallintoalueet.html"/><parallel_text xml:lang="sme" location="nat-min-halddahusguovllut.html"/><parallel_text xml:lang="smj" location="nat-min-tjuottjudusguovlo.html"/><parallel_text xml:lang="swe" location="nat-min-forvaltningsomraden.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Reeremedajvh>"
+	"reeremedajve" N Sem/Plc Pl Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Laake>"
+	"laake" N Sem/Rule Sg Nom @SUBJ> #1->7
+: 
+"<nasjovnelle>"
+	"nasjonaale" A Err/Orth Attr @>N #2->3
+: 
+"<unnebelåhkoej>"
+	"unnebelåhkoe" N Sem/Group_Hum Pl Gen @>P #3->6
+: 
+"<jih>"
+	"jïh" CC @CNP #4->3
+: 
+"<unnebelåhkoegïeli>"
+	"unnebelåhkoegïele" N Sem/Lang Pl Gen @>P #5->3
+: 
+"<bïjre>"
+	"bïjre" Po @ADVL> #6->7
+: 
+"<vadta>"
+	"vedtedh" <mv> V TV Ind Prs Sg3 @FMV #7->0
+: 
+"<jienebh>"
+	"jienebe" Pron Indef Pl Nom @>N #8->9
+: 
+"<reeremedajvh>"
+	"reeremedajve" N Sem/Plc Pl Nom @<OBJ #9->7
+: 
+"<golmide>"
+	"golme" Num Pl Acc @<OBJ #10->7
+	"golme" Num Pl Ill @<ADVL #10->7
+: 
+"<dejstie>"
+	"dïhte" Pron Dem Pl Ela @>N #11->12
+: 
+"<unnebelåhkoegïelijste>"
+	"unnebelåhkoegïele" N Sem/Lang Pl Ela @<ADVL #12->7
+"<->"
+	"-" PUNCT MIDDLE #13->14
+: 
+"<såvmien>"
+	"såvmien" ? @X #14->0
+"<,>"
+	"," CLB #15->14
+: 
+"<saemien>"
+	"saemie" N Sem/Hum_Lang Sg Gen @>N #16->24
+: 
+"<jih>"
+	"jïh" CC @CNP #17->16
+: 
+"<meänkieli->"
+	"meänkieli" N Sem/Dummytag Cmp/SgNom Cmp/SplitR Cmp @>N #18->16
+: 
+"<tjijhtje>"
+	"tjïjhtje" Num Sg Acc @>N #19->16
+	"tjïjhtje" Num Sg Nom @>N #19->16
+: 
+"<tjïeltijste>"
+	"tjïelte" N Sem/Org Pl Ela @X #20->0
+: 
+"<Noerhtebetnien>"
+	"betnie" N Sem/Dummytag Sg Gen @>N #21->16
+		"noerhte" N Sem/Route Cmp/SgNom Cmp #21->16
+: 
+"<leenesne>"
+	"leene" N Sem/Org Sg Ine @X #22->0
+: 
+"<68>"
+	"68" A Arab Ord Attr CLBfinal @>N #23->16
+: 
+"<tjïeltide>"
+	"tjïelte" N Sem/Org Pl Ill @<ADVL #24->7
+: 
+"<Sveerjesne>"
+	"Sveerje" N Prop Sem/Plc Sg Ine @X #25->0
+"<.>"
+	"." CLB #26->7
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tjïelth>"
+	"tjïelte" N Sem/Org Pl Nom @SUBJ> #1->0
+: 
+"<mah>"
+	"mij" Pron Rel Pl Nom @SUBJ> #2->6
+: 
+"<reeremedajvesne>"
+	"reeremedajve" N Sem/Plc Sg Ine @ADVL> #3->6
+: 
+"<såevmien>"
+	"såevmien" A Attr @>N #4->5
+: 
+"<gïelese>"
+	"gïele" N Sem/Lang_Tool Sg Ill @ADVL> #5->6
+: 
+"<leah>"
+	"lea" <mv> V IV Ind Prs Pl3 @FS-N< #6->1
+: 
+"<Borlänge>"
+	"Borlänge" N Prop Sem/Plc Sg Nom @<SPRED #7->6
+"<,>"
+	"," CLB #8->7
+: 
+"<Borås>"
+	"Borås" N Prop Sem/Plc Sg Nom @<SPRED #9->7
+"<,>"
+	"," CLB #10->9
+: 
+"<Botkyrka>"
+	"Botkyrka" ? @X #11->0
+"<,>"
+	"," CLB #12->11
+: 
+"<Degerfors>"
+	"Degerfors" ? @X #13->0
+"<,>"
+	"," CLB #14->13
+: 
+"<Enköping>"
+	"Enköping" ? @X #15->0
+"<,>"
+	"," CLB #16->15
+: 
+"<Eskilstuna>"
+	"Eskilstuna" N Prop Sem/Plc Sg Nom @<SUBJ #17->6
+"<,>"
+	"," CLB #18->17
+: 
+"<Fagersta>"
+	"Fagersta" N Prop Sem/Plc Sg Nom @<SUBJ #19->17
+"<,>"
+	"," CLB #20->19
+: 
+"<Finspång>"
+	"Finspång" N Prop Sem/Plc Sg Nom @<SUBJ #21->17
+"<,>"
+	"," CLB #22->21
+: 
+"<Jiellevárre>"
+	"Jiellevárre" ? @X #23->0
+"<,>"
+	"," CLB #24->23
+: 
+"<Gävle>"
+	"Gävle" N Prop Sem/Plc Sg Nom @<SUBJ #25->17
+"<,>"
+	"," CLB #26->25
+: 
+"<Göteborg>"
+	"Göteborg" N Prop Sem/Plc Sg Nom @<SUBJ #27->25
+"<,>"
+	"," CLB #28->27
+: 
+"<Hallstahammar>"
+	"Hallstahammar" N Prop Sem/Plc Sg Nom @<SUBJ #29->25
+"<,>"
+	"," CLB #30->29
+: 
+"<Haninge>"
+	"Haninge" ? @X #31->0
+"<,>"
+	"," CLB #32->31
+: 
+"<Haparanda>"
+	"Haparanda" N Prop Sem/Plc Sg Nom @<SUBJ #33->25
+"<,>"
+	"," CLB #34->33
+: 
+"<Hofors>"
+	"Hofors" N Prop Sem/Plc Sg Nom @<SUBJ #35->33
+"<,>"
+	"," CLB #36->35
+: 
+"<Huddinge>"
+	"Huddinge" N Prop Sem/Plc Sg Nom @<SUBJ #37->33
+"<,>"
+	"," CLB #38->37
+: 
+"<Håbo>"
+	"Håbo" ? @X #39->0
+"<,>"
+	"," CLB #40->39
+: 
+"<Hällefors>"
+	"Hällefors" ? @X #41->0
+"<,>"
+	"," CLB #42->41
+: 
+"<Kalix>"
+	"Kalix" N Prop Sem/Plc Sg Nom @<SUBJ #43->33
+"<,>"
+	"," CLB #44->43
+: 
+"<Karlskoga>"
+	"Karlskoga" N Prop Sem/Plc Sg Nom @<SUBJ #45->43
+"<,>"
+	"," CLB #46->45
+: 
+"<Giron>"
+	"Giron" N Prop Sem/Plc Sg Nom @<SUBJ #47->43
+"<,>"
+	"," CLB #48->47
+: 
+"<Köping>"
+	"Köping" N Prop Sem/Plc Sg Nom @<SUBJ #49->43
+	"Køping" N Prop Sem/Plc Sg Nom @<SUBJ #49->43
+"<,>"
+	"," CLB #50->49
+: 
+"<Lindesberg>"
+	"Lindesberg" N Prop Sem/Sur Sg Nom @<SUBJ #51->6
+"<,>"
+	"," CLB #52->51
+: 
+"<Luleå>"
+	"Luleå" N Prop Sem/Plc Sg Nom @<SUBJ #53->6
+"<,>"
+	"," CLB #54->53
+: 
+"<Motala>"
+	"Motala" N Prop Sem/Plc Sg Nom @<SUBJ #55->6
+"<,>"
+	"," CLB #56->55
+: 
+"<Norrköping>"
+	"Norrköping" N Prop Sem/Plc Sg Nom @<SUBJ #57->6
+"<,>"
+	"," CLB #58->57
+: 
+"<Norrtälje>"
+	"Norrtälje" N Prop Sem/Plc Sg Nom @<SUBJ #59->6
+"<,>"
+	"," CLB #60->59
+: 
+"<Bájil>"
+	"Bájil" N Prop Sem/Plc Sg Nom @<SUBJ #61->6
+"<,>"
+	"," CLB #62->61
+: 
+"<Sandviken>"
+	"Sandvik" N Prop Sem/Plc Sg Gen @>N #63->65
+"<,>"
+	"," CLB #64->63
+: 
+"<Sigtuna>"
+	"Sigtuna" N Prop Sem/Plc Sg Nom @<SUBJ #65->6
+"<,>"
+	"," CLB #66->65
+: 
+"<Skinnskatteberg>"
+	"Skinnskatteberg" N Prop Sem/Sur Sg Nom @<SUBJ #67->65
+"<,>"
+	"," CLB #68->67
+: 
+"<Skövde>"
+	"Skövde" N Prop Sem/Plc Sg Nom @<SUBJ #69->65
+"<,>"
+	"," CLB #70->69
+: 
+"<Solna>"
+	"Solna" N Prop Sem/Plc Sg Nom @<SUBJ #71->65
+"<,>"
+	"," CLB #72->71
+: 
+"<Stuehkie>"
+	"Stuehkie" N Prop Sem/Plc Sg Nom @<SUBJ #73->6
+"<,>"
+	"," CLB #74->73
+: 
+"<Sundbyberg>"
+	"Sundbyberg" N Prop Sem/Sur Sg Nom @<SUBJ #75->6
+"<,>"
+	"," CLB #76->75
+: 
+"<Sundsvall>"
+	"Sundsvall" N Prop Sem/Plc Sg Nom @<SUBJ #77->6
+"<,>"
+	"," CLB #78->77
+: 
+"<Surahammar>"
+	"Surahammar" N Prop Sem/Plc Sg Nom @<SUBJ #79->6
+"<,>"
+	"," CLB #80->79
+: 
+"<Södertälje>"
+	"Södertälje" N Prop Sem/Plc Sg Nom @<SUBJ #81->6
+"<,>"
+	"," CLB #82->81
+: 
+"<Tierp>"
+	"Tierp" N Prop Sem/Sur Sg Nom @<SUBJ #83->6
+"<,>"
+	"," CLB #84->83
+: 
+"<Trollhättan>"
+	"Trollhättan" N Prop Sem/Plc Sg Nom @<SUBJ #85->6
+"<,>"
+	"," CLB #86->85
+: 
+"<Trosa>"
+	"Trosa" N Prop Sem/Plc Sg Nom @<SUBJ #87->6
+"<,>"
+	"," CLB #88->87
+: 
+"<Ubmeje>"
+	"Ubmeje" N Prop Sem/Plc Sg Nom @<SUBJ #89->6
+"<,>"
+	"," CLB #90->89
+: 
+"<Uddevalla>"
+	"Uddevalla" N Prop Sem/Plc Sg Nom @<SUBJ #91->6
+"<,>"
+	"," CLB #92->91
+: 
+"<Upplands>"
+	"Upplands" ? @X #93->0
+: 
+"<Väsby>"
+	"Väsby" ? @X #94->0
+"<,>"
+	"," CLB #95->94
+: 
+"<Upplands-Bro>"
+	"Upplands-Bro" ? @X #96->0
+"<,>"
+	"," CLB #97->96
+: 
+"<Uppsala>"
+	"Uppsala" N Prop Sem/Plc Sg Nom @<SUBJ #98->6
+"<,>"
+	"," CLB #99->98
+: 
+"<Västerås>"
+	"Västerås" N Prop Sem/Plc Sg Nom @<SUBJ #100->98
+"<,>"
+	"," CLB #101->100
+: 
+"<Älvkarleby>"
+	"Älvkarleby" N Prop Sem/Plc Sg Nom @<SUBJ #102->98
+"<,>"
+	"," CLB #103->102
+: 
+"<Örebro>"
+	"Örebro" N Prop Sem/Plc Sg Nom @<SUBJ #104->98
+"<,>"
+	"," CLB #105->104
+: 
+"<Österåker>"
+	"Österåker" ? @X #106->0
+"<,>"
+	"," CLB #107->106
+: 
+"<Östhammar>"
+	"Östhammar" ? @X #108->0
+: 
+"<jih>"
+	"jïh" CC @CNP #109->108
+: 
+"<Övertorneå>"
+	"Övertorneå" N Prop Sem/Plc Sg Nom @<SUBJ #110->6
+"<.>"
+	"." CLB #111->1
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tjïelth>"
+	"tjïelte" N Sem/Org Pl Nom @SUBJ> #1->0
+: 
+"<mah>"
+	"mij" Pron Rel Pl Nom @SUBJ> #2->6
+: 
+"<reeremedajvesne>"
+	"reeremedajve" N Sem/Plc Sg Ine @ADVL> #3->6
+: 
+"<saemien>"
+	"saemien" A Attr @>N #4->5
+: 
+"<gïelese>"
+	"gïele" N Sem/Lang_Tool Sg Ill @ADVL> #5->6
+: 
+"<leah>"
+	"lea" <mv> V IV Ind Prs Pl3 @FS-N< #6->1
+: 
+"<Aarjepluevie>"
+	"Aarjepluevie" N Prop Sem/Plc Sg Nom @<SPRED #7->6
+"<,>"
+	"," CLB #8->7
+: 
+"<Aerviesjaevrie>"
+	"Aerviesjaevrie" N Prop Sem/Plc Sg Nom @<SPRED #9->7
+"<,>"
+	"," CLB #10->9
+: 
+"<Berg>"
+	"Berg" N Prop Sem/Plc Sg Nom @<SPRED #11->7
+"<,>"
+	"," CLB #12->11
+: 
+"<Dorotea>"
+	"Dorotea" N Prop Sem/Fem Sg Nom @<SPRED #13->7
+"<,>"
+	"," CLB #14->13
+: 
+"<Jiellevárre>"
+	"Jiellevárre" ? @X #15->0
+"<,>"
+	"," CLB #16->15
+: 
+"<Härjedalen>"
+	"Härjedalen" N Prop Sem/Plc Sg Nom @<SUBJ #17->6
+"<,>"
+	"," CLB #18->17
+: 
+"<Jåhkåmåhke>"
+	"Jåhkåmåhke" ? @X #19->0
+"<,>"
+	"," CLB #20->19
+: 
+"<Giron>"
+	"Giron" N Prop Sem/Plc Sg Nom @<SUBJ #21->17
+"<,>"
+	"," CLB #22->21
+: 
+"<Krokom>"
+	"Krokom" N Prop Sem/Sur Sg Nom @<SUBJ #23->17
+"<,>"
+	"," CLB #24->23
+: 
+"<Liksjoe>"
+	"Liksjoe" N Prop Sem/Plc Sg Nom @<SUBJ #25->17
+"<,>"
+	"," CLB #26->25
+: 
+"<Maalege>"
+	"Maalege" N Prop Sem/Plc Sg Nom @<SUBJ #27->21
+"<,>"
+	"," CLB #28->27
+: 
+"<Suarsa>"
+	"Suarsa" N Prop Sem/Plc Sg Nom @<SUBJ #29->6
+"<,>"
+	"," CLB #30->29
+: 
+"<Luspie>"
+	"Luspie" N Prop Sem/Plc Sg Nom @<SUBJ #31->6
+"<,>"
+	"," CLB #32->31
+: 
+"<Straejmie>"
+	"Straejmie" N Prop Sem/Plc Sg Nom @<SUBJ #33->6
+"<,>"
+	"," CLB #34->33
+: 
+"<Ubmeje>"
+	"Ubmeje" N Prop Sem/Plc Sg Nom @<SUBJ #35->6
+"<,>"
+	"," CLB #36->35
+: 
+"<Vualtjere>"
+	"Vualtjere" N Prop Sem/Plc Sg Nom @<SUBJ #37->6
+"<,>"
+	"," CLB #38->37
+: 
+"<Åre>"
+	"Åre" N Prop Sem/Plc Sg Nom @<SUBJ #39->6
+"<,>"
+	"," CLB #40->39
+: 
+"<Älvdalen>"
+	"Älvdalen" N Prop Sem/Plc Sg Nom @<SUBJ #41->6
+: 
+"<jih>"
+	"jïh" CC @CNP #42->41
+: 
+"<Staare>"
+	"Staare" N Prop Sem/Plc Sg Nom @<SUBJ #43->6
+"<.>"
+	"." CLB #44->1
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Tjïelth>"
+	"tjïelte" N Sem/Org Pl Nom @SUBJ> #1->0
+: 
+"<mah>"
+	"mij" Pron Rel Pl Nom @SUBJ> #2->6
+: 
+"<reeremedajvesne>"
+	"reeremedajve" N Sem/Plc Sg Ine @ADVL> #3->6
+: 
+"<meänkieli>"
+	"meänkieli" N Sem/Dummytag Sg Nom @SUBJ> #4->6
+: 
+"<gïelese>"
+	"gïele" N Sem/Lang_Tool Sg Ill @ADVL> #5->6
+: 
+"<leah>"
+	"lea" <mv> V IV Ind Prs Pl3 @FS-N< #6->1
+: 
+"<Jiellevárre>"
+	"Jiellevárre" ? @X #7->0
+"<,>"
+	"," CLB #8->7
+: 
+"<Haparanda>"
+	"Haparanda" N Prop Sem/Plc Sg Nom @<SUBJ #9->6
+"<,>"
+	"," CLB #10->9
+: 
+"<Kalix>"
+	"Kalix" N Prop Sem/Plc Sg Nom @<SUBJ #11->9
+"<,>"
+	"," CLB #12->11
+: 
+"<Giron>"
+	"Giron" N Prop Sem/Plc Sg Nom @<SUBJ #13->9
+"<,>"
+	"," CLB #14->13
+: 
+"<Bájil>"
+	"Bájil" N Prop Sem/Plc Sg Nom @<SUBJ #15->9
+: 
+"<jih>"
+	"jïh" CC @CNP #16->15
+: 
+"<Övertorneå>"
+	"Övertorneå" N Prop Sem/Plc Sg Nom @<SUBJ #17->6
+"<.>"
+	"." CLB #18->1
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Såevmien>"
+	"Såevmie" N Prop Sem/Plc Sg Gen @>N #1->3
+"<,>"
+	"," CLB #2->1
+: 
+"<saemien>"
+	"saemie" N Sem/Hum_Lang Sg Gen @>N #3->5
+: 
+"<jih>"
+	"jïh" CC @CNP #4->3
+: 
+"<meänkielin>"
+	"meänkieli" N Sem/Dummytag Sg Gen @X #5->0
+: 
+"<reeremedajviej>"
+	"reeremedajviej" ? @X #6->0
+: 
+"<sisjelisne>"
+	"sisjelisne" ? @X #7->0
+: 
+"<aaj>"
+	"aaj" Adv @ADVL> #8->11
+: 
+"<laantedigkh>"
+	"laantedigkh" ? @X #9->0
+: 
+"<mah>"
+	"mij" Pron Rel Pl Nom @SUBJ> #10->11
+: 
+"<leah>"
+	"lea" <mv> V IV Ind Prs Pl3 @FS-N< #11->5
+: 
+"<Dalarna>"
+	"Dalarna" N Prop Sem/Plc Sg Nom @<SPRED #12->11
+"<,>"
+	"," CLB #13->12
+: 
+"<Gävleborg>"
+	"Gävleborg" ? @X #14->0
+"<,>"
+	"," CLB #15->14
+: 
+"<Jämtland>"
+	"Jämtland" N Prop Sem/Plc Sg Nom @<SUBJ #16->11
+"<,>"
+	"," CLB #17->16
+: 
+"<Norrbotten>"
+	"Norrbotten" N Prop Sem/Plc Sg Nom @<SUBJ #18->16
+"<,>"
+	"," CLB #19->18
+: 
+"<Stockholm>"
+	"Stockholm" N Prop Sem/Plc Sg Nom @<SUBJ #20->16
+"<,>"
+	"," CLB #21->20
+: 
+"<Södermanland>"
+	"Södermanland" N Prop Sem/Plc Sg Nom @<SUBJ #22->16
+"<,>"
+	"," CLB #23->22
+: 
+"<Uppland>"
+	"Uppland" N Prop Sem/Plc Sg Nom @<SUBJ #24->11
+"<,>"
+	"," CLB #25->24
+: 
+"<Västerbotten>"
+	"Västerbotten" N Prop Sem/Plc Sg Nom @<SUBJ #26->11
+"<,>"
+	"," CLB #27->26
+: 
+"<Västmanland>"
+	"Västmanland" N Prop Sem/Plc Sg Nom @<SUBJ #28->11
+"<,>"
+	"," CLB #29->28
+: 
+"<Västernorrland>"
+	"Västernorrland" ? @X #30->0
+"<,>"
+	"," CLB #31->30
+: 
+"<Örebro>"
+	"Örebro" N Prop Sem/Plc Sg Nom @<SUBJ #32->11
+"<,>"
+	"," CLB #33->32
+: 
+"<Östergötland>"
+	"Östergötland" N Prop Sem/Plc Sg Nom @<SUBJ #34->32
+: 
+"<jih>"
+	"jïh" CC @CNP #35->34
+: 
+"<aaj>"
+	"aaj" Adv @<ADVL #36->11
+: 
+"<Västra>"
+	"Västra" N Prop Sem/Plc Sg Nom @<SUBJ #37->32
+: 
+"<Götalandsregijovnem>"
+	"Götalandsregijovnem" ? @X #38->0
+"<.>"
+	"." CLB #39->39
+: 
+"<Jeatjah>"
+	"jeatjah" A Attr @>N #1->2
+: 
+"<tjïelth>"
+	"tjïelte" N Sem/Org Pl Nom @SUBJ> #2->5
+: 
+"<aaj>"
+	"aaj" Adv @ADVL> #3->5
+: 
+"<nuepiem>"
+	"nuepie" N Sem/State Sg Acc @OBJ> #4->5
+: 
+"<utnieh>"
+	"utnedh" <mv> V TV Ind Prs Pl3 @FMV #5->0
+: 
+"<jijtjemielen>"
+	"jijtjemielen" ? @X #6->0
+: 
+"<mietie>"
+	"mietie" Po @<ADVL #7->5
+: 
+"<syökedh>"
+	"syökedh" <mv> V TV Inf @IMV #8->5
+: 
+"<åadtjoeh>"
+	"åadtjodh" <aux> V TV Ind Prs Pl3 @FAUX #9->5
+: 
+"<reeremedajvesne>"
+	"reeremedajve" N Sem/Plc Sg Ine @ADVL> #10->11
+: 
+"<årrodh>"
+	"årrodh" <mv> V IV Inf @IMV #11->9
+"<.>"
+	"." CLB #12->5
+: 
+"<Reerenasse>"
+	"reerenasse" N Sem/Org Sg Nom @SUBJ> #1->3
+: 
+"<nännoestimmiem>"
+	"nænnoestimmie" N Sem/Act Sg Acc @OBJ> #2->3
+: 
+"<nännoste>"
+	"nænnoestidh" <mv> V TV Ind Prs Sg3 @FMV #3->0
+: 
+"<syökemen>"
+	"syökedh" Ex/V TV Der/NomAct N Sg Gen @>P #4->5
+: 
+"<bïjre>"
+	"bïjre" Po @<ADVL #5->3
+: 
+"<tjïeltide>"
+	"tjïelte" N Sem/Org Pl Acc @<OBJ #6->3
+	"tjïelte" N Sem/Org Pl Ill @<ADVL #6->3
+: 
+"<mah>"
+	"mij" Pron Rel Pl Nom @SUBJ> #7->8
+: 
+"<sijhtieh>"
+	"sïjhtedh" <aux> V TV Ind Prs Pl3 @FS-N< #8->6
+: 
+"<tjaangedh>"
+	"tjaangedh" <mv> V IV Inf @FS-N<IMV #9->8
+"<.>"
+	"." CLB #10->3
+: 
+"<Syökemem>"
+	"syökedh" Ex/V TV Der/NomAct N Sg Acc @X #1->0
+: 
+"<tjuara>"
+	"tjoeredh" <aux> V IV Ind Prs Sg3 @FAUX #2->0
+: 
+"<Reerenassen>"
+	"reerenasse" N Sem/Org Sg Gen @X #3->0
+: 
+"<kanslijese>"
+	"kanslijese" ? @X #4->0
+: 
+"<båeteme>"
+	"båetedh" Ex/V IV Der/NomAct N Sg Nom @<SUBJ #5->2
+: 
+"<minngemes>"
+	"minngie" Ex/N Sem/Dummytag Der/Superl A Attr @>N #6->7
+: 
+"<Voerhtjen>"
+	"voerhtje" N Sem/Ani_Time Sg Gen @>A #7->8
+: 
+"<1.>"
+	"1" A Arab Ord Attr @>N #8->9
+"<b.>"
+	"b" N Sem/Time ABBR Gram/TNumAbbr @<ADVL #9->5
+:  
+"<¶>"
+	"¶" CLB #10->2
+:\n
+
+]]></dependency></body></document>

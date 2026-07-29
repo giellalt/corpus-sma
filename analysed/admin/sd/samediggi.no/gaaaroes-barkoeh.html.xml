@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title>Gåaroes barkoeh</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="nob"/><wordcount>58</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>https://www.saemiedigkie.no/Saemiedigkien-bijre2/Gaaaroes-barkoeh</origFileName><parallel_text xml:lang="nob" location="ledige-stillinger.html"/><parallel_text xml:lang="sme" location="rabas-virggit.html"/><parallel_text xml:lang="smj" location="rabas-virge.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Gåaroes>"
+	"gåaroes" A Attr @>N #1->2
+: 
+"<barkoeh>"
+	"barkoe" N Sem/Act_Plc Pl Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @SUBJ> #1->12
+	"saemiedigkie" N Sem/Build_Org Sg Nom @SUBJ> #1->12
+: 
+"<akte>"
+	"akte" Num Sg Nom @>N #2->4
+: 
+"<nasjonaale>"
+	"nasjonaale" A Attr @>N #3->4
+: 
+"<parlameente>"
+	"parlamente" N Sem/Dummytag Err/Orth Sg Nom @SUBJ> #4->12
+: 
+"<saemide>"
+	"saemie" N Sem/Hum_Lang Pl Acc @OBJ> #5->12
+	"saemie" N Sem/Hum_Lang Pl Ill @ADVL> #5->12
+: 
+"<Nöörjesne>"
+	"Nöörje" N Prop Sem/Plc Sg Ine @ADVL> #6->12
+"<,>"
+	"," CLB #7->8
+: 
+"<jïh>"
+	"jïh" CC @CNP #8->6
+: 
+"<reeremeinstitusjovne>"
+	"institusjovne" N Sem/Org Sg Nom @SUBJ> #9->12
+		"reereme" N Sem/Org Cmp/SgNom Cmp #9->12
+: 
+"<dejtie>"
+	"dïhte" Pron Dem Pl Acc @OBJ> #10->12
+	"dïhte" Pron Dem Pl Ill @ADVL> #10->12
+: 
+"<byögkeles>"
+	"byögkeles" A Attr @>N #11->16
+: 
+"<dïenesjidie>"
+	"dïenesjidh" <mv> V TV Ind Prs Pl2 @FMV #12->0
+: 
+"<mah>"
+	"mij" Pron Rel Pl Nom @SUBJ> #13->14
+: 
+"<leah>"
+	"lea" <mv> V IV Ind Prs Pl3 @FS-N< #14->10
+: 
+"<saemien>"
+	"saemien" A Attr @>N #15->16
+: 
+"<siebriedahken>"
+	"seabradahke" N Sem/Org Err/Orth Sg Gen @>P #16->17
+: 
+"<bïjre>"
+	"bïjre" Po @<ADVL #17->14
+"<.>"
+	"." CLB #18->12
+: 
+"<Saemiedigkien>"
+	"Saemiedigkie" N Prop Sem/Org Sg Gen <hab> @ADVL> #1->2
+	"saemiedigkie" N Sem/Build_Org Sg Gen <hab> @ADVL> #1->2
+: 
+"<leah>"
+	"lea" <mv> V IV Ind Prs Pl3 @FMV #2->0
+: 
+"<medtie>"
+	"medtie" Adv @>Num #3->4
+: 
+"<150>"
+	"150" Num Arab Sg Nom @>N #4->5
+: 
+"<barkijh>"
+	"barkije" N Sem/Hum Pl Nom <ext> @<SUBJ #5->2
+: 
+"<jïh>"
+	"jïh" CC @CNP #6->5
+: 
+"<åejviegïele>"
+	"åejviegïele" N Sem/Lang Sg Nom @SUBJ> #7->8
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #8->2
+: 
+"<saemien>"
+	"saemie" N Sem/Hum_Lang Sg Gen <hab> @<ADVL #9->8
+"<.>"
+	"." CLB #10->2
+: 
+"<Saemiedigkien>"
+	"Saemiedigkie" N Prop Sem/Org Sg Gen @>N #1->2
+	"saemiedigkie" N Sem/Build_Org Sg Gen @>N #1->2
+: 
+"<kontovresijjieh>"
+	"kontovresijjie" N Sem/Plc Pl Nom @SUBJ> #2->3
+: 
+"<leah>"
+	"lea" <mv> V IV Ind Prs Pl3 @FMV #3->0
+: 
+"<Kárášjohka>"
+	"Kárášjohka" ? @X #4->0
+"</>"
+	"/" PUNCT MIDDLE #5->6
+"<Karasjok>"
+	"Karasjok" N Prop Sem/Plc Sg Nom @<SUBJ #6->3
+"<,>"
+	"," CLB #7->6
+: 
+"<Guovdageaidnu>"
+	"Guovdageaidnu" N Prop Sem/Plc Sg Nom @<SUBJ #8->6
+"</>"
+	"/" PUNCT MIDDLE #9->10
+"<Kautokeino>"
+	"Kautokeino" N Prop Sem/Plc Sg Nom @<SUBJ #10->3
+"<,>"
+	"," CLB #11->10
+: 
+"<Gáivuotna>"
+	"Gáivuotna" N Prop Sem/Plc Sg Nom @<SUBJ #12->6
+"</>"
+	"/" PUNCT MIDDLE #13->14
+"<Kåfjord>"
+	"Kåfjord" N Prop Sem/Plc Sg Nom @<SUBJ #14->3
+"<,>"
+	"," CLB #15->14
+: 
+"<Unjárga>"
+	"Unjárga" ? @X #16->0
+"</>"
+	"/" PUNCT MIDDLE #17->18
+"<Nesseby>"
+	"Nesseby" N Prop Sem/Plc Sg Nom @<SUBJ #18->6
+"<,>"
+	"," CLB #19->18
+: 
+"<Romsa>"
+	"Romsa" N Prop Sem/Plc Sg Nom @<SUBJ #20->10
+"</>"
+	"/" PUNCT MIDDLE #21->22
+"<Tromsø>"
+	"Tromsø" N Prop Sem/Plc Sg Nom @<SUBJ #22->3
+"<,>"
+	"," CLB #23->22
+: 
+"<Hábmer>"
+	"Hábmer" N Prop Sem/Plc Sg Nom @<SUBJ #24->14
+"</>"
+	"/" PUNCT MIDDLE #25->26
+"<Hamarøy>"
+	"Hamarøy" N Prop Sem/Plc Sg Nom @<SUBJ #26->3
+"<,>"
+	"," CLB #27->26
+: 
+"<Dielddanuorri>"
+	"Dielddanuorri" N Prop Sem/Plc Sg Nom @<SUBJ #28->22
+"</>"
+	"/" PUNCT MIDDLE #29->30
+"<Tjeldsund>"
+	"Tjeldsund" N Prop Sem/Plc Sg Nom @<SUBJ #30->3
+: 
+"<jïh>"
+	"jïh" CC @CNP #31->30
+: 
+"<Snåase>"
+	"Snåase" N Prop Sem/Plc Sg Nom @<SUBJ #32->22
+"</>"
+	"/" PUNCT MIDDLE #33->34
+"<Snåsa>"
+	"Snåsa" N Prop Sem/Plc Sg Nom @<SUBJ #34->3
+"<.>"
+	"." CLB #35->3
+: 
+"<Reeremen>"
+	"reereme" N Sem/Org Sg Gen @>N #1->2
+: 
+"<dïedte>"
+	"dïedte" N Sem/Rule Sg Nom @SUBJ> #2->5
+: 
+"<jïh>"
+	"jïh" CC @CNP #3->2
+: 
+"<laavenjassh>"
+	"laavenjasse" N Sem/Act Pl Nom @SUBJ> #4->2
+: 
+"<leah>"
+	"lea" <mv> V IV Ind Prs Pl3 @FMV #5->0
+: 
+"<dam>"
+	"dïhte" Pron Dem Sg Acc @>N #6->8
+: 
+"<politihkeles>"
+	"politihke" A Err/Lex Attr @>N #7->8
+: 
+"<daltesem>"
+	"daltese" N Sem/Plc Sg Acc @OBJ> #8->9
+: 
+"<gaagkestidh>"
+	"gaagkestidh" <mv> V TV Inf @IMV #9->5
+"<,>"
+	"," CLB #10->11
+: 
+"<jïh>"
+	"jïh" CC @CNP #11->9
+: 
+"<viehkiehtidh>"
+	"viehkiehtidh" <mv> V TV Inf @IMV #12->9
+: 
+"<saemien>"
+	"saemien" A Attr @>N #13->14
+: 
+"<kultuvrem>"
+	"kultuvre" N Sem/Domain Sg Acc @<OBJ #14->12
+"<,>"
+	"," CLB #15->14
+: 
+"<gïelem>"
+	"gïeledh" <mv> V TV Ind Prs Sg1 @FMV #16->5
+: 
+"<jïh>"
+	"jïh" CC @CNP #17->9
+: 
+"<siebriedahkejieledem>"
+	"seabradahkejielede" N Err/Orth Sem/Dummytag Sg Acc @OBJ> #18->19
+: 
+"<vaarjelidh>"
+	"vaarjelidh" <mv> V TV Inf @IMV #19->9
+: 
+"<jïh>"
+	"jïh" CC @CNP #20->9
+: 
+"<evtiedidh>"
+	"evtiedidh" <mv> V TV Inf @IMV #21->9
+"<.>"
+	"." CLB #22->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

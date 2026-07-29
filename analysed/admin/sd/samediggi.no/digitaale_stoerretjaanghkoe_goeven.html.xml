@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title>Digitaale stoerretjåanghkoe goeven - Saemiedigkie</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="nob"/><year>2020</year><wordcount>43</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>https://sametinget.no/aktuelt/digitalt-plenumsmote-i-desember.8428.aspx?sprak=14</origFileName><parallel_text xml:lang="nob" location="digitalt_plenumsmote_i_desember.html"/><parallel_text xml:lang="sme" location="digitala_dievascoahkkin_juovlamanus.html"/><parallel_text xml:lang="smj" location="digitalalasj_dievastjahkanibme_javllamano.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Digitaale>"
+	"digitaale" A Attr @>N #1->2
+: 
+"<stoerretjåanghkoe>"
+	"stoerretjåanghkoe" N Sem/Event Sg Nom @X #2->0
+: 
+"<goeven>"
+	"goeve" N Sem/Time_Wthr Sg Gen @<ADVL #3->3
+: 
+"<¶>"
+	"¶" CLB #4->4
+:\n
+"<Saemiedigkien>"
+	"Saemiedigkie" N Prop Sem/Org Sg Gen @>N #1->2
+	"saemiedigkie" N Sem/Build_Org Sg Gen @>N #1->2
+: 
+"<stoerretjåanghkoeståvroe>"
+	"ståvroe" N Sem/Org Sg Nom @SUBJ> #2->3
+		"tjåanghkoe" N Sem/Event Cmp/SgNom Cmp #2->3
+			"stoerre" A Cmp/Attr Cmp #2->3
+	"ståvroe" N Sem/Org Sg Nom @SUBJ> #2->3
+		"tjåanghkoe" N Sem/Event Cmp/SgNom Cmp #2->3
+			"stoerre" A Cmp/SgNom Cmp #2->3
+	"ståvroe" N Sem/Org Sg Nom @SUBJ> #2->3
+		"stoerretjåanghkoe" N Sem/Event Cmp/SgNom Cmp #2->3
+: 
+"<lea>"
+	"lea" <aux> V IV Ind Prs Sg3 @FAUX #3->0
+: 
+"<daan biejjien>"
+	"daan biejjien" Adv @ADVL> #4->5
+: 
+"<sjæjsjalamme>"
+	"sjæjsjalidh" <mv> V TV PrfPrc @IMV #5->3
+: 
+"<stoerretjåanghkoem>"
+	"stoerretjåanghkoe" N Sem/Event Sg Acc @<OBJ #6->5
+: 
+"<01.-04.12.20>"
+	"01.-04.12.20" Num Arab Sem/Date Sg Nom @<ADVL #7->5
+: 
+"<digitaalelaakan>"
+	"digitaalelaakan" Adv @ADVL> #8->9
+: 
+"<tjïrrehtidh>"
+	"tjirrehtidh" <mv> V TV Inf @IMV #9->5
+	"tjïrrehtidh" <mv> V TV Inf @IMV #9->5
+"<.>"
+	"." CLB #10->3
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Åejviefåantoe>"
+	"fåantoe" N Sem/Dummytag Sg Nom @SUBJ> #1->5
+		"åejvie" N Sem/Hum Cmp/SgNom Cmp #1->5
+: 
+"<juktie>"
+	"juktie" Adv @ADVL> #2->5
+	"juktie" CS @CVP #2->5
+	"juktie" N Sem/Dummytag Sg Nom @SUBJ> #2->5
+: 
+"<tjåanghkoem>"
+	"tjåanghkoe" N Sem/Event Sg Acc @OBJ> #3->5
+: 
+"<digitaalelaakan>"
+	"digitaalelaakan" Adv @ADVL> #4->5
+: 
+"<tjïrrehtidh>"
+	"tjirrehtidh" <mv> V TV Ind Prt Pl2 @FS-ADVL> #5->6
+	"tjïrrehtidh" <mv> V TV Ind Prt Pl2 @FS-ADVL> #5->6
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #6->0
+: 
+"<dan>"
+	"dan" Adv @>N #7->8
+	"dïhte" Pron Pers Sg3 Gen @>N #7->8
+: 
+"<sjïdtije>"
+	"sjïdtije" N Sem/Hum Sg Nom @<SPRED #8->6
+: 
+"<Covid-suetien>"
+	"suetie" N Sem/Dummytag Sg Gen @>P #9->10
+		"Covid" N Prop Sem/Obj Cmp/SgNom Cmp/Hyph Cmp #9->10
+: 
+"<gaavhtan>"
+	"gaavhtan" Po @<ADVL #10->6
+"<.>"
+	"." CLB #11->6
+: 
+"<Aarebi>"
+	"aarebi" Adv @ADVL> #1->2
+: 
+"<sjæjsjalamme>"
+	"sjæjsjalidh" <mv> V TV PrfPrc @IMV #2->0
+: 
+"<moenehtsetjåanghkojde>"
+	"tjåanghkoe" N Sem/Event Pl Ill @<ADVL #3->2
+		"moenehtse" N Sem/Org Cmp/SgNom Cmp #3->2
+: 
+"<16.- 20>"
+	"16.-20" A Arab Ord Attr CLBfinal @<ADVL #4->2
+"<.>"
+	"." CLB #5->2
+"<11.20>"
+	"11.20" Num Arab Sem/Time-clock Sg Nom @SUBJ> #1->4
+: 
+"<aaj>"
+	"aaj" Adv @ADVL> #2->4
+: 
+"<digitaalelaakan>"
+	"digitaalelaakan" Adv @ADVL> #3->4
+: 
+"<tjïrrehtidh>"
+	"tjirrehtidh" <mv> V TV Ind Prt Pl2 @FMV #4->0
+	"tjirrehtidh" <mv> V TV Inf @IMV #4->0
+	"tjïrrehtidh" <mv> V TV Inf @IMV #4->0
+	"tjïrrehtidh" <mv> V TV Ind Prt Pl2 @FMV #4->0
+"<.>"
+	"." CLB #5->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Jis>"
+	"jis" CS @CVP #1->4
+: 
+"<gyhtjelassh>"
+	"gyhtjelasse" N Sem/Prod-ling Pl Nom @SUBJ> #2->4
+	"gyhtjeles" N Sem/Prod-ling Pl Nom @SUBJ> #2->4
+"<,>"
+	"," CLB #3->2
+: 
+"<gaskesadth>"
+	"gaskesadtedh" <mv> V IV Imprt Sg2 @FMV #4->0
+	"gaskesadtedh" <mv> V IV Ind Prs Sg2 @FMV #4->0
+: 
+"<stoerretjåanghkoen>"
+	"stoerretjåanghkoe" N Sem/Event Sg Gen @>N #5->6
+: 
+"<åvtehkem>"
+	"åvtehke" N Sem/Hum Sg Acc @<OBJ #6->4
+"<,>"
+	"," CLB #7->6
+: 
+"<Tom>"
+	"Tom" N Prop Sem/Mal Attr @>N #8->9
+: 
+"<Sottinen>"
+	"Sottinen" N Prop Sem/Sur Sg Nom @<SUBJ #9->4
+: 
+"<tell.>"
+	"tell" N ABBR Gram/TAbbr Sg Acc @<OBJ #10->4
+	"tell" N ABBR Gram/TAbbr Sg Nom @<SUBJ #10->4
+: 
+"<+47 412>"
+	"+47 412" Num Arab Sg Nom @<ADVL #11->4
+: 
+"<72 386>"
+	"72 386" Num Arab Sg Nom @<ADVL #12->4
+"<.>"
+	"." CLB #13->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

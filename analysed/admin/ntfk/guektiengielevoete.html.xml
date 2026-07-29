@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title>&#13;
+	&#13;
+	Guektiengïelevoete - vierhtieh åarjelsaemien &#13;
+&#13;
+</title><genre code="admin"/><author><unknown/></author><wordcount>170</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://www.ntfk.no/Aarjelsaemien/Sider/Guektiengielevoetevierhtieh.aspx</origFileName><parallel_text xml:lang="nob" location="guektiengielevoete.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Guektiengïelevoete>"
+	"guektiengïelevoete" N Sem/Feat Sg Nom @HNOUN #1->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #2->3
+: 
+"<vierhtieh>"
+	"vierhtie" N Sem/Semcon Pl Nom @HNOUN #3->1
+: 
+"<åarjelsaemien>"
+	"åarjelsaemien" Adv @<ADVL #4->3
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Guektiengïelevoetevierhtieh>"
+	"guektiengïelevoetevierhtie" N Sem/Dummytag Pl Nom @HNOUN #1->0
+: 
+"<åarjelsaemien>"
+	"åarjelsaemie" N Sem/Hum_Lang Sg Gen @>N #2->7
+	"åarjelsaemien" Adv @ADVL> #2->7
+"<:>"
+	":" CLB #3->1
+: 
+"<Noerhte-Trööndelagen>"
+	"Noerhte-Trööndelaage" N Prop Sem/Plc Sg Gen @>N #4->5
+: 
+"<fylhkentjïelte>"
+	"fylhkentjïelte" N Sem/Org Sg Nom @SUBJ> #5->7
+: 
+"<vierhtieh>"
+	"vierhtie" N Sem/Semcon Pl Nom @OBJ> #6->7
+: 
+"<joekede>"
+	"joekedidh" <mv> V TV Ind Prs Sg3 @FMV #7->0
+: 
+"<fïerhten jaepien>"
+	"fïerhten jaepien" Adv @<ADVL #8->7
+: 
+"<juktie>"
+	"juktie" CS @CVP #9->11
+: 
+"<åarjelsaemien>"
+	"åarjelsaemien" Adv @ADVL> #10->11
+: 
+"<gïelem>"
+	"gïeledh" <mv> V TV Ind Prs Sg1 @FS-<ADVL #11->7
+: 
+"<jïh>"
+	"jïh" CC @CNP #12->11
+: 
+"<kultuvrem>"
+	"kultuvre" N Sem/Domain Sg Acc @OBJ> #13->14
+: 
+"<evtiedidh>"
+	"evtiedidh" <mv> V TV Inf @IMV #14->11
+: 
+"<jïh>"
+	"jïh" CC @CNP #15->14
+: 
+"<våajnoes>"
+	"våajnoes" Adv @<ADVL #16->14
+: 
+"<darjodh>"
+	"darjodh" <mv> V TV Inf @IMV #17->14
+: 
+"<Noerhte-Trööndelagesne>"
+	"Noerhte-Trööndelaage" N Prop Sem/Plc Sg Ine @<ADVL-ine #18->17
+"<.>"
+	"." CLB #19->1
+: 
+"<Vierhtiej>"
+	"vierhtie" N Sem/Semcon Pl Gen @>N #1->2
+: 
+"<åejvieåssjele>"
+	"åejvieåssjele" N Sem/Prod-cogn Sg Nom @SUBJ> #2->3
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #3->0
+: 
+"<funksjovnelle>"
+	"funksjovnelle" A Attr @>N #4->5
+: 
+"<guektiengïelevoetem>"
+	"guektiengïelevoete" N Sem/Feat Sg Acc @<OBJ #5->3
+: 
+"<utnijidie>"
+	"utnije" N Sem/Hum Pl Acc @<OBJ #6->3
+	"utnije" N Sem/Hum Pl Ill @<ADVL #6->3
+: 
+"<åarjelsaemien>"
+	"åarjelsaemien" A Attr @>N #7->8
+: 
+"<gïeline>"
+	"gielie" N Sem/Dummytag Ess @<SPRED #8->3
+	"gielie" N Sem/Dummytag Pl Ine @<ADVL-ine #8->3
+	"gielie" N Sem/Dummytag Sg Com @<ADVL-ine #8->3
+	"gïele" N Sem/Lang_Tool Ess @<SPRED #8->3
+	"gïele" N Sem/Lang_Tool Pl Ine @<ADVL-ine #8->3
+	"gïele" N Sem/Lang_Tool Sg Com @<ADVL-ine #8->3
+: 
+"<buektiehtidh>"
+	"buektiehtidh" V TV Inf @<SPRED #9->0
+: 
+"<gosse>"
+	"gosse" CS @CVP #10->12
+: 
+"<byögkelesvoetine>"
+	"byögkelesvoete" N Sem/Plc-abstr Ess @ADVL> #11->12
+	"byögkelesvoete" N Sem/Plc-abstr Pl Ine @ADVL> #11->12
+	"byögkelesvoete" N Sem/Plc-abstr Sg Com @ADVL> #11->12
+: 
+"<govlehtellieh>"
+	"govlehtalledh" <mv> V TV Ind Prs Pl3 @FS-<ADVL #12->3
+"<.>"
+	"." CLB #13->3
+: 
+"<Dåarjoe>"
+	"Dåarjoe" N Prop Sem/Plc Sg Nom @SUBJ> #1->7
+	"dåarjege" N Sem/Money Sg Nom @SUBJ> #1->7
+: 
+"<aaj>"
+	"aaj" Adv @ADVL> #2->7
+: 
+"<prosjektide>"
+	"prosjekte" N Sem/Act Pl Ill @ADVL> #3->7
+: 
+"<vaadtasåvva>"
+	"vaadtasåvva" ? @X #4->0
+: 
+"<mah>"
+	"mah" CS @CVP #5->7
+	"mah" Pcle @PCLE #5->7
+	"mij" Pron Rel Pl Nom @SUBJ> #5->7
+: 
+"<åarjelsaemien>"
+	"åarjelsaemien" Adv @ADVL> #6->7
+: 
+"<gïelem>"
+	"gïeledh" <mv> V TV Ind Prs Sg1 @FS-ADVL> #7->12
+: 
+"<jïh>"
+	"jïh" CC @CNP #8->7
+: 
+"<kultuvrem>"
+	"kultuvre" N Sem/Domain Sg Acc @<OBJ #9->7
+: 
+"<hijvenlaakan>"
+	"hijvenlaakan" Adv @<ADVL #10->7
+: 
+"<våajnoes>"
+	"våajnoes" Adv @<ADVL #11->7
+: 
+"<darjoeh>"
+	"darjodh" <mv> V TV Ind Prs Pl3 @FS-ADVL> #12->0
+	"darjodh" <mv> V TV Ind Prs Sg2 @FS-ADVL> #12->0
+: 
+"<aktene>"
+	"akte" Num Sg Ine Attr @>N #13->15
+: 
+"<gemtebe>"
+	"gamte" Ex/A Der/Comp A Attr @>N #14->15
+	"gemties" Ex/A Der/Comp A Attr @>N #14->15
+: 
+"<ektiedimmesne>"
+	"ektiedimmie" N Sem/Act Sg Ine @<ADVL-ine #15->12
+"<.>"
+	"." CLB #16->12
+: 
+"<Eah>"
+	"ij" <aux> V IV Neg Ind Prs Pl3 @FAUX #1->0
+: 
+"<leah>"
+	"lea" <mv> V IV ConNeg @IMV #2->1
+: 
+"<naan>"
+	"naan" Pron Indef Attr @>A #3->4
+: 
+"<vihties>"
+	"vihties" A Attr @>N #4->5
+: 
+"<ohtsememierieh>"
+	"ohtsememierie" N Sem/Dummytag Pl Nom <ext> @<SUBJ #5->1
+: 
+"<jallh>"
+	"jallh" CC @CNP #6->5
+: 
+"<ohtsemegoerh>"
+	"ohtsemegoere" N Sem/Txt Pl Nom <ext> @<SUBJ #7->5
+: 
+"<daan>"
+	"daate" Pron Dem Sg Ill Attr @>N #8->9
+: 
+"<dåarjoeöörnegasse>"
+	"dåarjoeöörnege" N Sem/Rule Sg Ill @<ADVL #9->7
+"<.>"
+	"." CLB #10->1
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Lïhkebe>"
+	"lïhkes" Ex/A Der/Comp A Attr @>N #1->3
+: 
+"<bïevnesnh>"
+	"bïevnesnh" ? @X #2->0
+: 
+"<guektiengïelevoetevierhtiej>"
+	"guektiengïelevoetevierhtie" N Sem/Dummytag Pl Gen @>P #3->4
+: 
+"<bïjre>"
+	"bïjre" Po @ADVL> #4->6
+"<,>"
+	"," CLB #5->4
+: 
+"<govlehtallh>"
+	"govlehtalledh" <mv> V TV Imprt Sg2 @FMV #6->0
+	"govlehtalledh" <mv> V TV Ind Prs Sg2 @FMV #6->0
+"<:>"
+	":" CLB #7->6
+: 
+"<¶>"
+	"¶" CLB #8->6
+:\n
+
+]]></dependency></body></document>

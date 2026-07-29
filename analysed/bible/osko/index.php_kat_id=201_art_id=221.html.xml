@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title>JAAHKOE</title><genre code="bible"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="nob"/><publChannel><publication><publisher>Samisk Kirkeråd</publisher></publication></publChannel><wordcount>20</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer+apertium@mm.st"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://www.osko.no/index.php?kat_id=201&amp;art_id=221</origFileName><parallel_text xml:lang="nob" location="index.php_kat_id=201_art_id=221.html"/><parallel_text xml:lang="sme" location="index.php_kat_id=201_art_id=221.html"/><parallel_text xml:lang="smj" location="index.php_kat_id=201_art_id=221.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 104145 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Saemien>"
+	"saemien" A Attr @>N #1->2
+: 
+"<gærhkoeraerine>"
+	"raerie" N Sem/Org_Prod-cogn Ess @HNOUN #2->0
+		"gærhkoe" N Sem/Build_Org Cmp/SgNom Cmp #2->0
+	"raerie" N Sem/Org_Prod-cogn Pl Ine @HNOUN #2->0
+		"gærhkoe" N Sem/Build_Org Cmp/SgNom Cmp #2->0
+	"raerie" N Sem/Org_Prod-cogn Sg Com @HNOUN #2->0
+		"gærhkoe" N Sem/Build_Org Cmp/SgNom Cmp #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Darjoe>"
+	"Darjoe" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Kristusen>"
+	"Kristus" N Prop Sem/Mal Sg Gen @>N #1->2
+: 
+"<gievlie>"
+	"gievlie" N Sem/Dummytag Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Læhkoeh>"
+	"læhkoe" N Sem/State Pl Nom @HNOUN #1->0
+: 
+"<saemien>"
+	"saemien" A Attr @>N #2->3
+: 
+"<nedtesijjine>"
+	"nehtesijjie" N Sem/Plc-abstr Sg Com @<ADVL #3->1
+	"nehtesijjie" N Sem/Plc-abstr Ess @<SPRED #3->1
+	"nehtesijjie" N Sem/Plc-abstr Pl Ine @<ADVL #3->1
+"<!>"
+	"!" CLB #4->1
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Heelsegh>"
+	"heelsege" N Sem/Dummytag Pl Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<luvhtie>"
+	"luvhtedh" <mv> V IV Ind Prs Sg3 @FMV #1->0
+: 
+"<Olav>"
+	"Olav" N Prop Sem/Mal Sg Nom @<SUBJ #2->1
+: 
+"<Skjevesland>"
+	"Skjevesland" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+
+]]></dependency></body></document>

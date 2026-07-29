@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title>Teknolijejarngem Mongstadesne rïhpesti - regjeringen.no</title><genre code="admin"/><author><person firstname="" lastname="Stáhtaministara kantuvra" sex="unknown" born="" nationality=""/></author><translator><unknown/></translator><translated_from xml:lang="nob"/><year>2012</year><publChannel><publication><publisher>regjeringen.no</publisher></publication></publChannel><wordcount>52</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="" email="divvun@samediggi.no"/><origFileName>http://regjeringen.no/se/dep/smk/aigeguovdil/nyheter/2012/teknolijejarngem-mongstadesne-rihpesti.html?id=681131</origFileName><parallel_text xml:lang="eng" location="opening-of-technology-centre-mongstad_id_681131.html"/><parallel_text xml:lang="nob" location="apnet-teknologisenteret-pa-mongstad_id_681131.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 48460 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Teknolijejarngem>"
+	"Teknolijejarngem" ? @X #1->0
+: 
+"<Mongstadesne>"
+	"Mongstad" N Prop Sem/Plc Sg Ine @ADVL> #2->3
+: 
+"<rïhpesti>"
+	"rïhpestidh" <mv> V TV Ind Prt Sg3 @FMV #3->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #4->4
+: 
+"<regjeringen.no>"
+	"regjeringen.no" URL #5->5
+: 
+"<¶>"
+	"¶" CLB #6->3
+:\n
+"<Måantan>"
+	"måanta" N Sem/Time Sg Gen @ADVL> #1->13
+"<,>"
+	"," CLB #2->1
+: 
+"<suehpeden>"
+	"suehpede" N Sem/Time Sg Gen @>A #3->4
+: 
+"<7.>"
+	"7" A Arab Ord Attr @>N #4->5
+"<b.>"
+	"b" N Sem/Time ABBR Gram/TNumAbbr @X #5->0
+: 
+"<staateministere>"
+	"staateministere" N Sem/Dummytag Sg Nom @SUBJ> #6->18
+: 
+"<Jens>"
+	"Jens" N Prop Sem/Mal Attr @>N #7->8
+: 
+"<Stoltenberg>"
+	"Stoltenberg" N Prop Sem/Sur Sg Nom @SUBJ> #8->18
+: 
+"<veartenen>"
+	"veartene" N Sem/Plc Sg Gen @>A #9->10
+: 
+"<stööremes>"
+	"stoere" Ex/A Der/Superl A Sg Nom @X #10->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #11->10
+: 
+"<bööremes>"
+	"buerie" Ex/A Der/Superl A Sg Nom @X #12->0
+: 
+"<evtiedamme>"
+	"evtiedidh" <mv> V TV PrfPrc @IMV #13->0
+: 
+"<dotkemejarngem>"
+	"dotkemejarnge" N Sem/Build Sg Acc @<OBJ #14->13
+: 
+"<CO>"
+	"CO" N Prop Sem/Org ACR Dyn Sg Nom @SUBJ> #15->18
+	"CO" N Prop Sem/Org ACR Sg Nom @SUBJ> #15->18
+	"co" N Prop Sem/Org ACR Sg Nom @SUBJ> #15->18
+: 
+"<2->"
+	"2" Num Arab Cmp/SplitR Cmp @>N #16->17
+	"2" Num Arab Sem/Time-clock Cmp/SplitR @>N #16->17
+: 
+"<reejnemasse>"
+	"reejnedh" Ex/V TV Der/NomAct N Sg Ill @ADVL> #17->18
+: 
+"<rïhpesti>"
+	"rïhpestidh" <mv> V TV Ind Prt Sg3 @FMV #18->0
+"<.>"
+	"." CLB #19->13
+: 
+"<.>"
+	"." CLB #1->1
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<CO>"
+	"CO" N Prop Sem/Org ACR Dyn Sg Nom @SUBJ> #1->9
+	"CO" N Prop Sem/Org ACR Sg Nom @SUBJ> #1->9
+	"co" N Prop Sem/Org ACR Sg Nom @SUBJ> #1->9
+: 
+"<2>"
+	"2" Num Arab Sem/Time-clock Sg Nom @SUBJ> #2->9
+: 
+"<Technology>"
+	"Technology" ? @X #3->0
+: 
+"<Centre>"
+	"Centre" ? @X #4->0
+: 
+"<Mongstad>"
+	"Mongstad" N Prop Sem/Plc Sg Nom @SUBJ> #5->9
+: 
+"<(>"
+	"(" PUNCT LEFT #6->7
+"<TCM>"
+	"TCM" N Prop Sem/Org ACR Dyn Sg Nom @SUBJ> #7->9
+"<)>"
+	")" PUNCT RIGHT #8->9
+: 
+"<edtja>"
+	"edtjedh" <aux> V IV Ind Prs Sg3 @FAUX #9->0
+: 
+"<reejnemasse>"
+	"reejnedh" Ex/V TV Der/NomAct N Sg Ill @ADVL> #10->15
+: 
+"<CO>"
+	"CO" N Prop Sem/Org ACR Dyn Sg Nom @<SUBJ #11->9
+	"CO" N Prop Sem/Org ACR Sg Nom @<SUBJ #11->9
+	"co" N Prop Sem/Org ACR Sg Nom @<SUBJ #11->9
+: 
+"<2>"
+	"2" Num Arab Sem/Time-clock Sg Nom @<SUBJ #12->9
+: 
+"<’>"
+	"’" PUNCT RIGHT #13->14
+"<ste>"
+	"ste" ? @X #14->0
+: 
+"<dotkedh>"
+	"dotkedh" <mv> V TV Inf @IMV #15->9
+: 
+"<raffijnerijeste>"
+	"raffijnerijeste" ? @X #16->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #17->16
+: 
+"<baahkoefaamoevierhkeste>"
+	"vierhke" N Sem/Dummytag Sg Ela @<ADVL #18->15
+		"faamoe" N Sem/Org Cmp/SgNom Cmp #18->15
+			"baahkoe" N Sem/Plc Cmp/SgNom Cmp #18->15
+	"vierhkie" N Sem/Dummytag Sg Ela @<ADVL #18->15
+		"faamoe" N Sem/Org Cmp/SgNom Cmp #18->15
+			"baahkoe" N Sem/Plc Cmp/SgNom Cmp #18->15
+	"vïerhke" N Sem/Dummytag Sg Ela @<ADVL #18->15
+		"faamoe" N Sem/Org Cmp/SgNom Cmp #18->15
+			"baahkoe" N Sem/Plc Cmp/SgNom Cmp #18->15
+: 
+"<Mongstadesne>"
+	"Mongstad" N Prop Sem/Plc Sg Ine @<ADVL-ine #19->15
+"<.>"
+	"." CLB #20->9
+: 
+"<Teestetseegkeldahken>"
+	"Teestetseegkeldahken" ? @X #1->0
+: 
+"<åssjele>"
+	"åssjele" N Sem/Prod-cogn Sg Nom @SUBJ> #2->3
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #3->0
+: 
+"<dejtie>"
+	"dïhte" Pron Dem Pl Acc @>N #4->8
+	"dïhte" Pron Dem Pl Ill @>N #4->8
+: 
+"<bööremes>"
+	"buerie" Ex/A Der/Superl A Attr @>N #5->8
+: 
+"<jïh>"
+	"jïh" CC @CNP #6->5
+: 
+"<liehtemes>"
+	"liehties" Ex/A Der/Superl A Attr @>N #7->5
+: 
+"<vuekide>"
+	"vuekie" N Sem/Feat Pl Acc @OBJ> #8->3
+	"vuekie" N Sem/Feat Pl Ill @<ADVL #8->3
+: 
+"<dagkeres>"
+	"dagkeres" Pron Dem Attr @>N #9->10
+: 
+"<reejnemasse>"
+	"reejnedh" Ex/V TV Der/NomAct N Sg Ill @ADVL> #10->11
+: 
+"<gaavnedh>"
+	"gaavnedh" <mv> V TV Inf @IMV #11->3
+"<.>"
+	"." CLB #12->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Lohkh>"
+	"lohkedh" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<staateministeren>"
+	"staateministere" N Sem/Dummytag Sg Gen @>N #2->3
+: 
+"<rïhpestimmiehåalomem>"
+	"håalome" N Sem/Prod-ling Sg Acc @<OBJ #3->1
+		"rïhpestidh" Ex/V TV Der/NomAct N Cmp/SgNom Cmp #3->1
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+
+]]></dependency></body></document>

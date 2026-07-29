@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>50</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.lansstyrelsen.se/dalarna/SMA/miljo-och-klimat/Pages/default.aspx</origFileName><parallel_text xml:lang="eng" location="miljo-och-klimat.html"/><parallel_text xml:lang="fin" location="miljo-och-klimat.html"/><parallel_text xml:lang="fit" location="miljo-och-klimat.html"/><parallel_text xml:lang="sme" location="miljo-och-klimat.html"/><parallel_text xml:lang="swe" location="miljo-och-klimat.html"/><parallel_text xml:lang="rmu" location="miljo-och-klimat.html"/><parallel_text xml:lang="rmy-rka" location="miljo-och-klimat.html"/><parallel_text xml:lang="yid" location="miljo-och-klimat.html"/><parallel_text xml:lang="rmy-rlo" location="miljo-och-klimat.html"/><parallel_text xml:lang="rmf" location="miljo-och-klimat.html"/><parallel_text xml:lang="rmn" location="miljo-och-klimat.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Byjrese>"
+	"byjrese" N Sem/Plc Sg Nom @HNOUN #1->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #2->1
+: 
+"<klimate>"
+	"klimate" ? @X #3->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #4->5
+: 
+"<Länsstyrelsen>"
+	"Länsstyrelsen" N Prop Sem/Org Sg Nom @HNOUN #5->1
+: 
+"<i>"
+	"i" N Sem/Sign ABBR Gram/TAbbr Attr @>N #6->7
+: 
+"<Dalarna>"
+	"Dalarna" N Prop Sem/Plc Sg Nom @HNOUN #7->5
+	"Dalarna" N Prop Sem/Sur Sg Nom @HNOUN #7->5
+: 
+"<¶>"
+	"¶" CLB #8->1
+:\n
+"<Byjrese>"
+	"byjrese" N Sem/Plc Sg Nom @HNOUN #1->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #2->1
+: 
+"<klimate>"
+	"klimate" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Byjrese>"
+	"byjrese" N Sem/Plc Sg Nom @HNOUN #1->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #2->1
+: 
+"<klimate>"
+	"klimate" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Lïeneståvroe>"
+	"leeneståvroe" N Err/Orth Sem/Dummytag Sg Nom @SUBJ> #1->2
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<vihkeles>"
+	"vihkeles" A Attr @>N #3->4
+: 
+"<sijjie>"
+	"sijjie" N Sem/Plc Sg Nom @<SPRED #4->2
+: 
+"<gosse>"
+	"gosse" CS @CVP #5->10
+: 
+"<byjrese->"
+	"byjrese" N Sem/Plc Cmp/SgNom Cmp/SplitR Cmp @>N #6->6
+: 
+"<jïh>"
+	"jïh" CC @CNP #7->6
+: 
+"<klimatebarkoem>"
+	"klimatebarkoem" ? @X #8->0
+: 
+"<lïenesne>"
+	"lïenesne" ? @X #9->0
+: 
+"<dijpedh>"
+	"dijpedh" <mv> V TV Inf @FS-IMV #10->2
+	"dïjpedh" <mv> V TV Inf @FS-IMV #10->2
+"<.>"
+	"." CLB #11->2
+: 
+"<Mijjieh>"
+	"mijjieh" Pron Pers Pl1 Nom @SUBJ> #1->3
+: 
+"<byjresebarkoem>"
+	"byjresebarkoe" N Sem/Dummytag Sg Acc @OBJ> #2->3
+: 
+"<iktedibie>"
+	"iktedidh" <mv> V TV Ind Prs Pl1 @FMV #3->0
+"<,>"
+	"," CLB #4->3
+: 
+"<bievnebe>"
+	"bievnedh" <mv> V TV Imprt Pl1 @FMV #5->3
+	"bievnedh" <mv> V TV Ind Prs Pl1 @FMV #5->3
+: 
+"<jïh>"
+	"jïh" CC @CNP #6->5
+: 
+"<maahtoem>"
+	"maahtoe" N Sem/Edu Sg Acc @<OBJ #7->5
+: 
+"<vedtebe>"
+	"vedtedh" <mv> V TV Ind Prs Pl1 @FMV #8->3
+"<,>"
+	"," CLB #9->8
+: 
+"<byjreseulmieh>"
+	"ulmie" N Sem/Semcon Pl Nom @<OBJ #10->8
+		"byjrese" N Sem/Plc Cmp/SgNom Cmp #10->8
+: 
+"<jïh>"
+	"jïh" CC @CNP #11->10
+: 
+"<byjresevaaksjomem>"
+	"vaaksjome" N Sem/Dummytag Sg Acc @<OBJ #12->10
+		"byjrese" N Sem/Plc Cmp/SgNom Cmp #12->10
+"<,>"
+	"," CLB #13->12
+: 
+"<tjaetsiereeremem>"
+	"reereme" N Sem/Org Sg Acc @<OBJ #14->10
+		"tjaetsie" N Sem/Drink Cmp/SgNom Cmp #14->10
+: 
+"<jïh>"
+	"jïh" CC @CNP #15->14
+: 
+"<klimate>"
+	"klimate" ? @X #16->0
+"<->"
+	"-" PUNCT MIDDLE #17->18
+: 
+"<jïh>"
+	"jïh" CC @CNP #18->16
+: 
+"<enegijegyhtjelassigujmie>"
+	"enegijegyhtjelassigujmie" ? @X #19->0
+: 
+"<barkebe>"
+	"barkedh" <mv> V TV Ind Prs Pl1 @FMV #20->3
+"<.>"
+	"." CLB #21->3
+: 
+"<Dan>"
+	"dan" Adv @>N #1->2
+: 
+"<lissine>"
+	"lissie" N Sem/Money Ess @ADVL> #2->5
+	"lissie" N Sem/Money Pl Ine @ADVL> #2->5
+	"lissie" N Sem/Money Sg Com @ADVL> #2->5
+: 
+"<mijjieh>"
+	"mijjieh" Pron Pers Pl1 Nom @SUBJ> #3->5
+: 
+"<luhpiem>"
+	"luhpie" N Sem/Time Sg Acc @OBJ> #4->5
+: 
+"<vedtebe>"
+	"vedtedh" <mv> V TV Ind Prs Pl1 @FMV #5->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #6->5
+: 
+"<vaaksjobe>"
+	"vaaksjodh" <mv> V TV Ind Prs Pl1 @FMV #7->5
+: 
+"<darjomh>"
+	"darjome" N Sem/Feat Pl Nom @<OBJ #8->7
+: 
+"<mah>"
+	"mij" Pron Rel Pl Nom @SUBJ> #9->11
+: 
+"<byjresem>"
+	"byjrese" N Sem/Plc Sg Acc @OBJ> #10->11
+: 
+"<tsevtsieh>"
+	"tsevtsedh" <mv> V TV Ind Prs Pl3 @FS-N< #11->8
+"<.>"
+	"." CLB #12->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

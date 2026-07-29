@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>30</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/Stipend-og-tilskudd/Tidligere-regelverk</origFileName><parallel_text xml:lang="nob" location="tidligere-regelverk.html"/><parallel_text xml:lang="sme" location="tidligere-regelverk.html"/><parallel_text xml:lang="smj" location="tidligere-regelverk.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Tidligere>"
+	"Tidligere" ? @X #1->0
+: 
+"<regelverk>"
+	"regelverk" ? @X #2->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #3->4
+: 
+"<Stipendh>"
+	"stipende" N Sem/Money Pl Nom @HNOUN #4->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #5->4
+: 
+"<dåarjoeh>"
+	"dåarjege" N Sem/Money Pl Nom @HNOUN #6->4
+: 
+"</>"
+	"/" PUNCT MIDDLE #7->8
+: 
+"<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @HNOUN #8->6
+: 
+"<->"
+	"-" PUNCT MIDDLE #9->10
+: 
+"<Sametinget>"
+	"Sametinget" N Prop Sem/Org Sg Nom @HNOUN #10->8
+: 
+"<¶>"
+	"¶" CLB #11->4
+:\n
+"<Lohkh>"
+	"lohkedh" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<jienebh>"
+	"jienebh" Adv Gram/Comp @<ADVL #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Lohkh>"
+	"lohkedh" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<jienebh>"
+	"jienebh" Adv Gram/Comp @<ADVL #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+
+]]></dependency></body></document>

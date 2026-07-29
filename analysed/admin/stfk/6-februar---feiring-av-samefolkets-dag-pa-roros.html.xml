@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>784</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://www.stfk.no/en/Politikk_og_demokrati/Politiske_organer/Radgivende_utvalg_for_samiske_sporsmal/Nyheter/6-februar---Feiring-av-Samefolkets-dag-pa-Roros</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Skjema>"
+	"Skjema" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Reiseliv>"
+	"Reiseliv" N Prop Sem/Obj Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Presse>"
+	"presse" N Sem/Dummytag Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Saemiej>"
+	"saemie" N Sem/Hum_Lang Pl Gen @>N #1->2
+: 
+"<Laavlome>"
+	"laavlome" N Sem/Dummytag Sg Nom @HNOUN #2->0
+: 
+"<Samefolkets>"
+	"Samefolkets" ? @X #3->0
+: 
+"<sang>"
+	"sang" ? @X #4->0
+:  
+"<¶>"
+	"¶" CLB #5->2
+:\n
+
+]]></dependency></body></document>

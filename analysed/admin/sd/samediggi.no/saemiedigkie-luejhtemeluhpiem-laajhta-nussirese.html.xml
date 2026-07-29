@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>90</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/Byjrese-areale-jih-kultuvrevarjelimmie/Energije-jih-mineraalh/Saemiedigkie-luejhtemeluhpiem-laajhta-Nussirese</origFileName><parallel_text xml:lang="nob" location="sametinget-klager-paa-utslippstillatelsen-til-nussir.html"/><parallel_text xml:lang="sme" location="samediggi-vaida-nussira-luoitinlobi.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @SUBJ> #1->3
+	"saemiedigkie" N Sem/Build_Org Sg Nom @SUBJ> #1->3
+: 
+"<luejhtemeluhpiem>"
+	"luhpie" N Sem/Time Sg Acc @OBJ> #2->3
+		"luejhteme" N Sem/Dummytag Cmp/SgNom Cmp #2->3
+: 
+"<laajhta>"
+	"laejhtedh" <mv> V TV Ind Prs Sg3 @FMV #3->0
+: 
+"<Nussirese>"
+	"Nussirese" ? @X #4->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #5->6
+: 
+"<Energije>"
+	"energije" N Sem/Dummytag Sg Nom @<SUBJ #6->3
+: 
+"<jïh>"
+	"jïh" CC @CNP #7->6
+: 
+"<mineraalh>"
+	"mineraale" N Sem/Mat Pl Nom @<SUBJ #8->6
+: 
+"</>"
+	"/" PUNCT MIDDLE #9->10
+: 
+"<Byjrese>"
+	"byjrese" N Sem/Plc Sg Nom @<SUBJ #10->3
+"<,>"
+	"," CLB #11->10
+: 
+"<areale>"
+	"areaale" N Sem/Dummytag Err/Orth Sg Nom @<SUBJ #12->6
+: 
+"<jïh>"
+	"jïh" CC @CNP #13->12
+: 
+"<kultuvrevarjelimmie>"
+	"kultuvrevaarjelimmie" N Err/Orth Sem/Dummytag Sg Nom @<SUBJ #14->6
+: 
+"</>"
+	"/" PUNCT MIDDLE #15->16
+: 
+"<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @<SUBJ #16->3
+: 
+"<->"
+	"-" PUNCT MIDDLE #17->18
+: 
+"<Sametinget>"
+	"Sametinget" N Prop Sem/Org Sg Nom @X #18->0
+: 
+"<¶>"
+	"¶" CLB #19->3
+:\n
+"<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @SUBJ> #1->3
+	"saemiedigkie" N Sem/Build_Org Sg Nom @SUBJ> #1->3
+: 
+"<luejhtemeluhpiem>"
+	"luhpie" N Sem/Time Sg Acc @OBJ> #2->3
+		"luejhteme" N Sem/Dummytag Cmp/SgNom Cmp #2->3
+: 
+"<laajhta>"
+	"laejhtedh" <mv> V TV Ind Prs Sg3 @FMV #3->0
+: 
+"<Nussirese>"
+	"Nussirese" ? @X #4->0
+: 
+"<¶>"
+	"¶" CLB #5->3
+:\n
+"<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @SUBJ> #1->2
+	"saemiedigkie" N Sem/Build_Org Sg Nom @SUBJ> #1->2
+: 
+"<lea>"
+	"lea" <aux> V IV Ind Prs Sg3 @FAUX #2->0
+: 
+"<Byjresedirektovraaten>"
+	"direktoraate" N Err/Orth Sem/Org Sg Gen @>N #3->4
+		"byjrese" N Sem/Plc Cmp/SgNom Cmp #3->4
+: 
+"<nænnoestimmiem>"
+	"nænnoestimmie" N Sem/Act Sg Acc @OBJ> #4->5
+: 
+"<laajhteme>"
+	"laejhtedh" <mv> V TV PrfPrc @IMV #5->2
+: 
+"<mij>"
+	"mij" Pron Rel Sg Nom @SUBJ> #6->9
+: 
+"<Nussir ASA:se>"
+	"Nussir ASA" N Prop Sem/Org ACR Sg Ill @ADVL> #7->9
+: 
+"<luejhtemeluhpiem>"
+	"luhpie" N Sem/Time Sg Acc @ADVL> #8->9
+		"luejhteme" N Sem/Dummytag Cmp/SgNom Cmp #8->9
+: 
+"<vadta>"
+	"vedtedh" <mv> V TV Ind Prs Sg3 @FS-N< #9->4
+: 
+"<gruvabaatsehtsem>"
+	"baatsehts" N Sem/Dummytag Sg Acc @OBJ> #10->11
+		"gruva" N Sem/Dummytag Cmp/SgNom Cmp #10->11
+: 
+"<luejhtedh>"
+	"luejhtedh" <mv> V TV Inf @IMV #11->9
+: 
+"<Repparfjovlen>"
+	"Repparfjovlen" ? @X #12->0
+: 
+"<sïjse>"
+	"sïjse" Adv @<ADVL #13->11
+	"sïjse" Pr @<ADVL #13->11
+: 
+"<Kvalsunden>"
+	"Kvalsund" N Prop Sem/Plc Sg Gen @>N #14->15
+: 
+"<tjïeltesne>"
+	"tjïelte" N Sem/Org Sg Ine @<ADVL-ine #15->11
+"<.>"
+	"." CLB #16->2
+: 
+"<Laejhtiemisnie>"
+	"laejhteme" N Sem/Prod-ling Sg Ine @ADVL> #1->2
+: 
+"<birrebe>"
+	"birredh" <mv> V TV Ind Prs Pl1 @FMV #2->0
+: 
+"<Klijma->"
+	"klæjma" N Err/Orth Sem/Dummytag Cmp/SgNom Cmp/SplitR Cmp @>N #3->11
+: 
+"<jïh>"
+	"jïh" CC @CNP #4->3
+: 
+"<byrjesedepartemeente>"
+	"byrjesedepartemeente" ? @X #5->0
+: 
+"<nænnoestimmiem>"
+	"nænnoestimmie" N Sem/Act Sg Acc @<OBJ #6->2
+: 
+"<jeatjahtahta>"
+	"jeatjahtehtedh" <mv> V TV Ind Prs Sg3 @FMV #7->2
+"<,>"
+	"," CLB #8->9
+: 
+"<jïh>"
+	"jïh" CC @CNP #9->7
+: 
+"<Nussir ASA:n>"
+	"Nussir ASA" N Prop Sem/Org ACR Sg Gen @>N #10->11
+: 
+"<ohtsemem>"
+	"ohtseme" N Sem/Dummytag Sg Acc @<OBJ #11->7
+: 
+"<gruvagïehtelimmieluhpien>"
+	"luhpie" N Sem/Time Sg Gen @>P #12->13
+		"gïehtelimmie" N Sem/Act Cmp/SgNom Cmp #12->13
+			"gruva" N Sem/Dummytag Cmp/SgNom Cmp #12->13
+: 
+"<bïjre>"
+	"bïjre" Po @<ADVL #13->7
+: 
+"<nyöjhkoe>"
+	"nyöjhkedh" <mv> V TV Ind Prs Sg3 @FMV #14->2
+: 
+"<deerjemelaaken>"
+	"laake" N Sem/Rule Sg Gen @>P #15->16
+		"deerjedh" Ex/V TV Der/NomAct N Cmp/SgNom Cmp #15->16
+: 
+"<mietie>"
+	"mietie" Po @<ADVL #16->14
+: 
+"<gaavnojne>"
+	"gaavnojne" ? @X #17->0
+: 
+"<Nussir>"
+	"Nussir" N Prop Sem/Org Sg Nom @<SUBJ #18->14
+	"Nussir" N Prop Sem/Plc Sg Nom @<SUBJ #18->14
+: 
+"<jïh>"
+	"jïh" CC @CNP #19->18
+: 
+"<Gumpenjunni>"
+	"Gumpenjunni" ? @X #20->0
+"</>"
+	"/" PUNCT MIDDLE #21->22
+"<Ulveryggen>"
+	"Ulveryggen" ? @X #22->0
+"<.>"
+	"." CLB #23->2
+: 
+"<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @SUBJ> #1->2
+	"saemiedigkie" N Sem/Build_Org Sg Nom @SUBJ> #1->2
+: 
+"<sæjhta>"
+	"sïjhtedh" <aux> V TV Ind Prs Sg3 @FAUX #2->0
+: 
+"<Klijma->"
+	"klæjma" N Err/Orth Sem/Dummytag Cmp/SgNom Cmp/SplitR Cmp @>N #3->7
+: 
+"<jïh>"
+	"jïh" CC @CNP #4->3
+: 
+"<byrjesedepartemeentine>"
+	"byrjesedepartemeentine" ? @X #5->0
+: 
+"<rååresjidh>"
+	"rååresjidh" <mv> V IV Inf @IMV #6->2
+: 
+"<laejhtemegïetedimmien>"
+	"gïetedimmie" N Sem/Act Sg Gen @>P #7->8
+		"laejhteme" N Sem/Prod-ling Cmp/SgNom Cmp #7->8
+: 
+"<bïjre>"
+	"bïjre" Po @<ADVL #8->6
+"<.>"
+	"." CLB #9->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Vielie>"
+	"vielie" Adv @ADVL> #1->2
+: 
+"<bïevnesh>"
+	"bïevnese" N Sem/Prod-ling Pl Nom @HNOUN #2->0
+"<:>"
+	":" CLB #3->2
+:  
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<Saemiedigkieraerie>"
+	"saemiedigkieraerie" N Sem/Hum_Org Sg Nom @>N #1->2
+: 
+"<Silje>"
+	"Silje" N Prop Sem/Fem Attr @>N #2->3
+: 
+"<Karine>"
+	"Karine" N Prop Sem/Fem Attr @>N #3->4
+: 
+"<Muotka>"
+	"Muotka" N Prop Sem/Sur Sg Nom @HNOUN #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<tell.>"
+	"tell" N ABBR Gram/TAbbr Sg Acc @<OBJ #6->4
+	"tell" N ABBR Gram/TAbbr Sg Nom @HNOUN #6->4
+: 
+"<984>"
+	"984" Num Arab Sg Nom @HNOUN #7->6
+: 
+"<87 576>"
+	"87 576" Num Arab Sg Nom @HNOUN #8->6
+"<.>"
+	"." CLB #9->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

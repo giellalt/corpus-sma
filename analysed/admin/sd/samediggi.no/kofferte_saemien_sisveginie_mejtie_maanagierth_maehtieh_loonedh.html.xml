@@ -1,0 +1,772 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title>Kofferte saemien sisveginie mejtie maanagïerth maehtieh löönedh - Saemiedigkie</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="nob"/><wordcount>210</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>https://sametinget.no/vuoddooahpahus/oahpponeavvut/oahpponeavvoguovddas/koaffar-sami-sisdoaluin-luoikamassii-manaidgarddiide/?sprak=14</origFileName><parallel_text xml:lang="nob" location="koffert_med_samisk_innhold_til_utlan_til_barnehager.html"/><parallel_text xml:lang="sme" location="koaffar_sami_sisdoaluin_luoikamassii_manaidgarddiide_.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Kofferte>"
+	"Kofferte" ? @X #1->0
+: 
+"<saemien>"
+	"saemien" A Attr @>N #2->3
+: 
+"<sisveginie>"
+	"sisvege" N Sem/Semcon Ess @X #3->0
+	"sisvege" N Sem/Semcon Pl Ine @X #3->0
+	"sisvege" N Sem/Semcon Sg Com @X #3->0
+: 
+"<mejtie>"
+	"mij" Pron Rel Pl Ill @ADVL> #4->7
+	"mij" Pron Rel Pl Acc @OBJ> #4->7
+: 
+"<maanagïerth>"
+	"maanagïerte" N Sem/Build_Org Pl Nom @SUBJ> #5->6
+: 
+"<maehtieh>"
+	"maehtedh" <aux> V TV Ind Prs Pl3 @FS-N< #6->3
+: 
+"<löönedh>"
+	"löönedh" <mv> V TV Inf @FS-N<IMV #7->6
+: 
+"<¶>"
+	"¶" CLB #8->8
+:\n
+"<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @SUBJ> #1->6
+	"saemiedigkie" N Sem/Build_Org Sg Nom @SUBJ> #1->6
+: 
+"<daan raajan>"
+	"daan raajan" Adv @ADVL> #2->6
+: 
+"<njieljie>"
+	"njieljie" Num Sg Nom @SUBJ> #3->6
+: 
+"<kofferth>"
+	"kofferth" ? @X #4->0
+: 
+"<daeverigujmie>"
+	"daevere" N Sem/Obj Pl Com @ADVL> #5->6
+	"daeverh" N Sem/Dummytag Pl Com @ADVL> #5->6
+: 
+"<åtna>"
+	"utnedh" <mv> V TV Ind Prs Sg3 @FMV #6->0
+: 
+"<mejtie>"
+	"mejtie" CS @CVP #7->10
+: 
+"<maanagïerth>"
+	"maanagïerte" N Sem/Build_Org Pl Nom @SUBJ> #8->10
+: 
+"<Nöörjesne>"
+	"Nöörje" N Prop Sem/Plc Sg Ine @ADVL> #9->11
+: 
+"<maehtieh>"
+	"maehtedh" <aux> V TV Ind Prs Pl3 @FS-<ADVL #10->6
+: 
+"<löönedh>"
+	"löönedh" <mv> V TV Inf @FS-IMV #11->10
+"<.>"
+	"." CLB #12->6
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kofferth>"
+	"Kofferth" ? @X #1->0
+: 
+"<edtjieh>"
+	"edtjedh" <aux> V IV Ind Prs Pl3 @FAUX #2->0
+: 
+"<viehkine>"
+	"viehkie" N Sem/Hum Ess @SPRED> #3->4
+	"viehkie" N Sem/Hum Pl Ine @ADVL> #3->4
+	"viehkie" N Sem/Hum Sg Com @ADVL> #3->4
+: 
+"<årrodh>"
+	"årrodh" <mv> V IV Inf @IMV #4->2
+: 
+"<gosse>"
+	"gosse" CS @CVP #5->6
+: 
+"<edtja>"
+	"edtjedh" <aux> V IV Ind Prs Sg3 @FS-<ADVL #6->4
+: 
+"<saemien>"
+	"saemien" A Attr @>N #7->8
+: 
+"<kultuvren>"
+	"kultuvre" N Sem/Domain Sg Gen @>P #8->9
+: 
+"<bïjre>"
+	"bïjre" Po @ADVL> #9->10
+: 
+"<soptsestidh>"
+	"soptsestidh" <mv> V TV Inf @FS-IMV #10->6
+: 
+"<maanide>"
+	"maana" N Sem/Hum Pl Acc @<OBJ #11->10
+	"maana" N Sem/Hum Pl Ill @<ADVL #11->10
+: 
+"<maanagïertesne>"
+	"maanagiertie" N Sem/Dummytag Sg Ine @<ADVL-ine #12->10
+	"maanagïerte" N Sem/Build_Org Sg Ine @<ADVL-ine #12->10
+"<.>"
+	"." CLB #13->2
+: 
+"<Uvtemes>"
+	"uvte" Ex/A Der/Superl A Attr @>N #1->3
+: 
+"<nöörjen>"
+	"nöörjen" A Attr @>N #2->3
+: 
+"<maanagïerth>"
+	"maanagïerte" N Sem/Build_Org Pl Nom @SUBJ> #3->5
+: 
+"<Nöörjesne>"
+	"Nöörje" N Prop Sem/Plc Sg Ine @ADVL> #4->7
+: 
+"<edtjieh>"
+	"edtjedh" <aux> V IV Ind Prs Pl3 @FAUX #5->0
+: 
+"<dejtie>"
+	"dah" Pron Pers Pl3 Acc @OBJ> #6->7
+: 
+"<löönedh>"
+	"löönedh" <mv> V TV Inf @IMV #7->5
+"<.>"
+	"." CLB #8->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Namhtah>"
+	"namhtah" Adv @-FADVL> #1->3
+: 
+"<koffertidie>"
+	"koffertidie" ? @X #2->0
+: 
+"<löönedh>"
+	"löönedh" V TV Inf @A< #3->3
+"<,>"
+	"," CLB #4->5
+: 
+"<men>"
+	"men" CC @CVP #5->9
+: 
+"<löönije>"
+	"löönedh" Ex/V TV Der/NomAg N Sg Nom @SUBJ> #6->9
+: 
+"<foeresjimmien>"
+	"foeresjidh" Ex/V TV Der/NomAct N Sg Gen @>P #7->8
+: 
+"<åvteste>"
+	"åvteste" Po @ADVL> #8->9
+: 
+"<maaksa>"
+	"maeksedh" <mv> V TV Ind Prs Sg3 @FMV #9->0
+: 
+"<gosse>"
+	"gosse" CS @CVP #10->13
+: 
+"<koffertem>"
+	"koffertem" ? @X #11->0
+: 
+"<bååstede>"
+	"bååstede" Adv @ADVL> #12->13
+: 
+"<seedtie>"
+	"seedtedh" <mv> V TV Ind Prs Sg3 @FS-<ADVL #13->9
+: 
+"<Saemiedægkan>"
+	"Saemiedigkie" N Prop Sem/Org Sg Ill @<ADVL #14->13
+"<.>"
+	"." CLB #15->9
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Mijjieh>"
+	"mijjieh" Pron Pers Pl1 Nom @SUBJ> #1->4
+: 
+"<laavenjostoem>"
+	"laavenjostoe" N Sem/Dummytag Sg Acc @OBJ> #2->4
+: 
+"<tjïeltigujmie>"
+	"tjïelte" N Sem/Org Pl Com @ADVL> #3->4
+: 
+"<sijhtebe>"
+	"sïjhtedh" <mv> V TV Ind Prs Pl1 @FMV #4->0
+: 
+"<gosse>"
+	"gosse" CS @CVP #5->8
+: 
+"<daejtie>"
+	"daate" Pron Dem Pl Acc @OBJ> #6->8
+: 
+"<koffertidie>"
+	"koffertidie" ? @X #7->0
+: 
+"<löönedibie>"
+	"löönedidh" <mv> V TV Ind Prs Pl1 @FS-<ADVL #8->4
+"<,>"
+	"," CLB #9->5
+: 
+"<dan>"
+	"dïhte" Pron Pers Sg3 Gen @>P #10->11
+: 
+"<åvteste>"
+	"åvteste" Po @<ADVL #11->8
+: 
+"<tjïelti>"
+	"tjïelte" N Sem/Org Pl Gen <hab> @ADVL> #12->13
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #13->4
+: 
+"<lïhkebe>"
+	"lïhkes" Ex/A Der/Comp A Attr @>N #14->15
+: 
+"<gaskese>"
+	"gaske" N Sem/Feat-measr_Plc Sg Ill @<ADVL #15->13
+	"gaskese" N Sem/Org Sg Nom <ext> @<SUBJ #15->13
+: 
+"<maanagïertigujmie>"
+	"maanagïerte" N Sem/Build_Org Pl Com @<ADVL #16->13
+"<.>"
+	"." CLB #17->4
+: 
+"<Laavenjostoe>"
+	"laavenjostedh" <mv> V IV Ind Prs Sg3 @FMV #1->0
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #2->1
+: 
+"<numhtie>"
+	"numhtie" Adv @<ADVL #3->2
+"<,>"
+	"," CLB #4->3
+: 
+"<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @<SPRED #5->2
+: 
+"<kofferten>"
+	"kofferten" ? @X #6->0
+: 
+"<don>"
+	"dohte" Pron Dem Sg Ill Attr @>N #7->8
+: 
+"<almetjasse>"
+	"almetje" N Sem/Hum Sg Ill @<ADVL #8->2
+: 
+"<tjïeltesne>"
+	"tjïelte" N Sem/Org Sg Ine @<ADVL-ine #9->2
+: 
+"<mij>"
+	"mij" Pron Rel Sg Nom @SUBJ> #10->12
+: 
+"<dïedtem>"
+	"dïedte" N Sem/Rule Sg Acc @OBJ> #11->12
+: 
+"<åtna>"
+	"utnedh" <mv> V TV Ind Prs Sg3 @FS-N< #12->9
+: 
+"<maanagïerteaamhtesi>"
+	"aamhtese" N Sem/Semcon Pl Gen @>P #13->14
+		"gïerte" N Sem/Plc Cmp/SgNom Cmp #13->14
+			"maana" N Sem/Hum Cmp/SgNom Cmp #13->14
+: 
+"<åvtese>"
+	"åvtese" Po @<ADVL #14->12
+"<.>"
+	"." CLB #15->1
+: 
+"<Tjïelte>"
+	"tjïelte" N Sem/Org Sg Nom @SUBJ> #1->4
+: 
+"<kofferten>"
+	"kofferten" ? @X #2->0
+: 
+"<bïjre>"
+	"bïjre" Adv @ADVL> #3->4
+: 
+"<beavna>"
+	"bievnedh" <mv> V TV Ind Prs Sg3 @FMV #4->0
+: 
+"<tjïelten>"
+	"tjïelte" N Sem/Org Sg Gen @>N #5->6
+: 
+"<maanagïertide>"
+	"maanagiertie" N Sem/Dummytag Pl Acc @<OBJ #6->4
+	"maanagiertie" N Sem/Dummytag Pl Ill @<ADVL #6->4
+	"maanagïerte" N Sem/Build_Org Pl Acc @<OBJ #6->4
+	"maanagïerte" N Sem/Build_Org Pl Ill @<ADVL #6->4
+"<,>"
+	"," CLB #7->8
+: 
+"<jïh>"
+	"jïh" CC @CNP #8->6
+: 
+"<dam>"
+	"dïhte" Pron Dem Sg Acc @>N #9->10
+	"dïhte" Pron Pers Sg3 Acc @>N #9->10
+: 
+"<maanagïertide>"
+	"maanagiertie" N Sem/Dummytag Pl Acc @<OBJ #10->6
+	"maanagïerte" N Sem/Build_Org Pl Acc @<OBJ #10->6
+: 
+"<löönede>"
+	"löönedh" <mv> V TV Ind Prs Pl2 @FMV #11->4
+	"löönedidh" <mv> V TV Ind Prs Sg3 @FMV #11->4
+"<.>"
+	"." CLB #12->4
+: 
+"<Tjïelte>"
+	"tjïelte" N Sem/Org Sg Nom @SUBJ> #1->4
+: 
+"<koffertem>"
+	"koffertem" ? @X #2->0
+: 
+"<bååstede>"
+	"bååstede" Adv @ADVL> #3->4
+: 
+"<seedtie>"
+	"seedtedh" <mv> V TV Ind Prs Sg3 @FMV #4->0
+: 
+"<Saemiedægkan>"
+	"Saemiedigkie" N Prop Sem/Org Sg Ill @<ADVL #5->4
+: 
+"<mænngan>"
+	"minngie" N Sem/Dummytag Sg Ill @<ADVL #6->4
+	"mænngan" Adv @<ADVL #6->4
+	"mænngan" Pr @<ADVL #6->4
+: 
+"<gaajhkh>"
+	"gaajhke" Pron Dem Pl Nom @>N #7->8
+: 
+"<maanagïerth>"
+	"maanagïerte" N Sem/Build_Org Pl Nom @<OBJ #8->4
+: 
+"<dej>"
+	"dah" Pron Pers Pl3 Gen @>N #9->10
+: 
+"<tjïeltesne>"
+	"tjïelte" N Sem/Org Sg Ine @<ADVL-ine #10->4
+: 
+"<mah>"
+	"mah" CS @CVP #11->12
+: 
+"<leah>"
+	"lea" <aux> V IV Ind Prs Pl3 @FS-<ADVL #12->4
+: 
+"<sïjhteme>"
+	"sïjhtedh" <mv> V TV PrfPrc @FS-IMV #13->12
+: 
+"<koffertem>"
+	"koffertem" ? @X #14->0
+: 
+"<löönedh>"
+	"löönedh" <mv> V TV Inf @FS-IMV #15->13
+"<,>"
+	"," CLB #16->11
+: 
+"<leah>"
+	"lea" <aux> V IV Ind Prs Pl3 @FAUX #17->4
+: 
+"<nuepiem>"
+	"nuepie" N Sem/State Sg Acc @OBJ> #18->19
+: 
+"<åådtjeme>"
+	"åadtjodh" <mv> V TV PrfPrc @IMV #19->17
+: 
+"<dam>"
+	"dïhte" Pron Pers Sg3 Acc @OBJ> #20->21
+: 
+"<darjodh>"
+	"darjodh" <mv> V TV Inf @IMV #21->19
+"<.>"
+	"." CLB #22->4
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Juktie>"
+	"juktie" Adv @ADVL> #1->6
+	"juktie" N Sem/Dummytag Sg Nom @SUBJ> #1->6
+: 
+"<dan>"
+	"dan" Adv @ADVL> #2->6
+	"dïhte" Pron Dem Sg Ill Attr @>N #2->6
+: 
+"<jeenjesh>"
+	"jeenjesh" Pron Coll Pl Nom @SUBJ> #3->6
+: 
+"<kofferten>"
+	"kofferten" ? @X #4->0
+: 
+"<mietie>"
+	"mietie" Po @ADVL> #5->6
+: 
+"<gihtjieh>"
+	"gihtjedh" <mv> V TV Ind Prs Pl3 @FMV #6->0
+"<,>"
+	"," CLB #7->6
+: 
+"<fïerhte>"
+	"fïerhte" Pron Indef Sg Nom @>N #8->9
+: 
+"<maanagïerte>"
+	"maanagïerte" N Sem/Build_Org Sg Nom @SUBJ> #9->10
+: 
+"<maahta>"
+	"maehtedh" <aux> V TV Ind Prs Sg3 @FAUX #10->6
+: 
+"<koffertem>"
+	"koffertem" ? @X #11->0
+: 
+"<löönedh>"
+	"löönedh" <mv> V TV Inf @IMV #12->10
+: 
+"<aktem>"
+	"akte" Num Sg Acc @>N #13->14
+: 
+"<våhkoem>"
+	"våhkoe" N Sem/Measr_Time Sg Acc @<ADVL #14->12
+"<.>"
+	"." CLB #15->6
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Kofferti>"
+	"Kofferti" ? @X #1->0
+: 
+"<sisvege>"
+	"sisvege" N Sem/Semcon Sg Nom @SUBJ> #2->4
+: 
+"<(>"
+	"(" PUNCT LEFT #3->4
+"<ij>"
+	"ij" <aux> V IV Neg Ind Prs Sg3 @FAUX #4->0
+: 
+"<leah>"
+	"lea" <mv> V IV ConNeg @IMV #5->4
+: 
+"<seamma>"
+	"seamma" A Attr @>N #6->7
+: 
+"<sisvege>"
+	"sisvege" N Sem/Semcon Sg Nom @<SUBJ #7->4
+: 
+"<gaajhkine>"
+	"gaajhke" Pron Dem Pl Ine @<ADVL-ine #8->5
+	"gaajhke" Pron Dem Sg Com @<ADVL-ine #8->5
+: 
+"<koffertinie>"
+	"koffertinie" ? @X #9->0
+"<)>"
+	")" PUNCT RIGHT #10->9
+"<:>"
+	":" CLB #11->4
+:  
+"<¶>"
+	"¶" CLB #12->4
+:\n
+"<Beelhte>"
+	"beelhte" N Sem/Clth Sg Nom @HNOUN #1->0
+: 
+"<nejpine>"
+	"nejpie" N Sem/Tool Ess @<SPRED #2->1
+	"nejpie" N Sem/Tool Pl Ine @<ADVL #2->1
+	"nejpie" N Sem/Tool Sg Com @<ADVL #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Soehpenje>"
+	"soehpenje" N Sem/Tool-catch Sg Nom @HNOUN #1->0
+: 
+"<reagkine>"
+	"reagka" N Sem/Geom_Obj Ess @<SPRED #2->1
+	"reagka" N Sem/Geom_Obj Pl Ine @<ADVL #2->1
+	"reagka" N Sem/Geom_Obj Sg Com @<ADVL #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Guksie>"
+	"guksie" N Sem/Ctain Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Saemien>"
+	"saemien" A Attr @>N #1->2
+: 
+"<saevege>"
+	"saevege" N Sem/Obj-clo Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Nïejtedåahka>"
+	"dåahka" N Sem/Hum Sg Nom @HNOUN #1->0
+		"nïejte" N Sem/Hum Cmp/SgNom Cmp #1->0
+: 
+"<saemien>"
+	"saemien" A Attr @>N #2->3
+: 
+"<vaarjoejgujmie>"
+	"vaarjoe" N Sem/Clth Pl Com @<ADVL #3->1
+	"vaarjoeh" N Sem/Dummytag Pl Com @<ADVL #3->1
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Baerniedåahka>"
+	"dåahka" N Sem/Hum Sg Nom @HNOUN #1->0
+		"baernie" N Sem/Hum Cmp/SgNom Cmp #1->0
+: 
+"<saemien>"
+	"saemien" A Attr @>N #2->3
+: 
+"<vaarjoejgujmie>"
+	"vaarjoe" N Sem/Clth Pl Com @<ADVL #3->1
+	"vaarjoeh" N Sem/Dummytag Pl Com @<ADVL #3->1
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Baerniegapta>"
+	"gapta" N Sem/Dummytag Sg Nom @HNOUN #1->0
+		"baernie" N Sem/Hum Cmp/SgNom Cmp #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<Karasjohka>"
+	"Karasjohka" ? @X #3->0
+"<,>"
+	"," CLB #4->3
+: 
+"<str>"
+	"str" ? @X #5->0
+"<.>"
+	"." CLB #6->1
+: 
+"<2-3>"
+	"2-3" Num Arab Sem/Time-clock Span Sg Nom @>N #1->2
+: 
+"<jaepieh>"
+	"jaepie" N Sem/Time Pl Nom @<ADVL #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Nïejtegapta>"
+	"gapta" N Sem/Dummytag Sg Nom @HNOUN #1->0
+		"nïejte" N Sem/Hum Cmp/SgNom Cmp #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<Karasjohka>"
+	"Karasjohka" ? @X #3->0
+"<,>"
+	"," CLB #4->3
+: 
+"<str>"
+	"str" ? @X #5->0
+"<.>"
+	"." CLB #6->1
+: 
+"<2-3>"
+	"2-3" Num Arab Sem/Time-clock Span Sg Nom @>N #1->2
+: 
+"<jaepieh>"
+	"jaepie" N Sem/Time Pl Nom @<ADVL #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<Bïevnesegærjetje>"
+	"gærja" Ex/N Sem/Txt Der/Dimin N Sg Nom @HNOUN #1->0
+		"bïevnese" N Sem/Prod-ling Cmp/SgNom Cmp #1->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #2->3
+: 
+"<saemiej>"
+	"saemie" N Sem/Hum_Lang Pl Gen @>P #3->4
+: 
+"<bïjre>"
+	"bïjre" Po @ADVL #4->0
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Bïevnesegærjetje>"
+	"gærja" Ex/N Sem/Txt Der/Dimin N Sg Nom @HNOUN #1->0
+		"bïevnese" N Sem/Prod-ling Cmp/SgNom Cmp #1->0
+: 
+"<–>"
+	"–" PUNCT MIDDLE #2->3
+: 
+"<saemien>"
+	"saemien" A Attr @>N #3->4
+: 
+"<gaptah>"
+	"gapta" N Sem/Dummytag Pl Nom @HNOUN #4->1
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<CD>"
+	"CD" N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #1->2
+	"CD" N Sem/Obj-el ACR Sg Nom @HNOUN #1->2
+	"CD" Num Rom Sg Nom @>N #1->2
+: 
+"<laavlomigujmie>"
+	"laavlome" N Sem/Dummytag Pl Com @<ADVL #2->2
+: 
+"<¶>"
+	"¶" CLB #3->3
+:\n
+"<CD>"
+	"CD" N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #1->2
+	"CD" N Sem/Obj-el ACR Sg Nom @HNOUN #1->2
+	"CD" Num Rom Sg Nom @>N #1->2
+: 
+"<joejki>"
+	"joejke" N Sem/Dummytag Pl Gen @>N #2->4
+"</>"
+	"/" PUNCT MIDDLE #3->4
+"<vueliejgujmie>"
+	"vuelie" N Sem/Prod-audio Pl Com @X #4->0
+: 
+"<¶>"
+	"¶" CLB #5->5
+:\n
+"<PC-spïele>"
+	"spïele" N Sem/Dummytag Sg Nom @HNOUN #1->0
+		"PC" N Prop Sem/Org ACR Dyn Cmp/Hyph Cmp #1->0
+	"spïele" N Sem/Dummytag Sg Nom @HNOUN #1->0
+		"PC" N Prop Sem/Org ACR Dyn Err/Orth Cmp/Hyph Cmp #1->0
+	"spïele" N Sem/Dummytag Sg Nom @HNOUN #1->0
+		"PC" N Sem/Tool-it ACR Cmp/Hyph Cmp #1->0
+	"spïele" N Sem/Dummytag Sg Nom @HNOUN #1->0
+		"PC" N Sem/Tool-it ACR Err/Orth Cmp/Hyph Cmp #1->0
+: 
+"<tjoejegærjine>"
+	"gærja" N Sem/Txt Ess @<SPRED #2->1
+		"tjoeje" N Sem/Prod-audio Cmp/SgNom Cmp #2->1
+	"gærja" N Sem/Txt Pl Ine @<ADVL #2->1
+		"tjoeje" N Sem/Prod-audio Cmp/SgNom Cmp #2->1
+	"gærja" N Sem/Txt Sg Com @<ADVL #2->1
+		"tjoeje" N Sem/Prod-audio Cmp/SgNom Cmp #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Mini-skovterh>"
+	"skovtere" N Sem/Veh Pl Nom @HNOUN #1->0
+		"Mini" N Prop Sem/Obj Cmp/SgNom Cmp/Hyph Cmp #1->0
+: 
+"<gieriehtsinie>"
+	"gierehtse" N Sem/Veh Ess @ADVL> #2->5
+	"gierehtse" N Sem/Veh Pl Ine @ADVL> #2->5
+	"gierehtse" N Sem/Veh Sg Com @ADVL> #2->5
+"<,>"
+	"," CLB #3->2
+: 
+"<moereste>"
+	"moere" N Sem/Mat_Plant Sg Ela @ADVL> #4->5
+: 
+"<dorjesovveme>"
+	"dorjesovvedh" <mv> V IV PrfPrc @IMV #5->0
+: 
+"<¶>"
+	"¶" CLB #6->1
+:\n
+"<Prïhtjegevoesse>"
+	"voesse" N Sem/Ctain-clth Sg Nom @HNOUN #1->0
+		"prïhtjege" N Sem/Drink_Plant Cmp/SgNom Cmp #1->0
+	"voesse" N Sem/Ctain-clth Sg Nom @HNOUN #1->0
+		"prïhtjegh" N Sem/Drink_Plant Cmp/SgNom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Dåahkaj>"
+	"dåahka" N Sem/Hum Pl Gen <hab> @ADVL> #1->2
+: 
+"<leah>"
+	"lea" <mv> V IV Ind Prs Pl3 @FMV #2->0
+: 
+"<gaptah>"
+	"gapta" N Sem/Dummytag Pl Nom <ext> @<SUBJ #3->2
+: 
+"<Guovdageaidnuste>"
+	"Guovdageaidnu" N Prop Sem/Plc Sg Ela @<ADVL #4->2
+"<,>"
+	"," CLB #5->4
+: 
+"<Lyngenistie>"
+	"Lyngen" N Prop Sem/Plc Sg Ela @<ADVL #6->2
+: 
+"<jïh>"
+	"jïh" CC @CNP #7->6
+: 
+"<julevsaemien>"
+	"julevsaemien" A Attr @>N #8->9
+: 
+"<dajveste>"
+	"dajve" N Sem/Plc Sg Ela @<ADVL #9->2
+"<,>"
+	"," CLB #10->11
+: 
+"<men>"
+	"men" CC @CVP #11->2
+: 
+"<gaptah>"
+	"gapta" N Sem/Dummytag Pl Nom @OBJ> #12->14
+: 
+"<aaj>"
+	"aaj" Adv @ADVL> #13->14
+: 
+"<darjoeminie>"
+	"darjodh" <mv> V TV Ger @IMV #14->2
+: 
+"<jieniebistie>"
+	"jienebe" Pron Indef Sg Ela @<ADVL #15->14
+: 
+"<dajvijste>"
+	"dajve" N Sem/Plc Pl Ela @<ADVL #16->14
+"<,>"
+	"," CLB #17->16
+: 
+"<gaskem jeatjah>"
+	"gaskem jeatjah" Adv @<ADVL #18->14
+: 
+"<Alta>"
+	"Alta" N Prop Sem/Plc Sg Nom @X #19->0
+"<,>"
+	"," CLB #20->19
+: 
+"<Deatnu>"
+	"Deatnu" ? @X #21->0
+"<,>"
+	"," CLB #22->21
+: 
+"<Unjárga>"
+	"Unjárga" ? @X #23->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #24->23
+: 
+"<åarjelsaemien>"
+	"åarjelsaemien" A Attr @>N #25->26
+: 
+"<dajve>"
+	"dajve" N Sem/Plc Sg Nom @X #26->0
+"<.>"
+	"." CLB #27->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

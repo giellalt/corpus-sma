@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title>Dåvvome - saemien rïektestjaelemedïrrege</title><genre code="facta"/><author><unknown/></author><year>2013</year><wordcount>65</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://www.unginordland.no/infonuorra/aarjelsaemien-giele/davvome-saemien-riektestjaelemedirrege.aspx</origFileName><parallel_text xml:lang="sme" location="divvun-sami-callindarkkistanreaiddut-ns.aspx.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Dåvvome>"
+	"dåvvome" N Sem/Dummytag Sg Nom @HNOUN #1->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #2->3
+: 
+"<saemien>"
+	"saemien" A Attr @>N #3->4
+: 
+"<rïektestjaelemedïrrege>"
+	"tjaelemedïrrege" N Sem/Dummytag Sg Nom @HNOUN #4->1
+		"rïektes" A Cmp/Attr Cmp #4->1
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Dåvvome>"
+	"dåvvome" N Sem/Dummytag Sg Nom @HNOUN #1->0
+: 
+"<->"
+	"-" PUNCT MIDDLE #2->3
+: 
+"<saemien>"
+	"saemien" A Attr @>N #3->4
+: 
+"<rïektestjaelemedïrrege>"
+	"tjaelemedïrrege" N Sem/Dummytag Sg Nom @HNOUN #4->1
+		"rïektes" A Cmp/Attr Cmp #4->1
+: 
+"<¶>"
+	"¶" CLB #5->1
+:\n
+"<Dåvvome-prosjekte>"
+	"prosjekte" N Sem/Act Sg Nom @SUBJ> #1->2
+		"dåvvome" N Sem/Dummytag Cmp/SgNom Cmp/Hyph Cmp #1->2
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<Saemiedigkien>"
+	"Saemiedigkie" N Prop Sem/Org Sg Gen @>P #3->4
+: 
+"<vuelelen>"
+	"vuelelen" Po @ADVL> #4->6
+: 
+"<jïh>"
+	"jïh" CC @CNP #5->4
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #6->2
+: 
+"<rïektestjaelemeprovgraammh>"
+	"rïektestjaelemeprovgraammh" ? @X #7->0
+: 
+"<noerhte->"
+	"noerhte" N Sem/Route Cmp/SgNom Cmp/SplitR Cmp @>N #8->9
+: 
+"<julev->"
+	"julev" N Sem/Dummytag Cmp/SgNom Cmp/SplitR Cmp @>N #9->12
+: 
+"<jïh>"
+	"jïh" CC @CNP #10->9
+: 
+"<åarjelsaemien>"
+	"åarjelsaemien" A Attr @>N #11->9
+: 
+"<gïelide>"
+	"gielie" N Sem/Dummytag Pl Ill @<ADVL #12->6
+	"gïele" N Sem/Lang_Tool Pl Ill @<ADVL #12->6
+"<.>"
+	"." CLB #13->2
+: 
+"<Dïrreth>"
+	"Dïrreth" ? @X #1->0
+: 
+"<daelie>"
+	"daelie" Adv @ADVL> #2->3
+: 
+"<juhtieminie>"
+	"juhtedh" <mv> V IV Ger @IMV #3->0
+: 
+"<Linux:sne>"
+	"Linux:sne" ? @X #4->0
+"<,>"
+	"," CLB #5->4
+: 
+"<MacOS>"
+	"MacOS" ? @X #6->0
+: 
+"<X:sne>"
+	"X" N Sem/Sign ABBR Gram/TAbbr Sg Ine @<ADVL-ine #7->3
+	"X" Num Rom Sg Ine @<ADVL-ine #7->3
+	"x" N Sem/Sign ABBR Gram/TAbbr Sg Ine @<ADVL-ine #7->3
+	"xalphabet" N Sem/Sign ABBR Gram/TAbbr Sg Ine @<ADVL-ine #7->3
+: 
+"<jïh>"
+	"jïh" CC @CNP #8->7
+: 
+"<Windows:sne>"
+	"Windows:sne" ? @X #9->0
+: 
+"<daej>"
+	"daate" Pron Dem Pl Com Attr @<ADVL #10->3
+	"daate" Pron Dem Pl Gen @>A #10->3
+: 
+"<sïejhmemes>"
+	"sïejhme" Ex/A Der/Superl A Sg Nom @X #11->0
+: 
+"<kontovreprovgraammi>"
+	"kontovreprovgraammi" ? @X #12->0
+: 
+"<sisnie>"
+	"sisnie" Po @<ADVL #13->3
+"<.>"
+	"." CLB #14->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Rïektestjaelemedïrregh>"
+	"tjaelemedïrrege" N Sem/Dummytag Pl Nom @SPRED> #1->0
+		"rïektes" A Cmp/Attr Cmp #1->0
+: 
+"<mah>"
+	"mij" Pron Rel Pl Nom @SUBJ> #2->3
+: 
+"<leah>"
+	"lea" <mv> V IV Ind Prs Pl3 @FS-N< #3->1
+: 
+"<rïejries>"
+	"riejries" A Sg Nom @<SPRED #4->3
+: 
+"<gåerede>"
+	"gåaradidh" Err/Orth <mv> V IV Ind Prs Sg3 @FMV #5->0
+: 
+"<viedtjedh>"
+	"vïedtjedh" <mv> V TV Inf @IMV #6->5
+: 
+"<jïh>"
+	"jïh" CC @CNP #7->6
+: 
+"<sijjiedehtedh>"
+	"sijjiedehtedh" <mv> V TV Inf @IMV #8->6
+: 
+"<sov>"
+	"satne" Pron Logo Sg3 Gen @>N #9->10
+: 
+"<daatovrese>"
+	"daatovre" N Sem/Dummytag Sg Ill @<ADVL #10->8
+"<.>"
+	"." CLB #11->1
+: 
+"<Daate>"
+	"daate" Pron Dem Sg Nom @SUBJ> #1->2
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<maaksohts>"
+	"maaksoe" Ex/N Sem/Money Der/Car A Sg Nom @<SPRED #3->2
+"<.>"
+	"." CLB #4->2
+: 
+"<Juktie>"
+	"juktie" Adv @ADVL> #1->3
+	"juktie" N Sem/Dummytag Sg Nom @SUBJ> #1->3
+: 
+"<dïrregem>"
+	"dïrrege" N Sem/Tool Sg Acc @OBJ> #2->3
+: 
+"<sijjiedehtedh>"
+	"sijjiedehtedh" <mv> V TV Inf @IMV #3->0
+: 
+"<die>"
+	"die" Adv @<ADVL #4->3
+: 
+"<barre>"
+	"barre" Adv @ADVL> #5->6
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #6->0
+: 
+"<sijjiedehtemefijlem>"
+	"fijle" N Sem/Txt Sg Acc @OBJ> #7->9
+		"sijjiedehtedh" Ex/V TV Der/NomAct N Cmp/SgNom Cmp #7->9
+: 
+"<gaskeviermeste>"
+	"gaskeviermie" N Sem/Plc-abstr Sg Ela @ADVL> #8->9
+: 
+"<viedtjedh>"
+	"vïedtjedh" <mv> V TV Inf @IMV #9->6
+"<,>"
+	"," CLB #10->9
+: 
+"<www.divvun.no>"
+	"www.divvun.no" URL #11->11
+: 
+"<Dïrregh>"
+	"dïrrege" N Sem/Tool Pl Nom @SUBJ> #12->16
+: 
+"<hov>"
+	"hov" Pcle @PCLE #13->12
+: 
+"<saemma>"
+	"seamma" Err/Orth Adv @ADVL> #14->16
+: 
+"<mietie>"
+	"mietie" Po @<ADVL #15->9
+: 
+"<juhtieh>"
+	"juhtedh" <mv> V IV Ind Prs Pl3 @FMV #16->6
+: 
+"<goh>"
+	"goh" Adv @<ADVL #17->16
+	"goh" Pcle @PCLE #17->16
+: 
+"<samma-laaketjh>"
+	"samma-laaketjh" ? @X #18->0
+: 
+"<dïrregh>"
+	"dïrrege" N Sem/Tool Pl Nom @<SUBJ #19->16
+: 
+"<jeatjaj>"
+	"jeatjaj" ? @X #20->0
+: 
+"<gïelide>"
+	"gielie" N Sem/Dummytag Pl Ill @<ADVL #21->16
+	"gïele" N Sem/Lang_Tool Pl Ill @<ADVL #21->16
+"<.>"
+	"." CLB #22->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

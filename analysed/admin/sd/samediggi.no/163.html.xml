@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>19</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/story/all/163</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Saemien>"
+	"saemien" A Attr @>N #1->2
+: 
+"<sisvege>"
+	"sisvege" N Sem/Semcon Sg Nom @HNOUN #2->0
+: 
+"<maanagïertelohkehtæjjaööhpehtimmesne>"
+	"ööhpehtimmie" N Sem/Edu Sg Ine @<ADVL #3->2
+		"lohkehtæjja" N Sem/Hum Cmp/SgNom Cmp #3->2
+			"gïerte" N Sem/Plc Cmp/SgNom Cmp #3->2
+				"maana" N Sem/Hum Cmp/SgNom Cmp #3->2
+	"lohkehtæjjaööhpehtimmie" N Sem/Edu Sg Ine @<ADVL #3->2
+		"gïerte" N Sem/Plc Cmp/SgNom Cmp #3->2
+			"maana" N Sem/Hum Cmp/SgNom Cmp #3->2
+	"ööhpehtimmie" N Sem/Edu Sg Ine @<ADVL #3->2
+		"lohkehtæjja" N Sem/Hum Cmp/SgNom Cmp #3->2
+			"maanagïerte" N Sem/Build_Org Cmp/SgNom Cmp #3->2
+: 
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<Gaajhkesh>"
+	"gaajhkesh" Pron Coll Pl Nom @SUBJ> #1->7
+: 
+"<mah>"
+	"mah" CS @CVP #2->6
+	"mah" Pcle @PCLE #2->6
+	"mij" Pron Rel Pl Nom @SUBJ> #2->6
+: 
+"<dam>"
+	"dïhte" Pron Dem Sg Acc @>N #3->5
+: 
+"<orre>"
+	"orre" A Attr @>N #4->5
+: 
+"<maanagïertelohkehtæjjaööhpehtimmiem>"
+	"ööhpehtimmie" N Sem/Edu Sg Acc @OBJ> #5->7
+		"lohkehtæjja" N Sem/Hum Cmp/SgNom Cmp #5->7
+			"gïerte" N Sem/Plc Cmp/SgNom Cmp #5->7
+				"maana" N Sem/Hum Cmp/SgNom Cmp #5->7
+	"lohkehtæjjaööhpehtimmie" N Sem/Edu Sg Acc @OBJ> #5->7
+		"gïerte" N Sem/Plc Cmp/SgNom Cmp #5->7
+			"maana" N Sem/Hum Cmp/SgNom Cmp #5->7
+	"ööhpehtimmie" N Sem/Edu Sg Acc @OBJ> #5->7
+		"lohkehtæjja" N Sem/Hum Cmp/SgNom Cmp #5->7
+			"maanagïerte" N Sem/Build_Org Cmp/SgNom Cmp #5->7
+: 
+"<aelkieh>"
+	"aelkedh" <aux> V IV Ind Prs Pl3 @FS-ADVL> #6->7
+: 
+"<edtjieh>"
+	"edtjedh" <mv> V IV Ind Prs Pl3 @FMV #7->0
+: 
+"<s>"
+	"s" N Sem/Sign ABBR Gram/TAbbr Sg Acc @<OBJ #8->7
+	"s" N Sem/Sign ABBR Gram/TAbbr Sg Gen @<ADVL #8->7
+	"s" N Sem/Sign ABBR Gram/TAbbr Sg Nom @<SUBJ #8->7
+"<.>"
+	"." CLB #9->7
+"<..>"
+	".." CLB #1->1
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Lohkh>"
+	"lohkedh" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<jienebh>"
+	"jienebh" Adv Gram/Comp @<ADVL #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+
+]]></dependency></body></document>

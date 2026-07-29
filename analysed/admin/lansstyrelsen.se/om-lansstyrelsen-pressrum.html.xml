@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>41</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.lansstyrelsen.se/dalarna/SMA/om-lansstyrelsen/pressrum/Pages/default.aspx</origFileName><parallel_text xml:lang="eng" location="om-lansstyrelsen-pressrum.html"/><parallel_text xml:lang="swe" location="om-lansstyrelsen-pressrum.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Pressetjïehtjele>"
+	"tjiehtjele" N Sem/Plc Sg Nom @HNOUN #1->0
+		"presse" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+	"tjïehtjele" N Sem/Buildpart Sg Nom @HNOUN #1->0
+		"presse" N Sem/Dummytag Cmp/SgNom Cmp #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Lïeneståvroe>"
+	"leeneståvroe" N Err/Orth Sem/Dummytag Sg Nom @SUBJ> #1->3
+: 
+"<aktijveles>"
+	"aktijveles" ? @X #2->0
+: 
+"<barka>"
+	"barkedh" <mv> V TV Ind Prs Sg3 @FMV #3->0
+	"berkedh" <mv> V TV Ind Prs Sg3 @FMV #3->0
+: 
+"<vihkeles>"
+	"vihkeles" A Attr @>N #4->5
+: 
+"<sïebredahkebïevnesh>"
+	"bïevnese" N Sem/Prod-ling Pl Nom @<OBJ #5->3
+		"seabradahke" N Sem/Org Cmp/SgNom Cmp #5->3
+	"bïevnese" N Sem/Prod-ling Pl Nom @<OBJ #5->3
+		"seabradahke" N Sem/Org Err/Orth Cmp/SgNom Cmp #5->3
+: 
+"<årrojidie>"
+	"årroje" N Sem/Hum Pl Acc Err/Orth @<OBJ #6->3
+: 
+"<jïh>"
+	"jïh" CC @CNP #7->6
+: 
+"<mediejidie>"
+	"mediejidie" ? @X #8->0
+: 
+"<bievnedh>"
+	"bievnedh" <mv> V TV Inf @IMV #9->3
+"<.>"
+	"." CLB #10->3
+: 
+"<Webbesijjie>"
+	"webbesijjie" N Sem/Dummytag Sg Nom @SUBJ> #1->5
+: 
+"<jïh>"
+	"jïh" CC @CNP #2->1
+: 
+"<mijjen>"
+	"mijjieh" Pron Pers Pl1 Gen @>N #3->4
+: 
+"<pressebïevnesh>"
+	"pressebïevnese" N Sem/Dummytag Pl Nom @SUBJ> #4->1
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #5->0
+: 
+"<vuekie>"
+	"vuekie" N Sem/Feat Sg Nom <ext> @<SUBJ #6->5
+: 
+"<mij>"
+	"mij" Pron Rel Sg Nom @SUBJ> #7->14
+: 
+"<dutnjien>"
+	"datne" Pron Pers Sg2 Ill @ADVL> #8->14
+: 
+"<servisem>"
+	"servisem" ? @X #9->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #10->9
+: 
+"<vuajnoem>"
+	"vuajnoe" N Sem/Prod-cogn Sg Acc @OBJ> #11->14
+: 
+"<mijjen>"
+	"mijjieh" Pron Pers Pl1 Gen @>N #12->13
+: 
+"<barkose>"
+	"barkoe" N Sem/Act_Plc Sg Ill @ADVL> #13->14
+: 
+"<vedtedh>"
+	"vedtedh" <mv> V TV Inf @IMV #14->5
+"<.>"
+	"." CLB #15->5
+: 
+"<Datne>"
+	"datne" Pron Pers Sg2 Nom @SUBJ> #1->3
+: 
+"<aaj>"
+	"aaj" Adv @ADVL> #2->6
+: 
+"<maahtah>"
+	"maehtedh" <aux> V TV Ind Prs Sg2 @FAUX #3->0
+: 
+"<mijjen>"
+	"mijjieh" Pron Pers Pl1 Gen @X #4->0
+: 
+"<diarijumese>"
+	"diarijumese" ? @X #5->0
+: 
+"<vuartasjidh>"
+	"vuartasjidh" <mv> V TV Inf @IMV #6->3
+: 
+"<gusnie>"
+	"gusnie" Adv Subqst <cs> @ADVL> #7->11
+: 
+"<gaajhkh>"
+	"gaajhke" Pron Dem Pl Nom @>N #8->9
+: 
+"<ierieh>"
+	"ierie" N Sem/Dummytag Pl Nom @SUBJ> #9->6
+: 
+"<mah>"
+	"mij" Pron Rel Pl Nom @SUBJ> #10->12
+: 
+"<båateme>"
+	"båetedh" <mv> V IV PrfPrc @FS-N<IMV #11->9
+: 
+"<gååvnesieh>"
+	"gååvnesidh" <mv> V IV Ind Prs Pl3 @FS-N< #12->11
+"<.>"
+	"." CLB #13->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

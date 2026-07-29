@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>4499</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://www.roros.kommune.no/Documents/Oppvekst/Årsplan%20%2009-10.pdf</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Egga>"
+	"Egga" ? @X #1->0
+: 
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<GUNN>"
+	"Gunn" N Prop Sem/Fem Attr @>N #1->2
+: 
+"<SONJA>"
+	"Sonja" N Prop Sem/Fem Sg Nom @HNOUN #2->0
+: 
+"<LYSGÅRD>"
+	"LYSGÅRD" ? @X #3->0
+: 
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<GUNN>"
+	"Gunn" N Prop Sem/Fem Attr @>N #1->2
+: 
+"<HELEN>"
+	"Helen" N Prop Sem/Sur Attr @>N #2->3
+: 
+"<TRØNNES>"
+	"Trønnes" N Prop Sem/Sur Sg Nom @HNOUN #3->0
+: 
+"<¶>"
+	"¶" CLB #4->3
+:\n
+"<GUNN>"
+	"GUNN" N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #1->0
+	"Gunn" N Prop Sem/Fem Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<JUUL>"
+	"JUUL" N Prop Sem/Org ACR Dyn Sg Nom @HNOUN #1->0
+	"Juul" N Prop Sem/Sur Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Utelek>"
+	"Utelek" ? @X #1->0
+:  
+"<¶>"
+	"¶" CLB #2->2
+:\n
+"<Juni>"
+	"Juni" N Prop Sem/Fem Sg Nom @HNOUN #1->0
+	"juni" N Err/Lex Sem/Time Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Juli>"
+	"juli" N Err/Lex Sem/Time Sg Nom @HNOUN #1->0
+: 
+"<ferietid>"
+	"ferietid" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Personale>"
+	"personaale" N Sem/Dummytag Err/Orth Sg Nom @HNOUN #1->0
+"<:>"
+	":" CLB #2->1
+: 
+"<Lisbeth>"
+	"Lisbeth" N Prop Sem/Fem Attr @>N #3->4
+: 
+"<Sollie>"
+	"Sollie" N Prop Sem/Sur Sg Nom @HNOUN #4->1
+: 
+"<(>"
+	"(" PUNCT LEFT #5->6
+"<pedleder>"
+	"pedleder" ? @X #6->0
+"<)>"
+	")" PUNCT RIGHT #7->6
+:  
+"<¶>"
+	"¶" CLB #8->1
+:\n
+"<Plassje>"
+	"Plassje" N Prop Sem/Plc Sg Nom @HNOUN #1->0
+"<,>"
+	"," CLB #2->1
+: 
+"<Brekken>"
+	"Brekken" N Prop Sem/Plc Sg Nom @HNOUN #3->1
+: 
+"<=>"
+	"=" PUNCT #4->5
+: 
+"<Prahke>"
+	"Prahke" N Prop Sem/Plc Sg Nom @HNOUN #5->3
+"<)>"
+	")" PUNCT RIGHT #6->5
+: 
+"<¶>"
+	"¶" CLB #7->1
+:\n
+"<Sjædoeh>"
+	"Sjædoeh" ? @X #1->0
+: 
+"<Gaavnedid>"
+	"Gaavnedid" ? @X #2->0
+: 
+"<Leekedh>"
+	"leekedidh" <mv> V TV Imprt Sg2 @FMV #3->0
+: 
+"<¶>"
+	"¶" CLB #4->3
+:\n
+"<Ålkene>"
+	"ålkene" Adv @ADVL> #1->2
+: 
+"<Gööledh>"
+	"gööledh" <mv> V TV Inf @IMV #2->0
+	"gööledidh" <mv> V TV Ind Prs Sg2 @FMV #2->0
+: 
+"<Möörjedh>"
+	"möörjedh" <mv> V IV Inf @IMV #3->2
+: 
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<Ledtieh>"
+	"ledtedh" <mv> V IV Imprt Sg2 @FMV #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Ryöknedh>"
+	"ryöknedidh" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<Kreekh>"
+	"kreeke" N Sem/Ani Pl Nom @HNOUN #1->0
+: 
+"<Juvrh>"
+	"juvre" N Sem/Ani Pl Nom @HNOUN #2->1
+: 
+"<Guelieh>"
+	"guelie" N Sem/Ani-fish Pl Nom @HNOUN #3->2
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Guedteme>"
+	"guedteme" N Sem/Dummytag Sg Nom @SUBJ> #1->2
+: 
+"<Vytnesjidh>"
+	"vytnesjidh" <mv> V TV Ind Prt Pl2 @FMV #2->0
+	"vytnesjidh" <mv> V TV Inf @IMV #2->0
+: 
+"<Goebperdidh>"
+	"goebperdidh" <mv> V IV Inf @IMV #3->2
+: 
+"<¶>"
+	"¶" CLB #4->2
+:\n
+"<Juriehtidh>"
+	"Juriehtidh" ? @X #1->0
+: 
+"<Mov>"
+	"manne" Pron Pers Sg1 Gen @>N #2->3
+: 
+"<fuelkie>"
+	"fuelhkie" N Sem/Group_Hum_Plc Err/Orth Sg Nom @HNOUN #3->0
+: 
+"<Raarkoe>"
+	"Raarkoe" ? @X #4->0
+: 
+"<¶>"
+	"¶" CLB #5->3
+:\n
+"<Gåatoehtimmie>"
+	"gåatoehtidh" Ex/V TV Der/NomAct N Sg Nom @HNOUN #1->0
+: 
+"<Jåvledarjoemes>"
+	"Jåvledarjoemes" ? @X #2->0
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Dåemiedidh>"
+	"dåemiedidh" <mv> V IV Ind Prt Pl2 @FMV #1->0
+	"dåemiedidh" <mv> V IV Inf @IMV #1->0
+: 
+"<Joejkedh>"
+	"joejkedh" <mv> V TV Inf @IMV #2->1
+: 
+"<Stååkedidh>"
+	"stååkedidh" <mv> V IV Inf @IMV #3->2
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Laavlodh>"
+	"laavlodh" <mv> V TV Inf @IMV #1->0
+: 
+"<Vaajestidh>"
+	"vaajestidh" <mv> V TV Ind Prt Pl2 @FMV #2->1
+	"vaajestidh" <mv> V TV Inf @IMV #2->1
+: 
+"<Bååhkesjidh>"
+	"bååhkesjidh" <mv> V TV Inf @IMV #3->2
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Guvviedidh>"
+	"guvviedidh" <mv> V TV Ind Prt Pl2 @FMV #1->0
+	"guvviedidh" <mv> V TV Inf @IMV #1->0
+: 
+"<Dålle>"
+	"dålle" N Sem/Substnc Sg Nom @<SUBJ #2->1
+: 
+"<Mov>"
+	"manne" Pron Pers Sg1 Gen @>N #3->4
+: 
+"<voessen>"
+	"voesse" N Sem/Ctain-clth Sg Gen @>P #4->5
+: 
+"<sisnie>"
+	"sisnie" Po @<ADVL #5->1
+: 
+"<¶>"
+	"¶" CLB #6->1
+:\n
+"<Lohkedh>"
+	"lohkedh" <mv> V TV Inf @IMV #1->0
+: 
+"<Lustestalledh>"
+	"lustestalledh" <mv> V IV Inf @IMV #2->1
+: 
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<GÏJRE>"
+	"gïjre" N Sem/Time Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+
+]]></dependency></body></document>

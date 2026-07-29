@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>64</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.lansstyrelsen.se/dalarna/SMA/lantbruk-och-landsbygd/Pages/default.aspx</origFileName><parallel_text xml:lang="eng" location="lantbruk-och-landsbygd.html"/><parallel_text xml:lang="fin" location="lantbruk-och-landsbygd.html"/><parallel_text xml:lang="fit" location="lantbruk-och-landsbygd.html"/><parallel_text xml:lang="sme" location="lantbruk-och-landsbygd.html"/><parallel_text xml:lang="swe" location="lantbruk-och-landsbygd.html"/><parallel_text xml:lang="rmu" location="lantbruk-och-landsbygd.html"/><parallel_text xml:lang="rmy-rka" location="lantbruk-och-landsbygd.html"/><parallel_text xml:lang="yid" location="lantbruk-och-landsbygd.html"/><parallel_text xml:lang="rmy-rlo" location="lantbruk-och-landsbygd.html"/><parallel_text xml:lang="rmf" location="lantbruk-och-landsbygd.html"/><parallel_text xml:lang="rmn" location="lantbruk-och-landsbygd.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Laanteburrie>"
+	"laanteburrie" N Sem/Hum Sg Nom @HNOUN #1->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #2->1
+: 
+"<laantevoene>"
+	"voene" N Sem/Plc Sg Nom @HNOUN #3->1
+		"laante" N Sem/Dummytag Cmp/SgNom Cmp #3->1
+: 
+"<->"
+	"-" PUNCT MIDDLE #4->5
+: 
+"<Länsstyrelsen>"
+	"Länsstyrelsen" N Prop Sem/Org Sg Nom @HNOUN #5->3
+: 
+"<i>"
+	"i" N Sem/Sign ABBR Gram/TAbbr Attr @>N #6->7
+: 
+"<Dalarna>"
+	"Dalarna" N Prop Sem/Plc Sg Nom @HNOUN #7->5
+	"Dalarna" N Prop Sem/Sur Sg Nom @HNOUN #7->5
+: 
+"<¶>"
+	"¶" CLB #8->1
+:\n
+"<Laanteburrie>"
+	"laanteburrie" N Sem/Hum Sg Nom @HNOUN #1->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #2->1
+: 
+"<laantevoene>"
+	"voene" N Sem/Plc Sg Nom @HNOUN #3->1
+		"laante" N Sem/Dummytag Cmp/SgNom Cmp #3->1
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Laanteburrie>"
+	"laanteburrie" N Sem/Hum Sg Nom @HNOUN #1->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #2->1
+: 
+"<laantevoene>"
+	"voene" N Sem/Plc Sg Nom @HNOUN #3->1
+		"laante" N Sem/Dummytag Cmp/SgNom Cmp #3->1
+: 
+"<¶>"
+	"¶" CLB #4->1
+:\n
+"<Lïeneståvroe>"
+	"leeneståvroe" N Err/Orth Sem/Dummytag Sg Nom @SUBJ> #1->2
+: 
+"<barka>"
+	"barkedh" <mv> V TV Ind Prs Sg3 @FMV #2->0
+	"berkedh" <mv> V TV Ind Prs Sg3 @FMV #2->0
+: 
+"<guktie>"
+	"guktie" Adv Subqst <cs> @ADVL> #3->17
+: 
+"<EU:n>"
+	"EU" N Prop Sem/Org ACR Dyn Sg Gen @>N #4->7
+	"EU" N Prop Sem/Org ACR Sg Gen @>N #4->7
+: 
+"<jïh>"
+	"jïh" CC @CNP #5->4
+: 
+"<Sveerjen>"
+	"Sveerje" N Prop Sem/Plc Sg Gen @>N #6->4
+: 
+"<jåartaburriepolitihke>"
+	"politihke" N Sem/Act_Domain Sg Nom @SUBJ> #7->14
+		"burrie" N Sem/Hum Cmp/SgNom Cmp #7->14
+			"jåarta" N Sem/Plc Cmp/SgNom Cmp #7->14
+: 
+"<jïh>"
+	"jïh" CC @CNP #8->7
+: 
+"<laantevoenepolithke>"
+	"laantevoenepolithke" ? @X #9->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #10->9
+: 
+"<dan>"
+	"dan" Adv @>N #11->12
+	"dïhte" Pron Pers Sg3 Gen @>N #11->12
+: 
+"<lissine>"
+	"lissie" N Sem/Money Ess @OPRED> #12->14
+	"lissie" N Sem/Money Pl Ine @ADVL> #12->14
+	"lissie" N Sem/Money Sg Com @ADVL> #12->14
+: 
+"<Laantevoeneprogremme>"
+	"Laantevoeneprogremme" ? @X #13->0
+: 
+"<åadtjoeh>"
+	"åadtjodh" <aux> V TV Ind Prs Pl3 @FS-<ADVL #14->2
+	"åadtjodh" <aux> V TV Ind Prs Sg2 @FS-<ADVL #14->2
+: 
+"<regionalen>"
+	"regionaale" A Err/Orth Sg Gen @>N #15->16
+: 
+"<daltesasse>"
+	"daltese" N Sem/Plc Sg Ill @ADVL> #16->17
+: 
+"<tjïrrehtidh>"
+	"tjirrehtidh" <mv> V TV Inf @IMV #17->14
+	"tjïrrehtidh" <mv> V TV Inf @IMV #17->14
+"<.>"
+	"." CLB #18->2
+: 
+"<Dïhte>"
+	"dïhte" Pron Pers Sg3 Nom @SUBJ> #1->2
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<laanteburrie>"
+	"laanteburrie" N Sem/Hum Sg Nom @<SPRED #3->2
+: 
+"<edtja>"
+	"edtjedh" <mv> V IV Ind Prs Sg3 @FMV #4->2
+: 
+"<gahtjemefaamoes>"
+	"gahtjemefaamoes" ? @X #5->0
+: 
+"<jïh>"
+	"jïh" CC @CNP #6->5
+: 
+"<guhkiem>"
+	"guhkiem" Adv @<ADVL #7->4
+: 
+"<nænnoes>"
+	"nænnoes" A Sg Nom @SPRED> #8->9
+: 
+"<sjïdtedh>"
+	"sjïdtedh" <mv> V IV Inf @IMV #9->4
+: 
+"<jïh>"
+	"jïh" CC @CNP #10->9
+: 
+"<seammasïente>"
+	"siente" N Sem/Dummytag Sg Nom @<SPRED #11->9
+		"seamma" A Cmp/Attr Cmp #11->9
+: 
+"<goh>"
+	"goh" CS @CVP #12->16
+: 
+"<dïhte>"
+	"dïhte" Pron Dem Sg Nom @>N #13->14
+: 
+"<ekologijen>"
+	"ekologije" N Sem/Domain Sg Gen @>N #14->15
+: 
+"<laanteburrie>"
+	"laanteburrie" N Sem/Hum Sg Nom @SUBJ> #15->16
+: 
+"<jienede>"
+	"jieniedidh" <mv> V TV Ind Prs Sg3 @FS-<ADVL #16->9
+: 
+"<jïh>"
+	"jïh" CC @CNP #17->16
+: 
+"<eatneme->"
+	"eatneme" N Sem/Feat-psych_Plc Cmp/SgNom Cmp/SplitR Cmp @>N #18->20
+: 
+"<jïh>"
+	"jïh" CC @CNP #19->18
+: 
+"<kultuvredajvh>"
+	"kultuvredajve" N Sem/Plc Pl Nom @OBJ> #20->21
+: 
+"<gorredidh>"
+	"gorredidh" <mv> V TV Inf @IMV #21->16
+"<.>"
+	"." CLB #22->2
+: 
+"<Jielije>"
+	"jieledh" V IV PrsPrc @X #1->0
+: 
+"<laantevoene>"
+	"voene" N Sem/Plc Sg Nom @SUBJ> #2->3
+		"laante" N Sem/Dummytag Cmp/SgNom Cmp #2->3
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #3->0
+: 
+"<aaj>"
+	"aaj" Adv @<ADVL #4->3
+: 
+"<galka>"
+	"galkedh" <aux> V IV Ind Prs Sg3 @FAUX #5->3
+: 
+"<gååvnesidh>"
+	"gååvnesidh" <mv> V IV Inf @IMV #6->5
+: 
+"<alternatijveles>"
+	"alternatijveles" ? @X #7->0
+: 
+"<barkoem>"
+	"barkoe" N Sem/Act_Plc Sg Acc @OBJ> #8->11
+"<,>"
+	"," CLB #9->8
+: 
+"<hijven>"
+	"hijven" Adv @ADVL> #10->11
+: 
+"<hoksem>"
+	"hoksedh" <mv> V TV Ind Prs Sg1 @FMV #11->3
+: 
+"<jïh>"
+	"jïh" CC @CNP #12->11
+: 
+"<burie>"
+	"burie" ? @X #13->0
+: 
+"<årroesijjieh>"
+	"årromesijjie" N Sem/Plc Err/Orth Pl Nom @<SUBJ #14->11
+"<.>"
+	"." CLB #15->3
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>

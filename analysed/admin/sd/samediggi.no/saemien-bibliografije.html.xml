@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>34</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Gaerjagaaetie/Mijjieh-juvnehtibie/Saemien-bibliografije</origFileName><parallel_text xml:lang="sme" location="sami-bibliografiija.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Saemien>"
+	"saemien" A Attr @>N #1->2
+: 
+"<bibliografije>"
+	"biblijograafije" N Sem/Txt Err/Orth Sg Nom @SUBJ> #2->5
+: 
+"</>"
+	"/" PUNCT MIDDLE #3->4
+: 
+"<Mijjieh>"
+	"mijjieh" Pron Pers Pl1 Nom @SUBJ> #4->5
+: 
+"<juvnehtibie>"
+	"juvnehtidh" <mv> V TV Ind Prs Pl1 @FMV #5->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #6->7
+: 
+"<Gærjagåetie>"
+	"gærjagåetie" N Sem/Org Sg Nom @<SUBJ #7->5
+: 
+"</>"
+	"/" PUNCT MIDDLE #8->9
+: 
+"<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @<SUBJ #9->5
+: 
+"<->"
+	"-" PUNCT MIDDLE #10->11
+: 
+"<Sametinget>"
+	"Sametinget" N Prop Sem/Org Sg Nom @X #11->0
+: 
+"<¶>"
+	"¶" CLB #12->5
+:\n
+"<Saemien>"
+	"saemien" A Attr @>N #1->2
+: 
+"<bibliografije>"
+	"biblijograafije" N Sem/Txt Err/Orth Sg Nom @HNOUN #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Saemien>"
+	"saemien" A Attr @>N #1->2
+: 
+"<bibliografije>"
+	"biblijograafije" N Sem/Txt Err/Orth Sg Nom @SUBJ> #2->4
+: 
+"<Nöörjesne>"
+	"Nöörje" N Prop Sem/Plc Sg Ine @ADVL> #3->4
+: 
+"<reeresåvva>"
+	"reeredh" Ex/V Ex/TV Der/PassL <mv> V IV Ind Prs Sg3 @FMV #4->0
+: 
+"<Nasjonalgærjagåeteste>"
+	"gåetie" N Sem/Build Sg Ela @<ADVL #5->4
+		"gærja" N Sem/Txt Cmp/SgNom Cmp #5->4
+			"nasjonaale" A Cmp/SgNom Cmp #5->4
+"<.>"
+	"." CLB #6->4
+: 
+"<Aaj>"
+	"aaj" Adv @ADVL> #1->7
+: 
+"<Sveerjesne>"
+	"Sveerje" N Prop Sem/Plc Sg Ine @ADVL> #2->7
+: 
+"<jïh>"
+	"jïh" CC @CNP #3->2
+: 
+"<Såevmesne>"
+	"Såevmie" N Prop Sem/Plc Sg Ine @ADVL> #4->2
+: 
+"<saemien>"
+	"saemien" A Attr @>N #5->6
+: 
+"<bibliografijh>"
+	"biblijograafije" N Sem/Txt Err/Orth Pl Err/Orth Nom @SUBJ> #6->7
+: 
+"<dorjesuvvieh>"
+	"dorjesovvedh" <mv> V IV Ind Prs Pl3 @FMV #7->0
+"<.>"
+	"." CLB #8->7
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Nöörjen>"
+	"nöörjen" A Attr @>N #1->3
+: 
+"<saemien>"
+	"saemien" A Attr @>N #2->3
+: 
+"<bibliografije>"
+	"biblijograafije" N Sem/Txt Err/Orth Sg Nom @HNOUN #3->0
+: 
+"<¶>"
+	"¶" CLB #4->3
+:\n
+"<Sveerjen>"
+	"sveerjen" A Attr @>N #1->3
+: 
+"<saemien>"
+	"saemien" A Attr @>N #2->3
+: 
+"<bibliografije>"
+	"biblijograafije" N Sem/Txt Err/Orth Sg Nom @HNOUN #3->0
+: 
+"<¶>"
+	"¶" CLB #4->3
+:\n
+"<Såevmien>"
+	"Såevmie" N Prop Sem/Plc Sg Gen @>N #1->3
+: 
+"<saemien>"
+	"saemien" A Attr @>N #2->3
+: 
+"<bibliografije>"
+	"biblijograafije" N Sem/Txt Err/Orth Sg Nom @HNOUN #3->0
+: 
+"<¶>"
+	"¶" CLB #4->3
+:\n
+
+]]></dependency></body></document>

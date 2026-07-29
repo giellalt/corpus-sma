@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>80</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Saemiedigkien-bijre/AAaarganisasjovnestruktuvre/Saemiedigkien-laejhtememoenehtse</origFileName><parallel_text xml:lang="nob" location="sametingets-klagenemnd.html"/><parallel_text xml:lang="sme" location="samedikki-vaiddalavdegoddi.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Saemiedigkien>"
+	"Saemiedigkie" N Prop Sem/Org Sg Gen @>N #1->2
+	"saemiedigkie" N Sem/Build_Org Sg Gen @>N #1->2
+: 
+"<laejhtememoenehtse>"
+	"moenehtse" N Sem/Org Sg Nom @HNOUN #2->0
+		"laejhteme" N Sem/Prod-ling Cmp/SgNom Cmp #2->0
+: 
+"</>"
+	"/" PUNCT MIDDLE #3->4
+: 
+"<Åårganisasjovnestruktuvre>"
+	"struktuvre" N Sem/Feat-phys Sg Nom @HNOUN #4->2
+		"organisasjovne" N Sem/Org Cmp/SgNom Cmp #4->2
+: 
+"</>"
+	"/" PUNCT MIDDLE #5->6
+: 
+"<Saemiedigkien>"
+	"Saemiedigkie" N Prop Sem/Org Sg Gen @>P #6->7
+: 
+"<bïjre>"
+	"bïjre" Po @ADVL> #7->9
+: 
+"</>"
+	"/" PUNCT MIDDLE #8->9
+: 
+"<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @HNOUN #9->4
+: 
+"<->"
+	"-" PUNCT MIDDLE #10->11
+: 
+"<Sametinget>"
+	"Sametinget" N Prop Sem/Org Sg Nom @HNOUN #11->9
+: 
+"<¶>"
+	"¶" CLB #12->2
+:\n
+"<Saemiedigkien>"
+	"Saemiedigkie" N Prop Sem/Org Sg Gen @>N #1->2
+	"saemiedigkie" N Sem/Build_Org Sg Gen @>N #1->2
+: 
+"<laejhtememoenehtse>"
+	"moenehtse" N Sem/Org Sg Nom @HNOUN #2->0
+		"laejhteme" N Sem/Prod-ling Cmp/SgNom Cmp #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @SUBJ> #1->2
+	"saemiedigkie" N Sem/Build_Org Sg Nom @SUBJ> #1->2
+: 
+"<lea>"
+	"lea" <aux> V IV Ind Prs Sg3 @FAUX #2->0
+: 
+"<jaepien>"
+	"jaepie" N Sem/Time Sg Gen @ADVL> #3->8
+: 
+"<2011>"
+	"2011" Num Arab Sem/Year Sg Nom @<SUBJ #4->2
+: 
+"<Saemiedigkien>"
+	"Saemiedigkie" N Prop Sem/Org Sg Gen @>N #5->6
+: 
+"<laejhtememoenehtsem>"
+	"moenehtse" N Sem/Org Sg Acc @OBJ> #6->8
+		"laejhteme" N Sem/Prod-ling Cmp/SgNom Cmp #6->8
+: 
+"<dåarjoeaamhtesidie>"
+	"dåarjoeaamhtese" N Sem/Dummytag Pl Acc @OBJ> #7->8
+: 
+"<tseegkeme>"
+	"tseegkedh" <mv> V TV PrfPrc @IMV #8->2
+"<.>"
+	"." CLB #9->2
+: 
+"<Aajkoe>"
+	"aajkoe" N Sem/Prod-cogn Sg Nom @SUBJ> #1->2
+: 
+"<lij>"
+	"lea" <mv> V IV Ind Prt Sg3 @FMV #2->0
+: 
+"<gorredidh>"
+	"gorredidh" <mv> V TV Inf @IMV #3->2
+: 
+"<Saemiedigkien>"
+	"Saemiedigkie" N Prop Sem/Org Sg Gen @>N #4->5
+: 
+"<dåarjoereereme>"
+	"dåarjoereereme" N Sem/Dummytag Sg Nom @SUBJ> #5->8
+: 
+"<reeremelaaken>"
+	"reeremelaake" N Sem/Dummytag Sg Gen @>N #6->7
+: 
+"<njoelkedassh>"
+	"njoelkedasse" N Sem/Rule Pl Nom @<OBJ #7->3
+: 
+"<illie>"
+	"illedh" <mv> V TV Ind Prs Sg3 @FMV #8->2
+: 
+"<laejhtemegïetedimmien>"
+	"gïetedimmie" N Sem/Act Sg Gen @>P #9->10
+		"laejhteme" N Sem/Prod-ling Cmp/SgNom Cmp #9->10
+: 
+"<bïjre>"
+	"bïjre" Po @<ADVL #10->8
+"<.>"
+	"." CLB #11->2
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Laejhtememoenehtse>"
+	"moenehtse" N Sem/Org Sg Nom @SUBJ> #1->2
+		"laejhteme" N Sem/Prod-ling Cmp/SgNom Cmp #1->2
+: 
+"<maahta>"
+	"maehtedh" <aux> V TV Ind Prs Sg3 @FAUX #2->0
+: 
+"<sov>"
+	"satne" Pron Logo Sg3 Gen @>N #3->4
+: 
+"<laejhtemegïetedimmesne>"
+	"gïetedimmie" N Sem/Act Sg Ine @ADVL> #4->7
+		"laejhteme" N Sem/Prod-ling Cmp/SgNom Cmp #4->7
+: 
+"<ij>"
+	"ij" <aux> V IV Neg Ind Prs Sg3 @FAUX #5->2
+: 
+"<laejhtemem>"
+	"laejhteme" N Sem/Prod-ling Sg Acc @OBJ> #6->7
+: 
+"<krööhkedh>"
+	"krööhkedh" <mv> V TV Inf @IMV #7->5
+"<,>"
+	"," CLB #8->7
+: 
+"<orre>"
+	"orre" A Attr @>N #9->10
+: 
+"<nænnoestimmiem>"
+	"nænnoestimmie" N Sem/Act Sg Acc @OBJ> #10->11
+: 
+"<darjodh>"
+	"darjodh" <mv> V TV Inf @IMV #11->7
+: 
+"<jallh>"
+	"jallh" CC @CNP #12->7
+: 
+"<Saemiedigkieraerien>"
+	"saemiedigkieraerie" N Sem/Hum_Org Sg Gen @>N #13->14
+: 
+"<nænnoestimmiem>"
+	"nænnoestimmie" N Sem/Act Sg Acc @OBJ> #14->15
+: 
+"<hiejhtedh>"
+	"hiejhtedh" <mv> V TV Inf @IMV #15->7
+: 
+"<jïh>"
+	"jïh" CC @CNP #16->7
+: 
+"<aamhtesem>"
+	"aamhtese" N Sem/Semcon Sg Acc @<OBJ #17->15
+: 
+"<bååstede>"
+	"bååstede" Adv @<ADVL #18->15
+: 
+"<raaran>"
+	"raerie" N Sem/Org_Prod-cogn Sg Ill @<ADVL #19->15
+: 
+"<seedtedh>"
+	"seedtedh" <mv> V TV Inf @IMV #20->7
+: 
+"<eevre>"
+	"eevre" Adv @>A #21->22
+: 
+"<orre>"
+	"orre" A Attr @>N #22->26
+: 
+"<jallh>"
+	"jallh" CC @CNP #23->22
+: 
+"<såemiesmearan>"
+	"såemiesmearan" ? @X #24->0
+: 
+"<orre>"
+	"orre" A Attr @>N #25->22
+: 
+"<gïetedæmman>"
+	"gïetedimmie" N Sem/Act Sg Ill @<ADVL #26->20
+"<.>"
+	"." CLB #27->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Saemiedigkie>"
+	"Saemiedigkie" N Prop Sem/Org Sg Nom @SUBJ> #1->2
+	"saemiedigkie" N Sem/Build_Org Sg Nom @SUBJ> #1->2
+: 
+"<lea>"
+	"lea" <aux> V IV Ind Prs Sg3 @FAUX #2->0
+: 
+"<daejtie>"
+	"daate" Pron Dem Pl Acc @>N #3->7
+	"daate" Pron Dem Pl Ill @ADVL> #3->7
+	"daejtie" Adv @ADVL> #3->7
+: 
+"<lïhtsegidie>"
+	"lïhtsege" N Sem/Hum Pl Acc @OBJ> #4->7
+: 
+"<jïh>"
+	"jïh" CC @CNP #5->4
+: 
+"<sæjjasadtjide>"
+	"sæjjasadtje" N Sem/Hum Pl Acc @OBJ> #6->4
+: 
+"<nammoehtamme>"
+	"nammoehtidh" <mv> V TV PrfPrc @IMV #7->2
+: 
+"<laejhtememoenehtsasse>"
+	"moenehtse" N Sem/Org Sg Ill @<ADVL #8->7
+		"laejhteme" N Sem/Prod-ling Cmp/SgNom Cmp #8->7
+: 
+"<boelhken>"
+	"boelhke" N Sem/Part Sg Gen @>Num #9->10
+: 
+"<2014-2017>"
+	"2014-2017" Num Sem/Year Pl Nom @<ADVL #10->7
+"<.>"
+	"." CLB #11->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Lïhtsegh>"
+	"lïhtsege" N Sem/Hum Pl Nom @HNOUN #1->0
+"<:>"
+	":" CLB #2->1
+:  
+"<¶>"
+	"¶" CLB #3->1
+:\n
+"<Sæjjasadtjh>"
+	"sæjjasadtje" N Sem/Hum Pl Nom @HNOUN #1->0
+"<:>"
+	":" CLB #2->1
+:  
+"<¶>"
+	"¶" CLB #3->1
+:\n
+
+]]></dependency></body></document>

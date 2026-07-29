@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='utf8'?>
+<document xml:lang="sma" id="no_id"><header><title>Saemien gïelevåhkoe - Saemiedigkie</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="nob"/><wordcount>52</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>https://sametinget.no/sprak/samisk-sprakuke/?sprak=14</origFileName><parallel_text xml:lang="nob" location="samisk_sprakuke.html"/><parallel_text xml:lang="sme" location="sami_giellavahkku.html"/><parallel_text xml:lang="smj" location="same_giellavahkko.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Saemien>"
+	"saemien" A Attr @>N #1->2
+: 
+"<gïelevåhkoe>"
+	"våhkoe" N Sem/Measr_Time Sg Nom @HNOUN #2->0
+		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #2->0
+: 
+"<¶>"
+	"¶" CLB #3->2
+:\n
+"<Mïerhkh>"
+	"mïerhkedh" <mv> V TV Imprt Sg2 @FMV #1->0
+: 
+"<daatojde>"
+	"daatoe" N Sem/Time Pl Acc @<ADVL #2->1
+	"daatoe" N Sem/Time Pl Ill @<ADVL #2->1
+: 
+"<golken>"
+	"golke" N Sem/Time Sg Gen @>A #3->4
+: 
+"<21.-27.>"
+	"21.-27" A Arab Ord Attr @>N #4->5
+: 
+"<b.>"
+	"b" N Sem/Time ABBR Gram/TNumAbbr @X #5->0
+: 
+"<2024>"
+	"2024" Num Arab Sem/Year Sg Nom @<ADVL #6->1
+: 
+"<(>"
+	"(" PUNCT LEFT #7->8
+"<våhkoe>"
+	"våhkoe" N Sem/Measr_Time Sg Nom @<ADVL #8->1
+: 
+"<43>"
+	"43" Num Arab Sg Nom @>N #9->11
+"<)>"
+	")" PUNCT RIGHT #10->11
+: 
+"<Gïelevåhkose>"
+	"våhkoe" N Sem/Measr_Time Sg Ill @<ADVL #11->1
+		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #11->1
+"<.>"
+	"." CLB #12->1
+:  
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Ulmie>"
+	"ulmie" N Sem/Semcon Sg Nom @SUBJ> #1->3
+: 
+"<Gïelevåhkojne>"
+	"våhkoe" N Sem/Measr_Time Ess @SPRED> #2->3
+		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #2->3
+	"våhkoe" N Sem/Measr_Time Pl Ine @ADVL> #2->3
+		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #2->3
+	"våhkoe" N Sem/Measr_Time Sg Com @ADVL> #2->3
+		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #2->3
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #3->0
+: 
+"<statusem>"
+	"statuse" N Sem/Dummytag Sg Acc @OBJ> #4->5
+: 
+"<lutnjedh>"
+	"lutnjedh" <mv> V TV Inf @IMV #5->3
+: 
+"<saemien>"
+	"saemien" A Attr @>N #6->7
+: 
+"<gïelide>"
+	"gielie" N Sem/Dummytag Pl Acc @<OBJ #7->5
+	"gielie" N Sem/Dummytag Pl Ill @<ADVL #7->5
+	"gïele" N Sem/Lang_Tool Pl Acc @<OBJ #7->5
+	"gïele" N Sem/Lang_Tool Pl Ill @<ADVL #7->5
+"<,>"
+	"," CLB #8->9
+: 
+"<jïh>"
+	"jïh" CC @CNP #9->7
+: 
+"<daajroem>"
+	"daajroe" N Sem/Edu Sg Acc @<OBJ #10->7
+: 
+"<saemien>"
+	"saemie" N Sem/Hum_Lang Sg Gen @>N #11->12
+	"saemien" A Attr @>N #11->12
+: 
+"<gïeli>"
+	"gïele" N Sem/Lang_Tool Pl Gen @>P #12->15
+: 
+"<jïh>"
+	"jïh" CC @CNP #13->12
+: 
+"<kultuvren>"
+	"kultuvre" N Sem/Domain Sg Gen @>P #14->12
+: 
+"<bïjre>"
+	"bïjre" Po @<ADVL #15->5
+: 
+"<lutnjedh>"
+	"lutnjedh" <mv> V TV Inf @IMV #16->5
+: 
+"<abpe>"
+	"abpe" Pron Indef Attr @>N #17->18
+: 
+"<siebriedahkesne>"
+	"seabradahke" N Sem/Org Err/Orth Sg Ine @<ADVL-ine #18->16
+"<.>"
+	"." CLB #19->3
+: 
+"<Raaktan>"
+	"raaktan" Adv @ADVL> #1->5
+: 
+"<daan>"
+	"daate" Pron Dem Sg Gen @>N #2->3
+: 
+"<våhkoen>"
+	"våhkoe" N Sem/Measr_Time Sg Gen @ADVL> #3->5
+: 
+"<saemien>"
+	"saemie" N Sem/Hum_Lang Sg Gen @ADVL> #4->5
+: 
+"<gïelh>"
+	"gïeledh" <mv> V TV Ind Prs Sg2 @FMV #5->0
+: 
+"<edtjieh>"
+	"edtjedh" <aux> V IV Ind Prs Pl3 @FAUX #6->5
+: 
+"<govledh>"
+	"govledh" <mv> V TV Inf @IMV #7->6
+	"govledh" <mv> V IV Inf @IMV #7->6
+: 
+"<jïh>"
+	"jïh" CC @CNP #8->7
+: 
+"<vååjnedh>"
+	"vååjnedh" <mv> V IV Inf @IMV #9->7
+: 
+"<gaajhkem>"
+	"gaajhke" Pron Dem Sg Acc @>N #10->11
+: 
+"<lehkiem>"
+	"lehkie" N Sem/Dummytag Sg Acc @<OBJ #11->9
+"<.>"
+	"." CLB #12->5
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+"<Gïelevåhkoen>"
+	"våhkoe" N Sem/Measr_Time Sg Gen @ADVL> #1->2
+		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #1->2
+: 
+"<lea>"
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #2->0
+: 
+"<jïjtse>"
+	"jïjtje" Pron Refl Gen PxSg3 @>N #3->4
+: 
+"<nedtesæjroe>"
+	"nehtesæjroe" N Sem/Plc-abstr Sg Nom <ext> @<SUBJ #4->2
+"<,>"
+	"," CLB #5->4
+: 
+"<programmine>"
+	"programme" N Sem/Act_Tool-it Ess @<SPRED #6->2
+	"programme" N Sem/Act_Tool-it Pl Ine @<ADVL-ine #6->2
+	"programme" N Sem/Act_Tool-it Sg Com @<ADVL-ine #6->2
+"<,>"
+	"," CLB #7->6
+: 
+"<vierhtiejgujmie>"
+	"vierhtie" N Sem/Semcon Pl Com @<ADVL #8->2
+: 
+"<jïh>"
+	"jïh" CC @CNP #9->8
+: 
+"<bïevnesigujmie>"
+	"bïevnese" N Sem/Prod-ling Pl Com @<ADVL #10->2
+: 
+"<gïelevåhkoen>"
+	"våhkoe" N Sem/Measr_Time Sg Gen @>P #11->12
+		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #11->12
+: 
+"<bïjre>"
+	"bïjre" Po @<ADVL #12->2
+"<.>"
+	"." CLB #13->2
+: 
+"<¶>"
+	"¶" CLB #1->1
+:\n
+
+]]></dependency></body></document>
