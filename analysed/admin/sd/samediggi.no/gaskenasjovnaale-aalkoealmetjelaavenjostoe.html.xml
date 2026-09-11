@@ -1,38 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>3581</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Gaskenasjovnaale-barkoe/Gaskenasjovnaale-aalkoealmetjelaavenjostoe</origFileName><parallel_text xml:lang="nob" location="internasjonalt-urfolkssamarbeid.html"/><parallel_text xml:lang="sme" location="riikkaidgaskasas-algoalbmotovttasbargu.html"/><parallel_text xml:lang="smj" location="rijkajgasskasasj-alggoalmmukaktisasjbarggo.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>Gaskenasjovnaale aalkoealmetjelaavenjostoe / Gaskenasjovnaale barkoe / Saemiedigkie - Sametinget</title><genre code="admin"/><author><unknown/></author><wordcount>3572</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Gaskenasjovnaale-barkoe/Gaskenasjovnaale-aalkoealmetjelaavenjostoe</origFileName><parallel_text xml:lang="nob" location="internasjonalt-urfolkssamarbeid.html"/><parallel_text xml:lang="sme" location="riikkaidgaskasas-algoalbmotovttasbargu.html"/><parallel_text xml:lang="smj" location="rijkajgasskasasj-alggoalmmukaktisasjbarggo.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Gaskenasjovnaale>"
-	"gaskenasjonaale" A Attr @>N #1->2
-: 
-"<aalkoealmetjelaavenjostoe>"
-	"laavenjostoe" N Sem/Dummytag Sg Nom @HNOUN #2->0
-		"almetje" N Sem/Hum Cmp/SgNom Cmp #2->0
-			"aalkoe" N Sem/Time Cmp/SgNom Cmp #2->0
-: 
-"</>"
-	"/" PUNCT MIDDLE #3->4
-: 
-"<Gaskenasjovnaale>"
-	"gaskenasjonaale" A Attr @>N #4->5
-: 
-"<barkoe>"
-	"barkoe" N Sem/Act_Plc Sg Nom @HNOUN #5->2
-: 
-"</>"
-	"/" PUNCT MIDDLE #6->7
-: 
-"<Saemiedigkie>"
-	"Saemiedigkie" N Prop Sem/Org Sg Nom @HNOUN #7->5
-: 
-"<->"
-	"-" PUNCT MIDDLE #8->9
-: 
-"<Sametinget>"
-	"Sametinget" N Prop Sem/Org Sg Nom @HNOUN #9->7
-: 
-"<¶>"
-	"¶" CLB #10->2
-:\n
-"<Gaskenasjovnaale>"
 	"gaskenasjonaale" A Attr @>N #1->2
 : 
 "<aalkoealmetjelaavenjostoe>"
@@ -1506,7 +1474,6 @@
 "<jïh>"
 	"jïh" CC @CNP #32->30
 : 
-
 "<åelede>"
 	"åeliedidh" <mv> V TV Ind Prs Sg3 @FMV #33->1
 : 
@@ -1537,6 +1504,7 @@
 "<,>"
 	"," CLB #42->16
 : 
+
 "<jeatjah>"
 	"jeatjah" A Attr @>N #43->41
 : 
@@ -2992,7 +2960,6 @@
 "<bielide>"
 	"bielie" N Sem/Part Pl Ill @<ADVL #30->24
 : 
-
 "<jieliedistie>"
 	"jielede" N Sem/Dummytag Sg Ela @X #31->0
 "<,>"
@@ -3022,6 +2989,7 @@
 "<ektievoete>"
 	"ektievoete" N Sem/Org Sg Nom @X #40->0
 : 
+
 "<dajvide>"
 	"dajve" N Sem/Plc Pl Ill @<ADVL #41->24
 "<.>"
@@ -4454,7 +4422,6 @@
 "<jïh>"
 	"jïh" CC @CNP #27->25
 : 
-
 "<ellieslaakan>"
 	"ellieslaakan" Adv @ADVL> #28->20
 : 
@@ -4484,6 +4451,7 @@
 "<aalkoealmetjh>"
 	"aalkoealmetje" N Sem/Hum Pl Nom @SUBJ> #37->41
 : 
+
 "<jïh>"
 	"jïh" CC @CNP #38->37
 : 
@@ -5938,7 +5906,6 @@
 "<aktine>"
 	"akte" Num Sg Com @>N #36->38
 : 
-
 "<monnehke>"
 	"monnehke" A Attr @>N #37->38
 : 
@@ -5975,6 +5942,7 @@
 		"gellievoete" N Sem/Dummytag Cmp/SgNom Cmp #3->4
 			"eatneme" N Sem/Feat-psych_Plc Cmp/SgNom Cmp #3->4
 : 
+
 "<bïjre>"
 	"bïjre" Po @<ADVL #4->1
 : 
@@ -7451,7 +7419,6 @@
 "<nænnoes>"
 	"nænnoes" A Attr @>N #12->13
 : 
-
 "<vaarjelimmie>"
 	"vaarjelimmie" N Sem/Act Sg Nom @SUBJ> #13->14
 : 
@@ -7481,6 +7448,7 @@
 "<nuelesne>"
 	"nuelesne" Po @<ADVL #22->19
 : 
+
 "<illedahkh>"
 	"illedahke" N Sem/Semcon Pl Nom @SUBJ> #23->29
 : 
@@ -8959,7 +8927,6 @@
 "<politihkeles>"
 	"politihke" A Err/Lex Attr @>N #5->6
 : 
-
 "<åårgane>"
 	"orgaane" N Sem/Org Sg Nom @<SPRED #6->2
 : 
@@ -8990,6 +8957,7 @@
 	"premisse" N Sem/Dummytag Pl Nom @OBJ> #15->16
 	"premïsse" N Sem/Dummytag Pl Nom @OBJ> #15->16
 : 
+
 "<bïejebe>"
 	"bïejedh" <mv> V TV Ind Prs Pl1 @FMV #16->2
 : 
@@ -10543,7 +10511,6 @@
 "<i>"
 	"i" N Sem/Sign ABBR Gram/TAbbr Sg Acc @<OBJ #36->36
 : 
-
 "<norsk>"
 	"norsk" ? @X #37->0
 : 
@@ -10576,6 +10543,7 @@
 "<Bæjhkoehtamme>"
 	"bæjhkoehtidh" <mv> V TV PrfPrc @IMV #1->0
 : 
+
 "<njoktjen>"
 	"njoktje" N Sem/Ani_Time Sg Gen @<ADVL #2->1
 : 
@@ -12097,7 +12065,6 @@
 "<dah>"
 	"dah" Pron Pers Pl3 Nom @SUBJ> #10->12
 : 
-
 "<meatan>"
 	"meatan" Adv @<ADVL #11->6
 : 
@@ -12127,6 +12094,7 @@
 "<Jienebelåhkoereerenassen>"
 	"jienebelåhkoereerenasse" N Sem/Dummytag Sg Gen @>N #1->3
 : 
+
 "<politihkeles>"
 	"politihke" A Err/Lex Attr @>N #2->3
 : 

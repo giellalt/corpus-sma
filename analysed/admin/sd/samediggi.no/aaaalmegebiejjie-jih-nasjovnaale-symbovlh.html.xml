@@ -1,49 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>479</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><origFileName>http://www.saemiedigkie.no/layout/set/print/Saemiedigkien-bijre/Sjieke/AAaalmegebiejjie-jih-nasjovnaale-symbovlh</origFileName><parallel_text xml:lang="nob" location="nasjonaldag-og-nasjonale-symboler.html"/><parallel_text xml:lang="sme" location="sami-albmotbeaivi-ja-nasuvnnalas-dovdomearkkat.html"/><parallel_text xml:lang="smj" location="almmukbiejvve-ja-nasjaavnaalasj-gaavaastaga.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>Åålmegebiejjie jïh nasjovnaale symbovlh / Sjïeke / Saemiedigkien bïjre  / Saemiedigkie - Sametinget</title><genre code="admin"/><author><unknown/></author><wordcount>466</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><origFileName>http://www.saemiedigkie.no/layout/set/print/Saemiedigkien-bijre/Sjieke/AAaalmegebiejjie-jih-nasjovnaale-symbovlh</origFileName><parallel_text xml:lang="nob" location="nasjonaldag-og-nasjonale-symboler.html"/><parallel_text xml:lang="sme" location="sami-albmotbeaivi-ja-nasuvnnalas-dovdomearkkat.html"/><parallel_text xml:lang="smj" location="almmukbiejvve-ja-nasjaavnaalasj-gaavaastaga.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Åålmegebiejjie>"
-	"åålmegebiejjie" N Sem/Time Sg Nom @HNOUN #1->0
-: 
-"<jïh>"
-	"jïh" CC @CNP #2->1
-: 
-"<nasjovnaale>"
-	"nasjonaale" A Err/Orth Attr @>N #3->4
-: 
-"<symbovlh>"
-	"symbovle" N Sem/Dummytag Pl Nom @HNOUN #4->1
-: 
-"</>"
-	"/" PUNCT MIDDLE #5->6
-: 
-"<Sjïeke>"
-	"sjïeke" N Sem/Semcon Sg Nom @HNOUN #6->4
-	"sjïeke" Pr @ADVL #6->4
-: 
-"</>"
-	"/" PUNCT MIDDLE #7->8
-: 
-"<Saemiedigkien>"
-	"Saemiedigkie" N Prop Sem/Org Sg Gen @>P #8->9
-: 
-"<bïjre>"
-	"bïjre" Po @ADVL> #9->11
-: 
-"</>"
-	"/" PUNCT MIDDLE #10->11
-: 
-"<Saemiedigkie>"
-	"Saemiedigkie" N Prop Sem/Org Sg Nom @HNOUN #11->6
-: 
-"<->"
-	"-" PUNCT MIDDLE #12->13
-: 
-"<Sametinget>"
-	"Sametinget" N Prop Sem/Org Sg Nom @HNOUN #13->11
-: 
-"<¶>"
-	"¶" CLB #14->1
-:\n
-"<Åålmegebiejjie>"
 	"åålmegebiejjie" N Sem/Time Sg Nom @HNOUN #1->0
 : 
 "<jïh>"
@@ -1471,7 +1428,6 @@
 "<nasjonalsang>"
 	"nasjonalsang" ? @X #2->0
 : 
-
 "<¶>"
 	"¶" CLB #3->3
 :\n
@@ -1512,6 +1468,7 @@
 "<¶>"
 	"¶" CLB #7->1
 :\n
+
 "<Lovdata>"
 	"Lovdata" N Prop Sem/Org Sg Nom @HNOUN #1->0
 :  

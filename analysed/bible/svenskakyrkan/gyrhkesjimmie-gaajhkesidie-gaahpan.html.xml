@@ -1,38 +1,8 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="bible"/><author><unknown/></author><wordcount>255</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer+apertium@mm.st"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.svenskakyrkan.se/omoss/gyrhkesjimmie-gaajhkesidie-gaahpan</origFileName><parallel_text xml:lang="sme" location="ipmilbalvalus-lea-rabas-buohkaide.html"/><parallel_text xml:lang="smj" location="jubmeldievnno-rabas-gajkajda.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 104145 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>
+	Gyrhkesjimmie gaajhkesidie gaahpan - Svenska kyrkan - Om oss
+</title><genre code="bible"/><author><unknown/></author><wordcount>246</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer+apertium@mm.st"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.svenskakyrkan.se/omoss/gyrhkesjimmie-gaajhkesidie-gaahpan</origFileName><parallel_text xml:lang="sme" location="ipmilbalvalus-lea-rabas-buohkaide.html"/><parallel_text xml:lang="smj" location="jubmeldievnno-rabas-gajkajda.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 104145 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Gyrhkesjimmie>"
-	"gyrhkesjimmie" N Sem/Event Sg Nom @HNOUN #1->0
-: 
-"<gaajhkesidie>"
-	"gaajhkesh" Pron Coll Pl Acc @<OBJ #2->3
-	"gaajhkesh" Pron Coll Pl Ill @>N #2->3
-: 
-"<gaahpan>"
-	"gaahpan" Adv @ADVL> #3->1
-	"gaehpie" N Sem/Dummytag Sg Ill @<ADVL #3->1
-: 
-"<->"
-	"-" PUNCT MIDDLE #4->5
-: 
-"<Svenska>"
-	"Svenska" ? @X #5->0
-: 
-"<kyrkan>"
-	"kyrkan" ? @X #6->0
-: 
-"<->"
-	"-" PUNCT MIDDLE #7->8
-: 
-"<Om>"
-	"Om" ? @X #8->0
-: 
-"<oss>"
-	"oss" ? @X #9->0
-: 
-"<¶>"
-	"¶" CLB #10->1
-:\n
-"<Gyrhkesjimmie>"
 	"gyrhkesjimmie" N Sem/Event Sg Nom @HNOUN #1->0
 : 
 "<gaajhkesidie>"

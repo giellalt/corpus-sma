@@ -1,47 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>321</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Kultuvrejieleme/Gaarsjelimmie/Saemiedigkien-kultuvre-jih-gaarsjelimmiestipende</origFileName><parallel_text xml:lang="nob" location="sametingets-kultur-og-idrettsstipend.html"/><parallel_text xml:lang="sme" location="samedikki-kultur-ja-valastallanstipeanddat.html"/><parallel_text xml:lang="smj" location="samedikke-kultuvrra-ja-valastallamstipaennda.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>Saemiedigkien kultuvre- jïh gaarsjelimmiestipende / Gaarsjelimmie / Kultuvrejieleme / Saemiedigkie - Sametinget</title><genre code="admin"/><author><unknown/></author><wordcount>309</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Kultuvrejieleme/Gaarsjelimmie/Saemiedigkien-kultuvre-jih-gaarsjelimmiestipende</origFileName><parallel_text xml:lang="nob" location="sametingets-kultur-og-idrettsstipend.html"/><parallel_text xml:lang="sme" location="samedikki-kultur-ja-valastallanstipeanddat.html"/><parallel_text xml:lang="smj" location="samedikke-kultuvrra-ja-valastallamstipaennda.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Saemiedigkien>"
-	"Saemiedigkie" N Prop Sem/Org Sg Gen @>N #1->2
-	"saemiedigkie" N Sem/Build_Org Sg Gen @>N #1->2
-: 
-"<kultuvre->"
-	"kultuvre" N Sem/Domain Cmp/SgNom Cmp/SplitR Cmp @>N #2->4
-: 
-"<jïh>"
-	"jïh" CC @CNP #3->2
-: 
-"<gaarsjelimmiestipende>"
-	"stipende" N Sem/Money Sg Nom @HNOUN #4->0
-		"gaarsjelidh" Ex/V TV Der/NomAct N Cmp/SgNom Cmp #4->0
-: 
-"</>"
-	"/" PUNCT MIDDLE #5->6
-: 
-"<Gaarsjelimmie>"
-	"gaarsjelidh" Ex/V TV Der/NomAct N Sg Nom @HNOUN #6->4
-: 
-"</>"
-	"/" PUNCT MIDDLE #7->8
-: 
-"<Kultuvrejieleme>"
-	"kultuvrejieleme" N Sem/Dummytag Sg Nom @HNOUN #8->6
-: 
-"</>"
-	"/" PUNCT MIDDLE #9->10
-: 
-"<Saemiedigkie>"
-	"Saemiedigkie" N Prop Sem/Org Sg Nom @HNOUN #10->8
-: 
-"<->"
-	"-" PUNCT MIDDLE #11->12
-: 
-"<Sametinget>"
-	"Sametinget" N Prop Sem/Org Sg Nom @HNOUN #12->10
-: 
-"<¶>"
-	"¶" CLB #13->4
-:\n
-"<Saemiedigkien>"
 	"Saemiedigkie" N Prop Sem/Org Sg Gen @>N #1->2
 	"saemiedigkie" N Sem/Build_Org Sg Gen @>N #1->2
 : 

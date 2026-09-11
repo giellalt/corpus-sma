@@ -1,26 +1,10 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>3718</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual/><origFileName>http://www.udir.no/kl06/MAT1-04/Hele/Komplett_visning?lplang=sma&amp;read=1</origFileName><parallel_text xml:lang="eng" location="laereplan_matematikk-felles.html"/><parallel_text xml:lang="nno" location="laereplan_matematikk-felles.html"/><parallel_text xml:lang="sme" location="laereplan_matematikk-felles.html"/><parallel_text xml:lang="smj" location="laereplan_matematikk-felles.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
-<body><dependency><![CDATA["<Udir.no>"
-	"Udir.no" N Prop Sem/Org Sg Nom @HNOUN #1->0
-	"Udir.no" URL #1->0
-: 
-"<->"
-	"-" PUNCT MIDDLE #2->3
-: 
-"<Learoesoejkesje>"
-	"learoesoejkesje" N Sem/Prod-cogn Sg Nom @HNOUN #3->1
-: 
-"<matematihkesne>"
-	"matematihke" N Sem/Domain Sg Ine @ADVL> #4->5
-	"matematihke" N Sem/Edu Sg Ine @ADVL> #4->5
-: 
-"<ektiefaage>"
-	"ektiefaage" N Sem/Edu Sg Nom @HNOUN #5->3
-: 
-"<¶>"
-	"¶" CLB #6->1
-:\n
-"<Learoesoejkesje>"
+<document xml:lang="sma" id="no_id"><header><title>
+	
+                Udir.no - Learoesoejkesje matematihkesne ektiefaage
+            
+</title><genre code="admin"/><author><unknown/></author><wordcount>3713</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual/><origFileName>http://www.udir.no/kl06/MAT1-04/Hele/Komplett_visning?lplang=sma&amp;read=1</origFileName><parallel_text xml:lang="eng" location="laereplan_matematikk-felles.html"/><parallel_text xml:lang="nno" location="laereplan_matematikk-felles.html"/><parallel_text xml:lang="sme" location="laereplan_matematikk-felles.html"/><parallel_text xml:lang="smj" location="laereplan_matematikk-felles.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Learoesoejkesje>"
 	"learoesoejkesje" N Sem/Prod-cogn Sg Nom @HNOUN #1->0
 : 
 "<matematihkesne>"
@@ -1509,7 +1493,6 @@
 	"1p" N Sem/Sign ABBR Gram/IAbbr Sg Gen @<ADVL #12->4
 	"1p" N Sem/Sign ABBR Gram/IAbbr Sg Nom @<SUBJ #12->4
 : 
-
 "<jallh>"
 	"jallh" CC @CNP #13->12
 : 
@@ -1528,6 +1511,7 @@
 	"ulmie" N Sem/Semcon Pl Acc @OBJ> #2->3
 		"maahtoe" N Sem/Edu Cmp/SgNom Cmp #2->3
 : 
+
 "<vuesehte>"
 	"vuesiehtidh" <mv> V TV Ind Prs Sg3 @FMV #3->0
 : 
@@ -3041,7 +3025,6 @@
 "<jïh>"
 	"jïh" CC @CNP #9->5
 : 
-
 "<argumenteradidh>"
 	"argumenteeredh" Err/Orth <mv> V IV Inf @IMV #10->5
 : 
@@ -3062,6 +3045,7 @@
 "<,>"
 	"," CLB #15->14
 : 
+
 "<veele>"
 	"veele" Adv @<ADVL #16->10
 : 
@@ -4562,7 +4546,6 @@
 	"luhkie" Num Pl Ine @<ADVL-ine #24->23
 	"luhkie" Num Sg Com @<ADVL-ine #24->23
 : 
-
 "<jïh>"
 	"jïh" CC @CNP #25->24
 : 
@@ -4585,6 +4568,7 @@
 "<aerviedimmide>"
 	"aerviedidh" Ex/V TV Der/NomAct N Pl Acc @<OBJ #3->2
 	"aerviedidh" Ex/V TV Der/NomAct N Pl Ill @<ADVL #3->2
+
 "<,>"
 	"," CLB #4->5
 : 
@@ -6107,7 +6091,6 @@
 "<vuarjasjidh>"
 	"vuarjasjidh" <mv> V TV Inf @IMV #23->21
 : 
-
 "<mejtie>"
 	"mejtie" CS @CVP #24->26
 : 
@@ -6128,6 +6111,7 @@
 "<ij-standardiseradamme>"
 	"ij-standardiseradamme" ? @X #1->0
 : 
+
 "<möölegeektievoeth>"
 	"möölegeektievoete" N Sem/Measr Pl Nom @OBJ> #2->3
 : 
@@ -7656,7 +7640,6 @@
 "<¶>"
 	"¶" CLB #26->2
 :\n
-
 "<medijanem>"
 	"medijanem" ? @X #1->0
 "<,>"
@@ -7675,6 +7658,7 @@
 "<gaavnedh>"
 	"gaavnedidh" <mv> V IV Ind Prs Sg2 @FMV #6->0
 : 
+
 "<aelhkie>"
 	"aelhkie" Adv @<ADVL #7->6
 : 
@@ -9183,7 +9167,6 @@
 "<jïh>"
 	"jïh" CC @CNP #8->7
 : 
-
 "<aerviedimmien>"
 	"aerviedidh" Ex/V TV Der/NomAct N Sg Gen @>P #9->10
 : 
@@ -9206,6 +9189,7 @@
 	"spïele" N Sem/Dummytag Pl Ine @<ADVL-ine #14->12
 	"spïele" N Sem/Dummytag Sg Com @<ADVL-ine #14->12
 : 
+
 "<¶>"
 	"¶" CLB #15->1
 :\n
@@ -10696,7 +10680,6 @@
 "<¶>"
 	"¶" CLB #7->3
 :\n
-
 "<aerviedidh>"
 	"aerviedidh" <mv> V TV Ind Prt Pl2 @FMV #1->0
 	"aerviedidh" <mv> V TV Inf @IMV #1->0
@@ -10714,6 +10697,7 @@
 : 
 "<ryöknedh>"
 	"ryöknedh" V TV Inf @<SUBJ #6->1
+
 "<,>"
 	"," CLB #7->20
 : 
@@ -12228,7 +12212,6 @@
 "<åehpiedehtedh>"
 	"åehpiedehtedh" <mv> V TV Inf @IMV #14->1
 : 
-
 "<jïh>"
 	"jïh" CC @CNP #15->1
 : 
@@ -12248,6 +12231,7 @@
 "<jïh>"
 	"jïh" CC @CNP #20->19
 : 
+
 "<bielelen>"
 	"bielelen" Adv @<ADVL #21->19
 	"bielelen" Pr @<ADVL #21->19

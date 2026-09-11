@@ -1,40 +1,10 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>3430</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual/><origFileName>http://www.udir.no/kl06/NOR3-03/Hele/Komplett_visning?lplang=sma&amp;read=1</origFileName><parallel_text xml:lang="nob" location="laereplan_norsk_samiskfoerst.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
-<body><dependency><![CDATA["<Udir.no>"
-	"Udir.no" N Prop Sem/Org Sg Nom @HNOUN #1->0
-	"Udir.no" URL #1->0
-: 
-"<->"
-	"-" PUNCT MIDDLE #2->3
-: 
-"<Learoesoejkesje>"
-	"learoesoejkesje" N Sem/Prod-cogn Sg Nom @HNOUN #3->1
-: 
-"<nöörjen>"
-	"nöörjen" A Attr @>N #4->5
-: 
-"<gïelesne>"
-	"gielie" N Sem/Dummytag Sg Ine @<ADVL #5->3
-	"gïele" N Sem/Lang_Tool Sg Ine @<ADVL #5->3
-: 
-"<learoehkidie>"
-	"learohke" N Sem/Hum Pl Ill @<ADVL #6->3
-: 
-"<mej>"
-	"mij" Pron Rel Pl Gen @>N #7->9
-: 
-"<saemien>"
-	"saemien" A Attr @>N #8->9
-: 
-"<voestesgïeline>"
-	"voestesgïele" N Sem/Lang Ess @<SPRED #9->3
-	"voestesgïele" N Sem/Lang Pl Ine @<ADVL #9->3
-	"voestesgïele" N Sem/Lang Sg Com @<ADVL #9->3
-: 
-"<¶>"
-	"¶" CLB #10->1
-:\n
-"<Learoesoejkesje>"
+<document xml:lang="sma" id="no_id"><header><title>
+	
+                Udir.no - Learoesoejkesje nöörjen gïelesne learoehkidie mej saemien voestesgïeline
+            
+</title><genre code="admin"/><author><unknown/></author><wordcount>3421</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual/><origFileName>http://www.udir.no/kl06/NOR3-03/Hele/Komplett_visning?lplang=sma&amp;read=1</origFileName><parallel_text xml:lang="nob" location="laereplan_norsk_samiskfoerst.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Learoesoejkesje>"
 	"learoesoejkesje" N Sem/Prod-cogn Sg Nom @HNOUN #1->0
 : 
 "<nöörjen>"
@@ -1506,7 +1476,6 @@
 "<lea>"
 	"lea" <mv> V IV Ind Prs Sg3 @FMV #3->0
 : 
-
 "<maahtoeulmie>"
 	"ulmie" N Sem/Semcon Sg Nom @<SUBJ #4->3
 		"maahtoe" N Sem/Edu Cmp/SgNom Cmp #4->3
@@ -1539,6 +1508,7 @@
 "<¶>"
 	"¶" CLB #1->1
 :\n
+
 "<Bijjieguvvie>"
 	"guvvie" N Sem/Prod-vis Sg Nom @HNOUN #1->0
 		"bijjie" N Sem/Dummytag Cmp/SgNom Cmp #1->0
@@ -3002,7 +2972,6 @@
 "<219>"
 	"219" Num Arab Sg Nom @>N #3->4
 : 
-
 "<tæjmoeh>"
 	"tæjmoe" N Sem/Measr_Time Pl Nom @<ADVL #4->1
 : 
@@ -3038,6 +3007,7 @@
 	"ulmie" N Sem/Semcon Sg Com @ADVL> #4->9
 		"maahtoe" N Sem/Edu Cmp/SgNom Cmp #4->9
 : 
+
 "<sjïehtesjamme>"
 	"sjïehtesjidh" <mv> V TV PrfPrc @IMV #5->3
 : 
@@ -4510,7 +4480,6 @@
 "<vuarjasjidh>"
 	"vuarjasjidh" <mv> V TV Inf @IMV #24->14
 : 
-
 "<jïh>"
 	"jïh" CC @CNP #25->14
 : 
@@ -4542,6 +4511,7 @@
 "<,>"
 	"," CLB #34->35
 : 
+
 "<jïh>"
 	"jïh" CC @CNP #35->33
 : 
@@ -6049,7 +6019,6 @@
 "<soptsestidh>"
 	"soptsestidh" <mv> V TV Inf @IMV #23->17
 : 
-
 "<¶>"
 	"¶" CLB #24->4
 :\n
@@ -6080,6 +6049,7 @@
 "<Tjaaleldh>"
 	"tjaaleldh" Adv @ADVL> #1->2
 : 
+
 "<govlesadteme>"
 	"govlesadtedh" <mv> V IV PrfPrc @IMV #2->0
 : 
@@ -7613,7 +7583,6 @@
 "<jïh>"
 	"jïh" CC @CNP #10->9
 : 
-
 "<åehpiedehtieminie>"
 	"åehpiedehteme" N Sem/Dummytag Ess @<OPRED #11->7
 	"åehpiedehteme" N Sem/Dummytag Pl Ine @<ADVL-ine #11->7
@@ -7645,6 +7614,7 @@
 "<nuhtjedh>"
 	"nuhtjedh" <mv> V TV Inf @IMV #2->0
 : 
+
 "<retorihkeles>"
 	"retorihke" A Err/Lex Attr @X #3->0
 : 
@@ -9177,7 +9147,6 @@
 "<¶>"
 	"¶" CLB #14->3
 :\n
-
 "<jeereldihkie>"
 	"jeereldihkie" A Attr @>N #1->2
 : 
@@ -9210,6 +9179,7 @@
 "<jïh>"
 	"jïh" CC @CNP #10->9
 : 
+
 "<dåastoejasse>"
 	"dåastodh" Ex/V TV Der/NomAg N Sg Ill @ADVL> #11->9
 : 
@@ -10730,7 +10700,6 @@
 	"låhkoe" N Sem/Amount Sg Gen @<ADVL #6->5
 		"1800" Num Arab Cmp/Hyph Cmp #6->5
 : 
-
 "<¶>"
 	"¶" CLB #7->5
 :\n
@@ -10771,6 +10740,7 @@
 "<¶>"
 	"¶" CLB #9->2
 :\n
+
 "<soptsestimmievuekieh>"
 	"soptsestimmievuekie" N Sem/Rule Pl Nom @OBJ> #1->4
 : 
@@ -12252,7 +12222,6 @@
 "<gietskene>"
 	"gietskene" Adv @ADVL> #3->4
 : 
-
 "<dorjesåvva>"
 	"dorjesovvedh" <mv> V IV Ind Prs Sg3 @FMV #4->0
 : 
@@ -12281,6 +12250,7 @@
 : 
 "<(>"
 	"(" PUNCT LEFT #5->6
+
 "<309>"
 	"309" Num Arab Sg Nom @>N #6->7
 : 

@@ -1,53 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>42</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Jielemh/Duedtie/Govlehtimmie-Jarkelimmien-bijre-giehtelimsdaaarjoste-duedtiejieliemasse</origFileName><parallel_text xml:lang="nob" location="hoering-om-endring-i-driftstilskudd-for-duodjinaeringen.html"/><parallel_text xml:lang="sme" location="gulaskuddan-duodjeealahusa-doaibmadoarjaga-rievdadeami-birra.html"/><parallel_text xml:lang="smj" location="guladibme-rievddadus-duodjeaeladusa-doajmmadoarjjagin.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>Govlehtimmie: Jarkelimmien bïjre gïehtelimsdåarjoste duedtiejieliemasse / Duedtie / Jielemh / Saemiedigkie - Sametinget</title><genre code="admin"/><author><unknown/></author><wordcount>29</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Jielemh/Duedtie/Govlehtimmie-Jarkelimmien-bijre-giehtelimsdaaarjoste-duedtiejieliemasse</origFileName><parallel_text xml:lang="nob" location="hoering-om-endring-i-driftstilskudd-for-duodjinaeringen.html"/><parallel_text xml:lang="sme" location="gulaskuddan-duodjeealahusa-doaibmadoarjaga-rievdadeami-birra.html"/><parallel_text xml:lang="smj" location="guladibme-rievddadus-duodjeaeladusa-doajmmadoarjjagin.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Govlehtimmie>"
-	"govlehtimmie" N Sem/Act Sg Nom @HNOUN #1->0
-"<:>"
-	":" CLB #2->1
-: 
-"<Jarkelimmien>"
-	"jarkelidh" Ex/V TV Der/NomAct N Sg Gen @>P #3->4
-: 
-"<bïjre>"
-	"bïjre" Po @ADVL> #4->6
-: 
-"<gïehtelimsdåarjoste>"
-	"gïehtelimsdåarjoste" ? @X #5->0
-: 
-"<duedtiejieliemasse>"
-	"jieleme" N Sem/Act Sg Ill @<ADVL #6->1
-		"duedtie" N Sem/Domain_Money Cmp/SgNom Cmp #6->1
-	"jieliemasse" N Sem/Domain Sg Nom @HNOUN #6->1
-		"duedtie" N Sem/Domain_Money Cmp/SgNom Cmp #6->1
-: 
-"</>"
-	"/" PUNCT MIDDLE #7->8
-: 
-"<Duedtie>"
-	"duedtie" N Sem/Domain_Money Sg Nom @HNOUN #8->6
-: 
-"</>"
-	"/" PUNCT MIDDLE #9->10
-: 
-"<Jielemh>"
-	"jieleme" N Sem/Act Pl Nom @HNOUN #10->8
-: 
-"</>"
-	"/" PUNCT MIDDLE #11->12
-: 
-"<Saemiedigkie>"
-	"Saemiedigkie" N Prop Sem/Org Sg Nom @HNOUN #12->10
-: 
-"<->"
-	"-" PUNCT MIDDLE #13->14
-: 
-"<Sametinget>"
-	"Sametinget" N Prop Sem/Org Sg Nom @HNOUN #14->12
-: 
-"<¶>"
-	"¶" CLB #15->1
-:\n
-"<Govlehtimmie>"
 	"govlehtimmie" N Sem/Act Sg Nom @HNOUN #1->0
 "<:>"
 	":" CLB #2->1

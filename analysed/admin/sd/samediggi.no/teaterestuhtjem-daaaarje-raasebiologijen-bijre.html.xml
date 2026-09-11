@@ -1,55 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>230</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/Kultuvrejieleme/Kaaanste-jih-kultuvrebarkoe/Teaterestuhtjem-daaaarje-raasebiologijen-bijre</origFileName><parallel_text xml:lang="nob" location="stoetter-teaterstykke-om-rasebiologien.html"/><parallel_text xml:lang="sme" location="doarju-teahtercajahusa-nallebiologiija-birra.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>Teaterestuhtjem dåårje raasebiologijen bïjre / Kåanste- jïh kultuvrebarkoe / Kultuvrejieleme / Saemiedigkie - Sametinget</title><genre code="admin"/><author><unknown/></author><wordcount>216</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/Kultuvrejieleme/Kaaanste-jih-kultuvrebarkoe/Teaterestuhtjem-daaaarje-raasebiologijen-bijre</origFileName><parallel_text xml:lang="nob" location="stoetter-teaterstykke-om-rasebiologien.html"/><parallel_text xml:lang="sme" location="doarju-teahtercajahusa-nallebiologiija-birra.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Teaterestuhtjem>"
-	"stuhtje" N Sem/Part Sg Acc @OBJ> #1->2
-		"teaatere" N Err/Orth Sem/Org Cmp/SgNom Cmp #1->2
-	"stuhtje" N Sem/Part Sg Acc @OBJ> #1->2
-		"teatere" N Sem/Dummytag Cmp/SgNom Cmp #1->2
-: 
-"<dåårje>"
-	"dåarjodh" <mv> V TV Ind Prs Sg3 @FMV #2->0
-: 
-"<raasebiologijen>"
-	"raasebiologijen" ? @X #3->0
-: 
-"<bïjre>"
-	"bïjre" Adv @<ADVL #4->2
-	"bïjre" Pr @<ADVL #4->2
-: 
-"</>"
-	"/" PUNCT MIDDLE #5->6
-: 
-"<Kåanste->"
-	"kåanste" N Sem/Prod-cogn Cmp/SgNom Cmp/SplitR Cmp @>N #6->8
-: 
-"<jïh>"
-	"jïh" CC @CNP #7->6
-: 
-"<kultuvrebarkoe>"
-	"kultuvrebarkoe" N Sem/Dummytag Sg Nom @<SUBJ #8->2
-: 
-"</>"
-	"/" PUNCT MIDDLE #9->10
-: 
-"<Kultuvrejieleme>"
-	"kultuvrejieleme" N Sem/Dummytag Sg Nom @<SUBJ #10->2
-: 
-"</>"
-	"/" PUNCT MIDDLE #11->12
-: 
-"<Saemiedigkie>"
-	"Saemiedigkie" N Prop Sem/Org Sg Nom @<SUBJ #12->2
-: 
-"<->"
-	"-" PUNCT MIDDLE #13->14
-: 
-"<Sametinget>"
-	"Sametinget" N Prop Sem/Org Sg Nom @X #14->0
-: 
-"<¶>"
-	"¶" CLB #15->2
-:\n
-"<Teaterestuhtjem>"
 	"stuhtje" N Sem/Part Sg Acc @OBJ> #1->2
 		"teaatere" N Err/Orth Sem/Org Cmp/SgNom Cmp #1->2
 	"stuhtje" N Sem/Part Sg Acc @OBJ> #1->2

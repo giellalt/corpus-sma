@@ -1,42 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>1059</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/Ealahusat/Duodji/Stipeanda-ja-doarjja</origFileName><parallel_text xml:lang="nob" location="stipend-og-tilskudd.html"/><parallel_text xml:lang="sme" location="stipeanda-ja-doarjja.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
-<body><dependency><![CDATA["<Stipeanda>"
-	"Stipeanda" ? @X #1->0
-: 
-"<ja>"
-	"ja" CC @CNP #2->1
-: 
-"<doarjja>"
-	"doarjja" ? @X #3->0
-: 
-"</>"
-	"/" PUNCT MIDDLE #4->5
-: 
-"<Duedtie>"
-	"duedtie" N Sem/Domain_Money Sg Nom @HNOUN #5->0
-: 
-"</>"
-	"/" PUNCT MIDDLE #6->7
-: 
-"<Jielemh>"
-	"jieleme" N Sem/Act Pl Nom @HNOUN #7->5
-: 
-"</>"
-	"/" PUNCT MIDDLE #8->9
-: 
-"<Saemiedigkie>"
-	"Saemiedigkie" N Prop Sem/Org Sg Nom @HNOUN #9->7
-: 
-"<->"
-	"-" PUNCT MIDDLE #10->11
-: 
-"<Sametinget>"
-	"Sametinget" N Prop Sem/Org Sg Nom @HNOUN #11->9
-: 
-"<¶>"
-	"¶" CLB #12->5
-:\n
-"<Jielemelatjkoe>"
+<document xml:lang="sma" id="no_id"><header><title>Stipeanda ja doarjja / Duedtie / Jielemh / Saemiedigkie - Sametinget</title><genre code="admin"/><author><unknown/></author><wordcount>1048</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/Ealahusat/Duodji/Stipeanda-ja-doarjja</origFileName><parallel_text xml:lang="nob" location="stipend-og-tilskudd.html"/><parallel_text xml:lang="sme" location="stipeanda-ja-doarjja.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Jielemelatjkoe>"
 	"latjkoe" N Sem/Prod-ling Sg Nom @HNOUN #1->0
 		"jieleme" N Sem/Act Cmp/SgNom Cmp #1->0
 	"latjkoe" N Sem/Prod-ling Sg Nom @HNOUN #1->0
@@ -1506,7 +1470,6 @@
 "<–>"
 	"–" PUNCT MIDDLE #7->8
 : 
-
 "<vuartesjh>"
 	"vuartasjidh" <mv> V TV Ind Prs Sg2 @FMV #8->6
 : 
@@ -1543,6 +1506,7 @@
 :\n
 "<Govlehtallije>"
 	"govlehtallije" N Sem/Hum Sg Nom @HNOUN #1->0
+
 "<:>"
 	":" CLB #2->1
 : 
@@ -3025,7 +2989,6 @@
 	"vïjhte" Num Sg Acc @>N #5->6
 	"vïjhte" Num Sg Nom @>N #5->6
 : 
-
 "<latjkojde>"
 	"latjkoe" N Sem/Prod-ling Pl Acc @<OBJ #6->3
 	"latjkoe" N Sem/Prod-ling Pl Ill @<ADVL #6->3
@@ -3062,6 +3025,7 @@
 "<Hospitanten>"
 	"hospitaante" N Sem/Dummytag Err/Orth Sg Gen @ADVL> #1->2
 : 
+
 "<lea>"
 	"lea" <mv> V IV Ind Prs Sg3 @FMV #2->0
 : 

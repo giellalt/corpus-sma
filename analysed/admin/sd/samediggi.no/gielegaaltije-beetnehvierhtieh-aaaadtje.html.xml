@@ -1,53 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>465</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/Giele/Bievnesh-saemien-gieli-bijre/Gielegaaltije-beetnehvierhtieh-aaaadtje</origFileName><parallel_text xml:lang="nob" location="giellagaldu-faar-finansiering.html"/><parallel_text xml:lang="sme" location="giellagaldu-oazzu-ruhtadeami.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>Gïelegaaltije beetnehvierhtieh åådtje / Bïevnesh saemien gïeli bïjre / Gïele / Saemiedigkie - Sametinget</title><genre code="admin"/><author><unknown/></author><wordcount>451</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/Giele/Bievnesh-saemien-gieli-bijre/Gielegaaltije-beetnehvierhtieh-aaaadtje</origFileName><parallel_text xml:lang="nob" location="giellagaldu-faar-finansiering.html"/><parallel_text xml:lang="sme" location="giellagaldu-oazzu-ruhtadeami.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Gïelegaaltije>"
-	"gaaltije" N Sem/Plc_Txt Sg Nom @SUBJ> #1->3
-		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #1->3
-: 
-"<beetnehvierhtieh>"
-	"beetnehvierhtie" N Sem/Dummytag Pl Nom @X #2->0
-: 
-"<åådtje>"
-	"åadtjodh" <aux> V TV Ind Prs Sg3 @FAUX #3->0
-: 
-"</>"
-	"/" PUNCT MIDDLE #4->5
-: 
-"<Bïevnesh>"
-	"bïevnese" N Sem/Prod-ling Pl Nom @<SUBJ #5->3
-: 
-"<saemien>"
-	"saemie" N Sem/Hum_Lang Sg Gen @>N #6->7
-	"saemien" A Attr @>N #6->7
-: 
-"<gïeli>"
-	"gïele" N Sem/Lang_Tool Pl Gen @>P #7->8
-: 
-"<bïjre>"
-	"bïjre" Po @ADVL> #8->8
-: 
-"</>"
-	"/" PUNCT MIDDLE #9->10
-: 
-"<Gïele>"
-	"gïele" N Sem/Lang_Tool Sg Nom @<SUBJ #10->3
-: 
-"</>"
-	"/" PUNCT MIDDLE #11->12
-: 
-"<Saemiedigkie>"
-	"Saemiedigkie" N Prop Sem/Org Sg Nom @<SUBJ #12->3
-: 
-"<->"
-	"-" PUNCT MIDDLE #13->14
-: 
-"<Sametinget>"
-	"Sametinget" N Prop Sem/Org Sg Nom @X #14->0
-: 
-"<¶>"
-	"¶" CLB #15->3
-:\n
-"<Gïelegaaltije>"
 	"gaaltije" N Sem/Plc_Txt Sg Nom @SUBJ> #1->3
 		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #1->3
 : 
@@ -1544,7 +1497,6 @@
 "<aalka>"
 	"aelkedh" <aux> V IV Ind Prs Sg3 @FAUX #2->0
 : 
-
 "<juhtedh>"
 	"juhtedh" <mv> V IV Inf @IMV #3->2
 : 
@@ -1588,6 +1540,7 @@
 "<¶>"
 	"¶" CLB #7->3
 :\n
+
 "<Tiina>"
 	"Tiina" N Prop Sem/Fem Attr @>N #1->2
 : 

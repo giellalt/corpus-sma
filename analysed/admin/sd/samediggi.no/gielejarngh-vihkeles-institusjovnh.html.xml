@@ -1,54 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>329</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Vaaarhkoe/Veeljemeboelhken-2009-2013/Tjaalegh/Gielejarngh-vihkeles-institusjovnh</origFileName><parallel_text xml:lang="nob" location="spraaksentrene-er-viktige-institusjoner.html"/><parallel_text xml:lang="sme" location="giellaguovddazat-leat-deatalas-asahusat.html"/><parallel_text xml:lang="smj" location="giellaguovdatja-li-ajnas-asadusa.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>Gïelejarngh vihkeles institusjovnh / Tjaalegh / Veeljemeboelhken 2009 - 2013 / Våarhkoe / Saemiedigkie - Sametinget</title><genre code="admin"/><author><unknown/></author><wordcount>313</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Vaaarhkoe/Veeljemeboelhken-2009-2013/Tjaalegh/Gielejarngh-vihkeles-institusjovnh</origFileName><parallel_text xml:lang="nob" location="spraaksentrene-er-viktige-institusjoner.html"/><parallel_text xml:lang="sme" location="giellaguovddazat-leat-deatalas-asahusat.html"/><parallel_text xml:lang="smj" location="giellaguovdatja-li-ajnas-asadusa.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Gïelejarngh>"
-	"gïelejarnge" N Sem/Plc Pl Nom @HNOUN #1->0
-: 
-"<vihkeles>"
-	"vihkeles" A Attr @>N #2->3
-: 
-"<institusjovnh>"
-	"institusjovne" N Sem/Org Pl Nom @HNOUN #3->1
-: 
-"</>"
-	"/" PUNCT MIDDLE #4->5
-: 
-"<Tjaalegh>"
-	"tjaalege" N Sem/Txt Pl Nom @HNOUN #5->3
-: 
-"</>"
-	"/" PUNCT MIDDLE #6->7
-: 
-"<Veeljemeboelhken>"
-	"veeljemeboelhke" N Sem/Time Sg Gen @ADVL> #7->8
-: 
-"<2009>"
-	"2009" Num Arab Sem/Year Sg Nom @HNOUN #8->5
-: 
-"<- 2013>"
-	"- 2013" Num Arab Sem/ID @>N #9->11
-: 
-"</>"
-	"/" PUNCT MIDDLE #10->11
-: 
-"<Våarhkoe>"
-	"våarhkoe" N Sem/Ctain-clth Sg Nom @HNOUN #11->7
-: 
-"</>"
-	"/" PUNCT MIDDLE #12->13
-: 
-"<Saemiedigkie>"
-	"Saemiedigkie" N Prop Sem/Org Sg Nom @HNOUN #13->11
-: 
-"<->"
-	"-" PUNCT MIDDLE #14->15
-: 
-"<Sametinget>"
-	"Sametinget" N Prop Sem/Org Sg Nom @HNOUN #15->13
-: 
-"<¶>"
-	"¶" CLB #16->1
-:\n
-"<Gïelejarngh>"
 	"gïelejarnge" N Sem/Plc Pl Nom @HNOUN #1->0
 : 
 "<vihkeles>"

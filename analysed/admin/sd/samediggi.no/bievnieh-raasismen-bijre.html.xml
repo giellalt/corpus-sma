@@ -1,56 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>488</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Vaaarhkoe/Veeljemeboelhken-2009-2013/Tjaalegh/Bievnieh-raasismen-bijre</origFileName><parallel_text xml:lang="nob" location="si-ifra-om-rasisme.html"/><parallel_text xml:lang="sme" location="allet-ciegat-rasismma.html"/><parallel_text xml:lang="smj" location="diededa-rasismav.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>Bievnieh raasismen bïjre! / Tjaalegh / Veeljemeboelhken 2009 - 2013 / Våarhkoe / Saemiedigkie - Sametinget</title><genre code="admin"/><author><unknown/></author><wordcount>472</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Vaaarhkoe/Veeljemeboelhken-2009-2013/Tjaalegh/Bievnieh-raasismen-bijre</origFileName><parallel_text xml:lang="nob" location="si-ifra-om-rasisme.html"/><parallel_text xml:lang="sme" location="allet-ciegat-rasismma.html"/><parallel_text xml:lang="smj" location="diededa-rasismav.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Bievnieh>"
-	"bievnedh" <mv> V TV Imprt Sg2 @FMV #1->0
-: 
-"<raasismen>"
-	"raasismen" ? @X #2->0
-: 
-"<bïjre>"
-	"bïjre" Adv @<ADVL #3->1
-"<!>"
-	"!" CLB #4->1
-: 
-"</>"
-	"/" PUNCT MIDDLE #1->2
-: 
-"<Tjaalegh>"
-	"tjaalege" N Sem/Txt Pl Nom @HNOUN #2->0
-: 
-"</>"
-	"/" PUNCT MIDDLE #3->4
-: 
-"<Veeljemeboelhken>"
-	"veeljemeboelhke" N Sem/Time Sg Gen @ADVL> #4->5
-: 
-"<2009>"
-	"2009" Num Arab Sem/Year Sg Nom @HNOUN #5->2
-: 
-"<- 2013>"
-	"- 2013" Num Arab Sem/ID @>N #6->8
-: 
-"</>"
-	"/" PUNCT MIDDLE #7->8
-: 
-"<Våarhkoe>"
-	"våarhkoe" N Sem/Ctain-clth Sg Nom @HNOUN #8->4
-: 
-"</>"
-	"/" PUNCT MIDDLE #9->10
-: 
-"<Saemiedigkie>"
-	"Saemiedigkie" N Prop Sem/Org Sg Nom @HNOUN #10->8
-: 
-"<->"
-	"-" PUNCT MIDDLE #11->12
-: 
-"<Sametinget>"
-	"Sametinget" N Prop Sem/Org Sg Nom @HNOUN #12->10
-: 
-"<¶>"
-	"¶" CLB #13->2
-:\n
-"<Bievnieh>"
 	"bievnedh" <mv> V TV Imprt Sg2 @FMV #1->0
 : 
 "<raasismen>"
@@ -1498,7 +1448,6 @@
 : 
 "<reektedh>"
 	"reektedh" <mv> V TV Inf @IMV #12->10
-
 "<,>"
 	"," CLB #13->14
 : 
@@ -1550,6 +1499,7 @@
 "<almetjh>"
 	"almetje" N Sem/Hum Pl Nom @SUBJ> #2->3
 : 
+
 "<eah>"
 	"ij" <aux> V IV Neg Ind Prs Pl3 @FAUX #3->0
 : 

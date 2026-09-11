@@ -1,28 +1,8 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>176</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.lansstyrelsen.se/stockholm/Sv/manniska-och-samhalle/nationella-minoriteter/aarjelsaemien/Pages/leenestuvrien-stilleme.aspx</origFileName><parallel_text xml:lang="fin" location="nat-min-laaninhallituksen-tehtavat.html"/><parallel_text xml:lang="sme" location="nat-min-leanastivrra-bargogohccumus.html"/><parallel_text xml:lang="smj" location="nat-min-lenastivra-viddno.html"/><parallel_text xml:lang="swe" location="nat-min-lansstyrelsens-uppdrag.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>
+	Leenestuvrien stilleme - Länsstyrelsen i Stockholm
+</title><genre code="admin"/><author><unknown/></author><wordcount>170</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.lansstyrelsen.se/stockholm/Sv/manniska-och-samhalle/nationella-minoriteter/aarjelsaemien/Pages/leenestuvrien-stilleme.aspx</origFileName><parallel_text xml:lang="fin" location="nat-min-laaninhallituksen-tehtavat.html"/><parallel_text xml:lang="sme" location="nat-min-leanastivrra-bargogohccumus.html"/><parallel_text xml:lang="smj" location="nat-min-lenastivra-viddno.html"/><parallel_text xml:lang="swe" location="nat-min-lansstyrelsens-uppdrag.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Leenestuvrien>"
-	"Leenestuvrien" ? @X #1->0
-: 
-"<stilleme>"
-	"stilledh" <mv> V TV PrfPrc @IMV #2->0
-: 
-"<->"
-	"-" PUNCT MIDDLE #3->4
-: 
-"<Länsstyrelsen>"
-	"Länsstyrelsen" N Prop Sem/Org Sg Nom @X #4->0
-: 
-"<i>"
-	"i" N Sem/Sign ABBR Gram/TAbbr Attr @>N #5->6
-: 
-"<Stockholm>"
-	"Stockholm" N Prop Sem/Plc Sg Nom @X #6->0
-	"Stockholm" N Prop Sem/Sur Sg Nom @X #6->0
-: 
-"<¶>"
-	"¶" CLB #7->2
-:\n
-"<Leenestuvrien>"
 	"Leenestuvrien" ? @X #1->0
 : 
 "<stilleme>"

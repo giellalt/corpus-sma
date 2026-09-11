@@ -1,52 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title>Sæjhta gïelelutnjeminie åarjel-, julev- jïh markasaemien dajvine viehkiehtidh</title><genre code="news"/><author><person firstname="Tove" lastname="Østby" sex="f" born="" nationality=""/></author><year>2018</year><wordcount>404</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>https://rorosnytt.no/saejhta-gielelutnjeminie-aarjel-julev-jih-markasaemien-dajvine-viehkiehtidh/</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>Sæjhta gïelelutnjeminie åarjel-, julev- jïh markasaemien dajvine viehkiehtidh</title><genre code="news"/><author><person firstname="Tove" lastname="Østby" sex="f" born="" nationality=""/></author><year>2018</year><wordcount>394</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>https://rorosnytt.no/saejhta-gielelutnjeminie-aarjel-julev-jih-markasaemien-dajvine-viehkiehtidh/</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Sæjhta>"
-	"sïjhtedh" <mv> V TV Ind Prs Sg3 @FMV #1->0
-: 
-"<gïelelutnjeminie>"
-	"lutnjedh" Ex/V TV Der/NomAct N Ess @<OPRED #2->1
-		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #2->1
-	"lutnjedh" Ex/V TV Der/NomAct N Pl Ine @<ADVL-ine #2->1
-		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #2->1
-	"lutnjedh" Ex/V TV Der/NomAct N Sg Com @<ADVL-ine #2->1
-		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #2->1
-: 
-"<åarjel->"
-	"åarjel" N Sem/Cat Cmp/SgNom Cmp/SplitR Cmp @>N #3->5
-"<,>"
-	"," CLB #4->3
-: 
-"<julev->"
-	"julev" N Sem/Dummytag Cmp/SgNom Cmp/SplitR Cmp @>N #5->8
-: 
-"<jïh>"
-	"jïh" CC @CNP #6->5
-: 
-"<markasaemien>"
-	"markasaemie" N Sem/Hum Sg Gen @>N #7->3
-: 
-"<dajvine>"
-	"dajve" N Sem/Plc Ess @<OPRED #8->1
-	"dajve" N Sem/Plc Pl Ine @<ADVL-ine #8->1
-	"dajve" N Sem/Plc Sg Com @<ADVL-ine #8->1
-: 
-"<viehkiehtidh>"
-	"viehkiehtidh" <mv> V TV Inf @IMV #9->1
-: 
-"<|>"
-	"|" CLB #10->1
-: 
-"<Rørosnytt>"
-	"Rørosnytt" ? @X #11->0
-"<.>"
-	"." CLB #12->1
-"<no>"
-	"no" ? @X #1->0
-: 
-"<¶>"
-	"¶" CLB #2->2
-:\n
-"<Sæjhta>"
 	"sïjhtedh" <mv> V TV Ind Prs Sg3 @FMV #1->0
 : 
 "<gïelelutnjeminie>"

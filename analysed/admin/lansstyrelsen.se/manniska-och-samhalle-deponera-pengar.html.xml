@@ -1,29 +1,8 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>376</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.lansstyrelsen.se/dalarna/SMA/manniska-och-samhalle/deponera-pengar/Pages/default.aspx</origFileName><parallel_text xml:lang="eng" location="manniska-och-samhalle-deponera-pengar.html"/><parallel_text xml:lang="swe" location="manniska-och-samhalle-deponera-pengar.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>
+	Beetnegh deponeredh - Länsstyrelsen i Dalarna
+</title><genre code="admin"/><author><unknown/></author><wordcount>370</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.lansstyrelsen.se/dalarna/SMA/manniska-och-samhalle/deponera-pengar/Pages/default.aspx</origFileName><parallel_text xml:lang="eng" location="manniska-och-samhalle-deponera-pengar.html"/><parallel_text xml:lang="swe" location="manniska-och-samhalle-deponera-pengar.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Beetnegh>"
-	"beetnege" N Sem/Money Pl Nom @OBJ> #1->2
-: 
-"<deponeredh>"
-	"deponeeredh" Err/Orth <mv> V TV Ind Prs Sg2 @FMV #2->0
-	"deponeeredh" Err/Orth <mv> V TV Inf @IMV #2->0
-: 
-"<->"
-	"-" PUNCT MIDDLE #3->4
-: 
-"<Länsstyrelsen>"
-	"Länsstyrelsen" N Prop Sem/Org Sg Nom @X #4->0
-: 
-"<i>"
-	"i" N Sem/Sign ABBR Gram/TAbbr Attr @>N #5->6
-: 
-"<Dalarna>"
-	"Dalarna" N Prop Sem/Plc Sg Nom @X #6->0
-	"Dalarna" N Prop Sem/Sur Sg Nom @X #6->0
-: 
-"<¶>"
-	"¶" CLB #7->2
-:\n
-"<Beetnegh>"
 	"beetnege" N Sem/Money Pl Nom @OBJ> #1->2
 : 
 "<deponeredh>"

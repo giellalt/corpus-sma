@@ -1,52 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>2008</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/Saemiedigkien-bijre/AAaarganisasjovnestruktuvre/Saemiedigkieraerie/Haaalemh-jih-tjaalegh</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>Håalemh jïh tjaalegh / Saemiedigkieraerie / Åårganisasjovnestruktuvre / Saemiedigkien bïjre  / Saemiedigkie - Sametinget</title><genre code="admin"/><author><unknown/></author><wordcount>1994</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/Saemiedigkien-bijre/AAaarganisasjovnestruktuvre/Saemiedigkieraerie/Haaalemh-jih-tjaalegh</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Håalemh>"
-	"håaleme" N Sem/Semcon Pl Nom @HNOUN #1->0
-: 
-"<jïh>"
-	"jïh" CC @CNP #2->1
-: 
-"<tjaalegh>"
-	"tjaalege" N Sem/Txt Pl Nom @HNOUN #3->1
-: 
-"</>"
-	"/" PUNCT MIDDLE #4->5
-: 
-"<Saemiedigkieraerie>"
-	"saemiedigkieraerie" N Sem/Hum_Org Sg Nom @HNOUN #5->3
-: 
-"</>"
-	"/" PUNCT MIDDLE #6->7
-: 
-"<Åårganisasjovnestruktuvre>"
-	"struktuvre" N Sem/Feat-phys Sg Nom @HNOUN #7->5
-		"organisasjovne" N Sem/Org Cmp/SgNom Cmp #7->5
-: 
-"</>"
-	"/" PUNCT MIDDLE #8->9
-: 
-"<Saemiedigkien>"
-	"Saemiedigkie" N Prop Sem/Org Sg Gen @>P #9->10
-: 
-"<bïjre>"
-	"bïjre" Po @ADVL> #10->12
-: 
-"</>"
-	"/" PUNCT MIDDLE #11->12
-: 
-"<Saemiedigkie>"
-	"Saemiedigkie" N Prop Sem/Org Sg Nom @HNOUN #12->7
-: 
-"<->"
-	"-" PUNCT MIDDLE #13->14
-: 
-"<Sametinget>"
-	"Sametinget" N Prop Sem/Org Sg Nom @HNOUN #14->12
-: 
-"<¶>"
-	"¶" CLB #15->1
-:\n
-"<Håalemh>"
 	"håaleme" N Sem/Semcon Pl Nom @HNOUN #1->0
 : 
 "<jïh>"
@@ -1495,7 +1449,6 @@
 "<¶>"
 	"¶" CLB #3->1
 :\n
-
 "<Lohkh>"
 	"lohkedh" <mv> V TV Imprt Sg2 @FMV #1->0
 : 
@@ -1542,6 +1495,7 @@
 "<dihte>"
 	"dïhte" Pron Dem Sg Nom @>N #4->6
 : 
+
 "<gaskenasjovnaale>"
 	"gaskenasjonaale" A Attr @>N #5->6
 : 
@@ -3015,7 +2969,6 @@
 "<utnedh>"
 	"utnedh" <mv> V TV Inf @FS-IMV #10->7
 : 
-
 "<vædtsoesvoetese>"
 	"vædtsoesvoete" N Sem/Dummytag Sg Ill @<ADVL #11->10
 : 
@@ -3062,6 +3015,7 @@
 "<Lohkh>"
 	"lohkedh" <mv> V TV Imprt Sg2 @FMV #1->0
 : 
+
 "<jienebh>"
 	"jienebh" Adv Gram/Comp @<ADVL #2->1
 : 

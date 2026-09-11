@@ -1,38 +1,8 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>131</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.lansstyrelsen.se/dalarna/SMA/om-lansstyrelsen/landshovding-och-lansledning/Pages/default.aspx</origFileName><parallel_text xml:lang="eng" location="om-lansstyrelsen-landshovding-och-lansledning.html"/><parallel_text xml:lang="swe" location="om-lansstyrelsen-landshovding-och-lansledning.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>
+	Landshövdingen jïh lïeneraerie jallh länsöverdirektören - Länsstyrelsen i Dalarna
+</title><genre code="admin"/><author><unknown/></author><wordcount>122</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.lansstyrelsen.se/dalarna/SMA/om-lansstyrelsen/landshovding-och-lansledning/Pages/default.aspx</origFileName><parallel_text xml:lang="eng" location="om-lansstyrelsen-landshovding-och-lansledning.html"/><parallel_text xml:lang="swe" location="om-lansstyrelsen-landshovding-och-lansledning.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Landshövdingen>"
-	"Landshövdingen" ? @X #1->0
-: 
-"<jïh>"
-	"jïh" CC @CNP #2->1
-: 
-"<lïeneraerie>"
-	"raerie" N Sem/Org_Prod-cogn Sg Nom @HNOUN #3->0
-		"lïene" A Cmp/Attr Cmp #3->0
-: 
-"<jallh>"
-	"jallh" CC @CNP #4->3
-: 
-"<länsöverdirektören>"
-	"länsöverdirektören" ? @X #5->0
-: 
-"<->"
-	"-" PUNCT MIDDLE #6->7
-: 
-"<Länsstyrelsen>"
-	"Länsstyrelsen" N Prop Sem/Org Sg Nom @HNOUN #7->3
-: 
-"<i>"
-	"i" N Sem/Sign ABBR Gram/TAbbr Attr @>N #8->9
-: 
-"<Dalarna>"
-	"Dalarna" N Prop Sem/Plc Sg Nom @HNOUN #9->7
-	"Dalarna" N Prop Sem/Sur Sg Nom @HNOUN #9->7
-: 
-"<¶>"
-	"¶" CLB #10->3
-:\n
-"<Landshövdingen>"
 	"Landshövdingen" ? @X #1->0
 : 
 "<jïh>"

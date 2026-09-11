@@ -1,29 +1,61 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id">
-  <header>
-    <title>Mij saemien healsoe?</title>
-    <genre code="admin"/>
-    <author>
-      <person firstname="Mikkel Eskil" lastname="Mikkelsen" sex="m" born="" nationality=""/>
-    </author>
-    <translator>
-      <unknown/>
-    </translator>
-    <translated_from xml:lang="nob"/>
-    <year>2019</year>
-    <wordcount>699</wordcount>
-    <conversion_status type="standard"/>
-    <availability>
-      <license type="standard"/>
-    </availability>
-    <parallel_text xml:lang="nob" location="nettverksseminar_i_stjordal_mem.doc"/>
-    <metadata>
-      <uncomplete/>
-    </metadata>
-    <version>XSLtemplate $Revision: 180635 $; file-specific xsl  Revision; common.xsl  $Revision$; </version>
-  </header>
-  <body>
-    <dependency><![CDATA["<«>"
+<document xml:lang="sma" id="no_id"><header><title>Mij saemien healsoe?</title><genre code="admin"/><author><person firstname="Mikkel Eskil" lastname="Mikkelsen" sex="m" born="" nationality=""/></author><translator><unknown/></translator><translated_from xml:lang="nob"/><year>2019</year><wordcount>699</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><parallel_text xml:lang="nob" location="nettverksseminar_i_stjordal_mem.doc"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 180635 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Nettverksseminar>"
+	"Nettverksseminar" ? @X #1->0
+"<:>"
+	":" CLB #2->2
+: 
+"<Samisk>"
+	"Samisk" Err/Lex N Prop Attr @>N #3->5
+: 
+"<kulturforståelse>"
+	"kulturforståelse" ? @X #4->0
+: 
+"<i>"
+	"i" N Sem/Sign ABBR Gram/TAbbr Sg Gen @X #5->0
+: 
+"<helse>"
+	"helse" ? @X #6->0
+"<->"
+	"-" PUNCT MIDDLE #7->8
+: 
+"<og>"
+	"og" ? @X #8->0
+: 
+"<sosialtjenesten>"
+	"sosialtjenesten" ? @X #9->0
+: 
+"<i>"
+	"I" Num Rom Sg Nom @HNOUN #10->5
+	"ï" N ABBR Gram/TAbbr Sg Nom @HNOUN #10->5
+	"i" N Sem/Sign ABBR Gram/TAbbr Sg Acc @HNOUN #10->5
+	"i" N Sem/Sign ABBR Gram/TAbbr Sg Nom @HNOUN #10->5
+	"ï" N ABBR Gram/TAbbr Sg Acc @HNOUN #10->5
+: 
+"<det>"
+	"det" ? @X #11->0
+: 
+"<sørsamiske>"
+	"sørsamiske" ? @X #12->0
+: 
+"<området>"
+	"området" ? @X #13->0
+: 
+"<24. – 25.>"
+	"24.–25" A Arab Ord Attr @X #14->0
+: 
+"<jan>"
+	"jan" ? @X #15->0
+"<.>"
+	"." CLB #16->16
+: 
+"<2019>"
+	"2019" Num Arab Sem/Year Sg Nom @HNOUN #1->0
+: 
+"<¶>"
+	"¶" CLB #2->1
+:\n
+"<«>"
 	"«" PUNCT LEFT #1->2
 "<Mij>"
 	"mij" Pron Interr Sg Nom @HNOUN #2->0
@@ -80,8 +112,8 @@
 "<?>"
 	"?" CLB #7->1
 : 
-"<->"
-	"-" PUNCT MIDDLE #1->2
+"<–>"
+	"–" PUNCT MIDDLE #1->2
 "<Saemiedigkien>"
 	"Saemiedigkie" N Prop Sem/Org Sg Gen @>N #2->3
 	"saemiedigkie" N Sem/Build_Org Sg Gen @>N #2->3
@@ -1123,8 +1155,8 @@
 "<tsevtsieh>"
 	"tsevtsedh" <mv> V TV Ind Prs Pl3 @FS-<ADVL #25->11
 : 
-"<->"
-	"-" PUNCT MIDDLE #26->26
+"<–>"
+	"–" PUNCT MIDDLE #26->26
 : 
 "<«>"
 	"«" PUNCT LEFT #27->28
@@ -1152,8 +1184,8 @@
 	"bæjhkoehtimmie" N Sem/Act Sg Ine @X #2->0
 		"aalkoe" N Sem/Time Cmp/SgNom Cmp #2->0
 : 
-"<->"
-	"-" PUNCT MIDDLE #3->4
+"<–>"
+	"–" PUNCT MIDDLE #3->4
 : 
 "<Muohtačalmmit>"
 	"Muohtačalmmit" ? @X #4->0
@@ -1487,6 +1519,7 @@
 			"skïemtje" A Cmp/Attr Cmp #30->25
 	"soejkesje" N Sem/Prod-cogn Sg Ine @<ADVL-ine #30->25
 		"skïemtjegåetie" N Sem/Build_Org Cmp/SgNom Cmp #30->25
+
 "<.>"
 	"." CLB #31->2
 : 
@@ -1543,7 +1576,6 @@
 "<faamosne>"
 	"faamoe" N Sem/Org Sg Ine @ADVL> #3->4
 : 
-
 "<årrodh>"
 	"årrodh" <mv> V IV Inf @IMV #4->2
 : 
@@ -1681,8 +1713,8 @@
 	"dïenesje" N Sem/Act Sg Nom @<SPRED #12->2
 		"maahtoe" N Sem/Edu Cmp/SgNom Cmp #12->2
 : 
-"<->"
-	"-" PUNCT MIDDLE #13->14
+"<–>"
+	"–" PUNCT MIDDLE #13->14
 : 
 "<psykiske>"
 	"psykiske" A Attr @>N #14->15
@@ -2416,62 +2448,5 @@
 "<¶>"
 	"¶" CLB #1->1
 :\n
-"<Nettverksseminar>"
-	"Nettverksseminar" ? @X #1->0
-"<:>"
-	":" CLB #2->2
-: 
-"<Samisk>"
-	"Samisk" Err/Lex N Prop Attr @>N #3->5
-: 
-"<kulturforståelse>"
-	"kulturforståelse" ? @X #4->0
-: 
-"<i>"
-	"i" N Sem/Sign ABBR Gram/TAbbr Sg Gen @X #5->0
-: 
-"<helse>"
-	"helse" ? @X #6->0
-"<->"
-	"-" PUNCT MIDDLE #7->8
-: 
-"<og>"
-	"og" ? @X #8->0
-: 
-"<sosialtjenesten>"
-	"sosialtjenesten" ? @X #9->0
-: 
-"<i>"
-	"I" Num Rom Sg Nom @HNOUN #10->5
-	"ï" N ABBR Gram/TAbbr Sg Nom @HNOUN #10->5
-	"i" N Sem/Sign ABBR Gram/TAbbr Sg Acc @HNOUN #10->5
-	"i" N Sem/Sign ABBR Gram/TAbbr Sg Nom @HNOUN #10->5
-	"ï" N ABBR Gram/TAbbr Sg Acc @HNOUN #10->5
-: 
-"<det>"
-	"det" ? @X #11->0
-: 
-"<sørsamiske>"
-	"sørsamiske" ? @X #12->0
-: 
-"<området>"
-	"området" ? @X #13->0
-: 
-"<24. - 25.>"
-	"24.-25" A Arab Ord Attr @X #14->0
-: 
-"<jan>"
-	"jan" ? @X #15->0
-"<.>"
-	"." CLB #16->16
-: 
-"<2019>"
-	"2019" Num Arab Sem/Year Sg Nom @HNOUN #1->0
-: 
-"<¶>"
-	"¶" CLB #2->1
-:\n
 
-]]></dependency>
-  </body>
-</document>
+]]></dependency></body></document>

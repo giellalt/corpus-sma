@@ -1,67 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>304</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Vaaarhkoe/Veeljemeboelhken-2009-2013/Tjaalegh/Aktem-laakeviedteldihkie-reaktam-saemien-lierehtaemman-maanagiertesne-saejhta</origFileName><parallel_text xml:lang="nob" location="oensker-en-lovfestet-rett-til-samiskopplaering-i-barnehagen.html"/><parallel_text xml:lang="sme" location="haliida-laga-bokte-mearriduvvot-vuoigatvuohta-samegieloahpahussii-manaidgarddis.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>Aktem laakeviedteldihkie reaktam saemien lïerehtæmman maanagïertesne sæjhta / Tjaalegh / Veeljemeboelhken 2009 - 2013 / Våarhkoe / Saemiedigkie - Sametinget</title><genre code="admin"/><author><unknown/></author><wordcount>284</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="nob"/><language xml:lang="sma"/><language xml:lang="eng"/><language xml:lang="sme"/></multilingual><origFileName>http://www.saemiedigkie.no/layout/set/print/Vaaarhkoe/Veeljemeboelhken-2009-2013/Tjaalegh/Aktem-laakeviedteldihkie-reaktam-saemien-lierehtaemman-maanagiertesne-saejhta</origFileName><parallel_text xml:lang="nob" location="oensker-en-lovfestet-rett-til-samiskopplaering-i-barnehagen.html"/><parallel_text xml:lang="sme" location="haliida-laga-bokte-mearriduvvot-vuoigatvuohta-samegieloahpahussii-manaidgarddis.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Aktem>"
-	"akte" Num Sg Acc @OBJ> #1->7
-: 
-"<laakeviedteldihkie>"
-	"laakeviedteldihkie" ? @X #2->0
-: 
-"<reaktam>"
-	"reakta" N Sem/Rule Sg Acc @OBJ> #3->7
-: 
-"<saemien>"
-	"saemien" A Attr @>N #4->5
-: 
-"<lïerehtæmman>"
-	"lïerehtimmie" N Sem/Act Sg Ill @ADVL> #5->7
-: 
-"<maanagïertesne>"
-	"maanagiertie" N Sem/Dummytag Sg Ine @ADVL> #6->7
-	"maanagïerte" N Sem/Build_Org Sg Ine @ADVL> #6->7
-: 
-"<sæjhta>"
-	"sïjhtedh" <mv> V TV Ind Prs Sg3 @FMV #7->0
-: 
-"</>"
-	"/" PUNCT MIDDLE #8->9
-: 
-"<Tjaalegh>"
-	"tjaalege" N Sem/Txt Pl Nom @<OBJ #9->7
-: 
-"</>"
-	"/" PUNCT MIDDLE #10->11
-: 
-"<Veeljemeboelhken>"
-	"veeljemeboelhke" N Sem/Time Sg Gen @<ADVL #11->7
-: 
-"<2009>"
-	"2009" Num Arab Sem/Year Sg Nom @<ADVL #12->7
-: 
-"<- 2013>"
-	"- 2013" Num Arab Sem/ID @>N #13->15
-: 
-"</>"
-	"/" PUNCT MIDDLE #14->15
-: 
-"<Våarhkoe>"
-	"våarhkoe" N Sem/Ctain-clth Sg Nom @<SUBJ #15->7
-: 
-"</>"
-	"/" PUNCT MIDDLE #16->17
-: 
-"<Saemiedigkie>"
-	"Saemiedigkie" N Prop Sem/Org Sg Nom @<SUBJ #17->7
-: 
-"<->"
-	"-" PUNCT MIDDLE #18->19
-: 
-"<Sametinget>"
-	"Sametinget" N Prop Sem/Org Sg Nom @X #19->0
-: 
-"<¶>"
-	"¶" CLB #20->7
-:\n
-"<Aktem>"
 	"akte" Num Sg Acc @OBJ> #1->7
 : 
 "<laakeviedteldihkie>"

@@ -1,49 +1,8 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="bible"/><author><unknown/></author><wordcount>392</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer+apertium@mm.st"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.svenskakyrkan.se/default.aspx?id=713329</origFileName><parallel_text xml:lang="fin" location="default.aspx_id=642909.html"/><parallel_text xml:lang="sme" location="default.aspx_id=713339.html"/><parallel_text xml:lang="smj" location="default.aspx_id=713341.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 104145 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>
+	Svïenske gærhkose barkedh dellie barka misse joem jaahka - Svenska kyrkan - Om oss
+</title><genre code="bible"/><author><unknown/></author><wordcount>378</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer+apertium@mm.st"/><multilingual><language xml:lang="sma"/><language xml:lang="swe"/></multilingual><origFileName>http://www.svenskakyrkan.se/default.aspx?id=713329</origFileName><parallel_text xml:lang="fin" location="default.aspx_id=642909.html"/><parallel_text xml:lang="sme" location="default.aspx_id=713339.html"/><parallel_text xml:lang="smj" location="default.aspx_id=713341.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 104145 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Svïenske>"
-	"svïenske" A Attr @>N #1->2
-: 
-"<gærhkose>"
-	"gærhkoe" N Sem/Build_Org Sg Ill @ADVL> #2->3
-: 
-"<barkedh>"
-	"barkedh" <mv> V TV Inf @IMV #3->0
-: 
-"<dellie>"
-	"dellie" Adv @<ADVL #4->3
-: 
-"<barka>"
-	"barkedh" <mv> V TV Ind Prs Sg3 @FMV #5->0
-	"berkedh" <mv> V TV Ind Prs Sg3 @FMV #5->0
-: 
-"<misse joem>"
-	"mij joem" Pron Indef Sg Ill @<ADVL #6->5
-: 
-"<jaahka>"
-	"jaehkedh" <mv> V TV Ind Prs Sg3 @FMV #7->5
-: 
-"<->"
-	"-" PUNCT MIDDLE #8->9
-: 
-"<Svenska>"
-	"Svenska" ? @X #9->0
-: 
-"<kyrkan>"
-	"kyrkan" ? @X #10->0
-: 
-"<->"
-	"-" PUNCT MIDDLE #11->12
-: 
-"<Om>"
-	"Om" ? @X #12->0
-: 
-"<oss>"
-	"oss" ? @X #13->0
-: 
-"<¶>"
-	"¶" CLB #14->3
-:\n
-"<Svïenske>"
 	"svïenske" A Attr @>N #1->2
 : 
 "<gærhkose>"

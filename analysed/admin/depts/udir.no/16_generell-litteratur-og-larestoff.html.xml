@@ -1,28 +1,10 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>2234</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://veiledninger.udir.no/Samisk%20andrespr%e5k/www.udir.no/Lareplaner/Veiledninger-til-lareplaner/Revidert-2013/Samisk-som-andrespraak/Saemien-mubpiegieline-Saemien-2-jih-saemien-3/Hoyremeny-toppniva/Generell-litteratur-og-larestoff/index.html</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
-<body><dependency><![CDATA["<Udir.no>"
-	"Udir.no" N Prop Sem/Org Sg Nom @HNOUN #1->0
-	"Udir.no" URL #1->0
-: 
-"<->"
-	"-" PUNCT MIDDLE #2->3
-: 
-"<Sïejhme>"
-	"sïejhme" A Attr @>N #3->4
-: 
-"<lidteratuvre>"
-	"litteratuvre" N Err/Orth Sem/Txt Sg Nom @HNOUN #4->1
-: 
-"<jïh>"
-	"jïh" CC @CNP #5->4
-: 
-"<learoevierhtieh>"
-	"learoevierhtie" N Sem/Edu Pl Nom @HNOUN #6->4
-: 
-"<¶>"
-	"¶" CLB #7->1
-:\n
-"<Sïejhme>"
+<document xml:lang="sma" id="no_id"><header><title>
+	
+                Udir.no - Sïejhme lidteratuvre jïh learoevierhtieh
+            
+</title><genre code="admin"/><author><unknown/></author><wordcount>2228</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://veiledninger.udir.no/Samisk%20andrespr%e5k/www.udir.no/Lareplaner/Veiledninger-til-lareplaner/Revidert-2013/Samisk-som-andrespraak/Saemien-mubpiegieline-Saemien-2-jih-saemien-3/Hoyremeny-toppniva/Generell-litteratur-og-larestoff/index.html</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Sïejhme>"
 	"sïejhme" A Attr @>N #1->2
 : 
 "<lidteratuvre>"
@@ -1409,7 +1391,6 @@
 "<Jielije>"
 	"jieledh" V IV PrsPrc @X #6->0
 : 
-
 "<saemien>"
 	"saemie" N Sem/Hum_Lang Sg Gen <hab> @<ADVL #7->4
 "<.>"
@@ -1429,6 +1410,7 @@
 "<Utdanningsråd>"
 	"Utdanningsråd" ? @X #5->0
 : 
+
 "<1996>"
 	"1996" Num Arab Sem/Year Sg Nom @HNOUN #6->4
 :  
@@ -2836,7 +2818,6 @@
 "<Ella>"
 	"Ella" N Prop Sem/Fem Attr @>N #3->4
 : 
-
 "<Holm>"
 	"Holm" N Prop Sem/Sur Sg Nom @HNOUN #4->1
 : 
@@ -2857,6 +2838,7 @@
 "<¶>"
 	"¶" CLB #10->1
 :\n
+
 "<Bull>"
 	"Bull" N Prop Sem/Sur Sg Nom @VOC #1->0
 "<,>"
@@ -4277,7 +4259,6 @@
 "<,>"
 	"," CLB #7->6
 : 
-
 "<Idut>"
 	"Idut" ? @X #8->0
 : 
@@ -4298,6 +4279,7 @@
 "<:>"
 	":" CLB #4->1
 : 
+
 "<Tjaangh>"
 	"tjaangedh" <mv> V IV Imprt Sg2 @FMV #5->3
 : 

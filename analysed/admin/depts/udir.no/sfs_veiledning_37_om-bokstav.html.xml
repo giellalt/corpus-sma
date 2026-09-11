@@ -1,33 +1,10 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>721</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://veiledninger.udir.no/Samisk%20som%20f%f8rstespr%e5k/www.udir.no/Lareplaner/Veiledninger-til-lareplaner/Revidert-2013/Veiledning-til-lareplan-i-Samisk-som-forstespra/Samisk-som-forstesprak-Sorsamisk/Hoyremeny/Artiklerressurser/Om-bokstav/index.html</origFileName><parallel_text xml:lang="nob" location="sfs_veiledning_37_om-boksta.html"/><parallel_text xml:lang="sme" location="sfs_veiledning_37_om-bokstavopplaringe.html"/><parallel_text xml:lang="smj" location="sfs_veiledning_37_bokstavva.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
-<body><dependency><![CDATA["<Udir.no>"
-	"Udir.no" N Prop Sem/Org Sg Nom @HNOUN #1->0
-	"Udir.no" URL #1->0
-: 
-"<->"
-	"-" PUNCT MIDDLE #2->3
-: 
-"<Bokstaavelohkehtimmien>"
-	"lohkehtimmie" N Sem/Edu Sg Gen @>P #3->4
-		"bokstaave" N Sem/Sign Cmp/SgNom Cmp #3->4
-: 
-"<bïjre>"
-	"bïjre" Po @ADVL> #4->6
-: 
-"<–>"
-	"–" PUNCT MIDDLE #5->6
-: 
-"<vuarjasjimmie>"
-	"vuarjasjimmie" N Sem/Dummytag Sg Nom @HNOUN #6->1
-: 
-"<iktemearan>"
-	"iktemearan" Adv @<ADVL #7->6
-	"iktemierie" N Sem/Dummytag Sg Ill @<ADVL #7->6
-: 
-"<¶>"
-	"¶" CLB #8->1
-:\n
-"<Bokstaavelohkehtimmien>"
+<document xml:lang="sma" id="no_id"><header><title>
+	
+                Udir.no - Bokstaavelohkehtimmien bïjre – vuarjasjimmie iktemearan
+            
+</title><genre code="admin"/><author><unknown/></author><wordcount>714</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://veiledninger.udir.no/Samisk%20som%20f%f8rstespr%e5k/www.udir.no/Lareplaner/Veiledninger-til-lareplaner/Revidert-2013/Veiledning-til-lareplan-i-Samisk-som-forstespra/Samisk-som-forstesprak-Sorsamisk/Hoyremeny/Artiklerressurser/Om-bokstav/index.html</origFileName><parallel_text xml:lang="nob" location="sfs_veiledning_37_om-boksta.html"/><parallel_text xml:lang="sme" location="sfs_veiledning_37_om-bokstavopplaringe.html"/><parallel_text xml:lang="smj" location="sfs_veiledning_37_bokstavva.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Bokstaavelohkehtimmien>"
 	"lohkehtimmie" N Sem/Edu Sg Gen @>P #1->2
 		"bokstaave" N Sem/Sign Cmp/SgNom Cmp #1->2
 : 
@@ -1504,7 +1481,6 @@
 "<govledh>"
 	"govledh" <mv> V TV Inf @IMV #17->2
 : 
-
 "<gosse>"
 	"gosse" CS @CVP #18->19
 : 
@@ -1527,6 +1503,7 @@
 "<jis>"
 	"jis" CS @CVP #25->0
 : 
+
 "<baakoen>"
 	"baakoe" N Sem/Cat Sg Gen @>P #26->27
 : 

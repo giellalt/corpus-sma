@@ -1,33 +1,10 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>612</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://veiledninger.udir.no/Samisk%20som%20f%f8rstespr%e5k/www.udir.no/Lareplaner/Veiledninger-til-lareplaner/Revidert-2013/Veiledning-til-lareplan-i-Samisk-som-forstespra/Samisk-som-forstesprak-Sorsamisk/Hoyremeny/Artiklerressurser/A-skrive-s/index.html</origFileName><parallel_text xml:lang="nob" location="sfs_veiledning_35_a-skrive-.html"/><parallel_text xml:lang="sme" location="sfs_veiledning_35_a-skrive-sammendrag.html"/><parallel_text xml:lang="smj" location="sfs_veiledning_35_habmedit-.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
-<body><dependency><![CDATA["<Udir.no>"
-	"Udir.no" N Prop Sem/Org Sg Nom @SUBJ> #1->0
-	"Udir.no" URL #1->0
-: 
-"<->"
-	"-" PUNCT MIDDLE #2->3
-: 
-"<Tjaalegh>"
-	"tjaalege" N Sem/Txt Pl Nom @OBJ> #3->4
-: 
-"<haamoedidh>"
-	"haamoedidh" <mv> V TV Ind Prt Pl2 @FMV #4->0
-	"haamoedidh" <mv> V TV Inf @IMV #4->0
-: 
-"<mah>"
-	"mah" CS @CVP #5->7
-: 
-"<tjaelemekonvensjovnide>"
-	"konvensjovne" N Sem/Rule Pl Acc @OBJ> #6->7
-		"tjaeleme" N Sem/Txt Cmp/SgNom Cmp #6->7
-: 
-"<fulkieh>"
-	"fulkedh" <mv> V TV Ind Prs Pl3 @FS-<ADVL #7->4
-: 
-"<¶>"
-	"¶" CLB #8->1
-:\n
-"<Tjaalegh>"
+<document xml:lang="sma" id="no_id"><header><title>
+	
+                Udir.no - Tjaalegh haamoedidh mah tjaelemekonvensjovnide fulkieh 
+            
+</title><genre code="admin"/><author><unknown/></author><wordcount>605</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://veiledninger.udir.no/Samisk%20som%20f%f8rstespr%e5k/www.udir.no/Lareplaner/Veiledninger-til-lareplaner/Revidert-2013/Veiledning-til-lareplan-i-Samisk-som-forstespra/Samisk-som-forstesprak-Sorsamisk/Hoyremeny/Artiklerressurser/A-skrive-s/index.html</origFileName><parallel_text xml:lang="nob" location="sfs_veiledning_35_a-skrive-.html"/><parallel_text xml:lang="sme" location="sfs_veiledning_35_a-skrive-sammendrag.html"/><parallel_text xml:lang="smj" location="sfs_veiledning_35_habmedit-.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Tjaalegh>"
 	"tjaalege" N Sem/Txt Pl Nom @OBJ> #1->2
 : 
 "<haamoedidh>"
@@ -1497,7 +1474,6 @@
 	"baakoe" N Sem/Cat Pl Acc @OBJ> #2->6
 	"baakoe" N Sem/Cat Pl Ill @ADVL> #2->6
 : 
-
 "<ajve>"
 	"ajve" Adv @>N #3->5
 : 
@@ -1521,6 +1497,7 @@
 "<stoerre>"
 	"stoerre" A Attr @>N #10->11
 : 
+
 "<bokstaavigujmie>"
 	"bokstaave" N Sem/Sign Pl Com @<ADVL #11->6
 "<?>"

@@ -1,33 +1,10 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>1608</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual/><origFileName>http://www.udir.no/kl06/MAT5-02/Hele/Komplett_visning?lplang=sma&amp;read=1</origFileName><parallel_text xml:lang="eng" location="laereplan_matematikk2t2p.html"/><parallel_text xml:lang="nno" location="laereplan_matematikk2t2p.html"/><parallel_text xml:lang="sme" location="laereplan_matematikk2t2p.html"/><parallel_text xml:lang="smj" location="laereplan_matematikk2t2p.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
-<body><dependency><![CDATA["<Udir.no>"
-	"Udir.no" N Prop Sem/Org Sg Nom @HNOUN #1->0
-	"Udir.no" URL #1->0
-: 
-"<->"
-	"-" PUNCT MIDDLE #2->3
-: 
-"<Learoesoejkesje>"
-	"learoesoejkesje" N Sem/Prod-cogn Sg Nom @HNOUN #3->1
-: 
-"<matematihkesne>"
-	"matematihke" N Sem/Domain Sg Ine @ADVL> #4->7
-	"matematihke" N Sem/Edu Sg Ine @ADVL> #4->7
-: 
-"<2T>"
-	"2T" ? @X #5->0
-: 
-"<jïh>"
-	"jïh" CC @CNP #6->5
-: 
-"<2P>"
-	"2p" N Sem/Sign ABBR Gram/IAbbr Sg Acc @<OBJ #7->3
-	"2p" N Sem/Sign ABBR Gram/IAbbr Sg Nom @HNOUN #7->3
-: 
-"<¶>"
-	"¶" CLB #8->1
-:\n
-"<Learoesoejkesje>"
+<document xml:lang="sma" id="no_id"><header><title>
+	
+                Udir.no - Learoesoejkesje matematihkesne 2T jïh 2P
+            
+</title><genre code="admin"/><author><unknown/></author><wordcount>1601</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual/><origFileName>http://www.udir.no/kl06/MAT5-02/Hele/Komplett_visning?lplang=sma&amp;read=1</origFileName><parallel_text xml:lang="eng" location="laereplan_matematikk2t2p.html"/><parallel_text xml:lang="nno" location="laereplan_matematikk2t2p.html"/><parallel_text xml:lang="sme" location="laereplan_matematikk2t2p.html"/><parallel_text xml:lang="smj" location="laereplan_matematikk2t2p.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Learoesoejkesje>"
 	"learoesoejkesje" N Sem/Prod-cogn Sg Nom @HNOUN #1->0
 : 
 "<matematihkesne>"
@@ -1523,7 +1500,6 @@
 "<Taalh>"
 	"taale" N Sem/Dummytag Pl Nom @SUBJ> #1->2
 : 
-
 "<leah>"
 	"lea" <mv> V IV Ind Prs Pl3 @FMV #2->0
 : 
@@ -1547,6 +1523,7 @@
 	"taale" N Sem/Dummytag Pl Nom @<SPRED #9->5
 		"desimaale" N Sem/Dummytag Cmp/SgNom Cmp #9->5
 : 
+
 "<jïh>"
 	"jïh" CC @CNP #10->9
 : 
@@ -3042,7 +3019,6 @@
 "<tsiehkieh>"
 	"tsiehkie" N Sem/Feat Pl Nom @<OBJ #11->9
 : 
-
 "<matematihkefaageles>"
 	"matematihkefaageles" ? @X #12->0
 : 
@@ -3067,6 +3043,7 @@
 "<bæjjese>"
 	"bæjjese" Adv @ADVL> #19->20
 : 
+
 "<bigkedh>"
 	"bigkedh" <mv> V TV Inf @IMV #20->15
 : 
@@ -4561,7 +4538,6 @@
 "<åehpiedehtiemisnie>"
 	"åehpiedehteme" N Sem/Dummytag Sg Ine @<ADVL-ine #8->3
 : 
-
 "<¶>"
 	"¶" CLB #9->3
 :\n
@@ -4586,6 +4562,7 @@
 	"matematihke" N Sem/Domain Sg Gen @<ADVL #7->5
 	"matematihke" N Sem/Edu Sg Gen @<ADVL #7->5
 : 
+
 "<jienebekultuvrelle>"
 	"jienebekultuvrelle" ? @X #8->0
 : 

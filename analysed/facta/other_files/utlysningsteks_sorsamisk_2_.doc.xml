@@ -1,30 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id">
-  <header>
-    <title> 
-Sørsamisk lingvist/språkmedarbeider for Divvun II-prosjektet
-</title>
-    <genre code="facta"/>
-    <author>
-      <unknown/>
-    </author>
-    <translator>
-      <unknown/>
-    </translator>
-    <translated_from xml:lang="nob"/>
-    <wordcount>337</wordcount>
-    <conversion_status type="standard"/>
-    <availability>
-      <free/>
-    </availability>
-    <multilingual/>
-    <metadata>
-      <uncomplete/>
-    </metadata>
-    <version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version>
-  </header>
-  <body>
-    <dependency><![CDATA["<Saemiedigkie>"
+<document xml:lang="sma" id="no_id"><header><title>Sørsamisk lingvist/språkmedarbeider for Divvun II-prosjektet</title><genre code="facta"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="nob"/><wordcount>336</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Saemiedigkie>"
 	"Saemiedigkie" N Prop Sem/Org Sg Nom @SUBJ> #1->2
 	"saemiedigkie" N Sem/Build_Org Sg Nom @SUBJ> #1->2
 : 
@@ -117,7 +93,7 @@ Sørsamisk lingvist/språkmedarbeider for Divvun II-prosjektet
 : 
 "<Guovdag>"
 	"Guovdag" ? @X #16->0
-: 
+:  
 "<äjnosne>"
 	"äjnosne" ? @X #17->0
 "<,>"
@@ -136,10 +112,10 @@ Sørsamisk lingvist/språkmedarbeider for Divvun II-prosjektet
 : 
 "<Unjarggesne>"
 	"Unjarggesne" ? @X #23->0
-: 
+:  
 "<.>"
 	"." CLB #24->3
-:  
+: 
 "<¶>"
 	"¶" CLB #1->1
 :\n
@@ -194,27 +170,24 @@ Sørsamisk lingvist/språkmedarbeider for Divvun II-prosjektet
 	"lingviste" N Sem/Hum Sg Nom @HNOUN #2->0
 "</>"
 	"/" PUNCT MIDDLE #3->4
-"<gïel>"
-	"gïele" N Sem/Lang_Tool Sg Nom Err/Orth @HNOUN #4->2
-: 
-"<ebarkije>"
-	"ebarkije" ? @X #5->0
+"<gïelebarkije>"
+	"gïelebarkije" N Sem/Hum Sg Nom @HNOUN #4->2
 : 
 "<Dåvvome>"
-	"dåvvome" N Sem/Dummytag Sg Nom @HNOUN #6->4
+	"dåvvome" N Sem/Dummytag Sg Nom @HNOUN #5->4
 : 
 "<II-prosjektese>"
-	"prosjekte" N Sem/Act Sg Ill @<ADVL #7->6
-		"II" N Prop Sem/Org ACR Cmp/Hyph Cmp #7->6
-	"prosjekte" N Sem/Act Sg Ill @<ADVL #7->6
-		"II" N Prop Sem/Org ACR Dyn Cmp/Hyph Cmp #7->6
-	"prosjekte" N Sem/Act Sg Ill @<ADVL #7->6
-		"II" N Prop Sem/Org ACR Dyn Err/Orth Cmp/Hyph Cmp #7->6
-	"prosjekte" N Sem/Act Sg Ill @<ADVL #7->6
-		"II" N Prop Sem/Org ACR Err/Orth Cmp/Hyph Cmp #7->6
+	"prosjekte" N Sem/Act Sg Ill @<ADVL #6->5
+		"II" N Prop Sem/Org ACR Cmp/Hyph Cmp #6->5
+	"prosjekte" N Sem/Act Sg Ill @<ADVL #6->5
+		"II" N Prop Sem/Org ACR Dyn Cmp/Hyph Cmp #6->5
+	"prosjekte" N Sem/Act Sg Ill @<ADVL #6->5
+		"II" N Prop Sem/Org ACR Dyn Err/Orth Cmp/Hyph Cmp #6->5
+	"prosjekte" N Sem/Act Sg Ill @<ADVL #6->5
+		"II" N Prop Sem/Org ACR Err/Orth Cmp/Hyph Cmp #6->5
 :  
 "<¶>"
-	"¶" CLB #8->2
+	"¶" CLB #7->2
 :\n
 "<Saemiedigkesne>"
 	"Saemiedigkie" N Prop Sem/Org Sg Ine @ADVL> #1->3
@@ -236,46 +209,44 @@ Sørsamisk lingvist/språkmedarbeider for Divvun II-prosjektet
 	"raeriestæjja" N Sem/Hum Sg Com @<ADVL-ine #6->3
 "</>"
 	"/" PUNCT MIDDLE #7->8
-"<voeresraeriestæjjine>"
-	"raeriestæjja" N Sem/Hum Ess @<SPRED #8->3
-		"voeres" A Cmp/Attr Cmp #8->3
-	"raeriestæjja" N Sem/Hum Pl Ine @<ADVL-ine #8->3
-		"voeres" A Cmp/Attr Cmp #8->3
-	"raeriestæjja" N Sem/Hum Sg Com @<ADVL-ine #8->3
-		"voeres" A Cmp/Attr Cmp #8->3
+"<voeresraeriest>"
+	"voeresraeriest" ? @X #8->0
 : 
+"<æjjine>"
+	"æjjine" ? @X #9->0
+:  
 "<Dåvvomeprosjektesne>"
-	"prosjekte" N Sem/Act Sg Ine @<ADVL-ine #9->3
-		"dåvvome" N Sem/Dummytag Cmp/SgNom Cmp #9->3
+	"prosjekte" N Sem/Act Sg Ine @<ADVL-ine #10->3
+		"dåvvome" N Sem/Dummytag Cmp/SgNom Cmp #10->3
 "<,>"
-	"," CLB #10->9
+	"," CLB #11->10
 : 
 "<aalkoe>"
-	"aalkoe" N Sem/Time Sg Nom @SUBJ> #11->18
+	"aalkoe" N Sem/Time Sg Nom @SUBJ> #12->19
 : 
 "<dallaegh>"
-	"dallaegh" ? @X #12->0
+	"dallaegh" ? @X #13->0
 : 
 "<jih>"
-	"jïh" CC @CNP #13->12
+	"jïh" CC @CNP #14->13
 : 
 "<barkoe>"
-	"barkoe" N Sem/Act_Plc Sg Nom @SUBJ> #14->18
+	"barkoe" N Sem/Act_Plc Sg Nom @SUBJ> #15->19
 : 
 "<31.12.10->"
-	"31.12.10" Num Arab Sem/Date Cmp/SplitR @>N #15->16
+	"31.12.10" Num Arab Sem/Date Cmp/SplitR @>N #16->17
 "<n>"
-	"n" N Sem/Sign ABBR Gram/TAbbr Sg Acc @OBJ> #16->18
-	"n" N Sem/Sign ABBR Gram/TAbbr Sg Gen @>P #16->18
-	"n" N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #16->18
+	"n" N Sem/Sign ABBR Gram/TAbbr Sg Acc @OBJ> #17->19
+	"n" N Sem/Sign ABBR Gram/TAbbr Sg Gen @>P #17->19
+	"n" N Sem/Sign ABBR Gram/TAbbr Sg Nom @SUBJ> #17->19
 : 
 "<raajan>"
-	"raajan" Po @ADVL> #17->18
+	"raajan" Po @ADVL> #18->19
 : 
 "<jåarhka>"
-	"jåerhkedh" <mv> V TV Ind Prs Sg3 @FMV #18->3
+	"jåerhkedh" <mv> V TV Ind Prs Sg3 @FMV #19->3
 "<.>"
-	"." CLB #19->3
+	"." CLB #20->3
 : 
 "<Barkoesijjie>"
 	"barkoesijjie" N Sem/Pos Sg Nom @SUBJ> #1->2
@@ -535,32 +506,36 @@ Sørsamisk lingvist/språkmedarbeider for Divvun II-prosjektet
 	"dååjrehtalledh" <mv> V TV PrfPrc @IMV #1->0
 : 
 "<Unix>"
-	"Unix" N Prop Sem/Obj Sg Nom @SUBJ> #2->5
+	"Unix" N Prop Sem/Obj Sg Nom @SUBJ> #2->7
 "</>"
 	"/" PUNCT MIDDLE #3->4
-"<Linux'ine>"
-	"Linux'ine" ? @X #4->0
+"<Linux>"
+	"Linux" N Prop Sem/Obj Sg Nom @SUBJ> #4->7
+"<’>"
+	"’" PUNCT RIGHT #5->6
+"<ine>"
+	"ine" ? @X #6->0
 : 
 "<lea>"
-	"lea" <mv> V IV Ind Prs Sg3 @FMV #5->0
+	"lea" <mv> V IV Ind Prs Sg3 @FMV #7->0
 : 
 "<aevhkie>"
-	"aevhkie" N Sem/Semcon Sg Nom @<SPRED #6->5
-	"aevhkies" A Sg Nom @<SPRED #6->5
+	"aevhkie" N Sem/Semcon Sg Nom @<SPRED #8->7
+	"aevhkies" A Sg Nom @<SPRED #8->7
 : 
 "<bene>"
-	"bene" CS @CVP #7->8
+	"bene" CS @CVP #9->10
 : 
 "<ij>"
-	"ij" <aux> V IV Neg Ind Prs Sg3 @FS-<ADVL #8->5
+	"ij" <aux> V IV Neg Ind Prs Sg3 @FS-<ADVL #10->7
 : 
 "<naan>"
-	"naan" Pron Indef Sg Nom @SUBJ> #9->10
+	"naan" Pron Indef Sg Nom @SUBJ> #11->12
 : 
 "<krïebpesje>"
-	"krïebpesjidh" <mv> V TV Ind Prs Sg3 @FMV #10->5
+	"krïebpesjidh" <mv> V TV Ind Prs Sg3 @FMV #12->7
 "<.>"
-	"." CLB #11->1
+	"." CLB #13->1
 : 
 "<Disse>"
 	"dïhte" Pron Pers Sg3 Ill @ADVL> #1->3
@@ -1220,7 +1195,6 @@ Sørsamisk lingvist/språkmedarbeider for Divvun II-prosjektet
 :\n
 "<Ohtseme-mierie>"
 	"ohtsememierie" N Sem/Dummytag Sg Nom @HNOUN #1->0
-: 
 "<:>"
 	":" CLB #2->1
 : 
@@ -1281,6 +1255,4 @@ Sørsamisk lingvist/språkmedarbeider for Divvun II-prosjektet
 	"¶" CLB #1->1
 :\n
 
-]]></dependency>
-  </body>
-</document>
+]]></dependency></body></document>

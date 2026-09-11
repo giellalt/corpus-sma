@@ -1,32 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title>Etihkeles njoelkedassh saemien healsoedotkemasse</title><genre code="news"/><author><person firstname="Mikkel Eskil" lastname="Mikkelsen" sex="m" born="" nationality=""/></author><year>2018</year><wordcount>965</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>https://rorosnytt.no/njoelkedassh-saemien-healsoedotkemasse/</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<document xml:lang="sma" id="no_id"><header><title>Etihkeles njoelkedassh saemien healsoedotkemasse</title><genre code="news"/><author><person firstname="Mikkel Eskil" lastname="Mikkelsen" sex="m" born="" nationality=""/></author><year>2018</year><wordcount>959</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><multilingual/><origFileName>https://rorosnytt.no/njoelkedassh-saemien-healsoedotkemasse/</origFileName><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 161400 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
 <body><dependency><![CDATA["<Etihkeles>"
-	"etihke" A Err/Lex Attr @>N #1->2
-	"etihkeles" A Attr @>N #1->2
-: 
-"<njoelkedassh>"
-	"njoelkedasse" N Sem/Rule Pl Nom @HNOUN #2->0
-: 
-"<saemien>"
-	"saemien" A Attr @>N #3->4
-: 
-"<healsoedotkemasse>"
-	"healsoedotkeme" N Sem/Dummytag Sg Ill @<ADVL #4->2
-: 
-"<|>"
-	"|" CLB #5->2
-: 
-"<Rørosnytt>"
-	"Rørosnytt" ? @X #6->0
-"<.>"
-	"." CLB #7->2
-"<no>"
-	"no" ? @X #1->0
-: 
-"<¶>"
-	"¶" CLB #2->2
-:\n
-"<Etihkeles>"
 	"etihke" A Err/Lex Attr @>N #1->2
 	"etihkeles" A Attr @>N #1->2
 : 
@@ -1525,7 +1499,6 @@
 "<ektie>"
 	"ektie" A Attr @>N #4->5
 : 
-
 "<reakta>"
 	"reakta" N Sem/Rule Sg Nom @SUBJ> #5->7
 : 
@@ -1552,6 +1525,7 @@
 "<.>"
 	"." CLB #13->2
 : 
+
 "<Gosse>"
 	"gosse" CS @CVP #1->6
 : 
@@ -3053,7 +3027,6 @@
 "<mah>"
 	"mij" Pron Rel Pl Nom @SUBJ> #6->12
 : 
-
 "<saemien>"
 	"saemien" A Attr @>N #7->9
 : 
@@ -3080,6 +3053,7 @@
 "<.>"
 	"." CLB #15->15
 : 
+
 "<¶>"
 	"¶" CLB #1->1
 :\n

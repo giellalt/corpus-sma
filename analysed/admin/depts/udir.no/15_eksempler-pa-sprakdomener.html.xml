@@ -1,20 +1,10 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>1927</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://veiledninger.udir.no/Samisk%20andrespr%e5k/www.udir.no/Lareplaner/Veiledninger-til-lareplaner/Revidert-2013/Samisk-som-andrespraak/Saemien-mubpiegieline-Saemien-2-jih-saemien-3/Hoyremeny-toppniva/Eksempler-pa-sprakdomener/index.html</origFileName><parallel_text xml:lang="nob" location="15_eksempler-pa-sprakdomener.html"/><parallel_text xml:lang="sme" location="15_eksempler-pa-sprakdomener.html"/><parallel_text xml:lang="smj" location="15_eksempler-pa-sprakdomener.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
-<body><dependency><![CDATA["<Udir.no>"
-	"Udir.no" N Prop Sem/Org Sg Nom @HNOUN #1->0
-	"Udir.no" URL #1->0
-: 
-"<->"
-	"-" PUNCT MIDDLE #2->3
-: 
-"<Gïelesuerkieh>"
-	"suerkie" N Sem/Plc-abstr Pl Nom @HNOUN #3->1
-		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #3->1
-: 
-"<¶>"
-	"¶" CLB #4->1
-:\n
-"<Gïelesuerkieh>"
+<document xml:lang="sma" id="no_id"><header><title>
+	
+                Udir.no - Gïelesuerkieh
+            
+</title><genre code="admin"/><author><unknown/></author><wordcount>1924</wordcount><conversion_status type="standard"/><availability><free/></availability><submitter name="Kevin Brubeck Unhammer" email="unhammer@fsfe.org"/><multilingual><language xml:lang="sma"/><language xml:lang="nob"/></multilingual><origFileName>http://veiledninger.udir.no/Samisk%20andrespr%e5k/www.udir.no/Lareplaner/Veiledninger-til-lareplaner/Revidert-2013/Samisk-som-andrespraak/Saemien-mubpiegieline-Saemien-2-jih-saemien-3/Hoyremeny-toppniva/Eksempler-pa-sprakdomener/index.html</origFileName><parallel_text xml:lang="nob" location="15_eksempler-pa-sprakdomener.html"/><parallel_text xml:lang="sme" location="15_eksempler-pa-sprakdomener.html"/><parallel_text xml:lang="smj" location="15_eksempler-pa-sprakdomener.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Gïelesuerkieh>"
 	"suerkie" N Sem/Plc-abstr Pl Nom @HNOUN #1->0
 		"gïele" N Sem/Lang_Tool Cmp/SgNom Cmp #1->0
 : 
@@ -1515,7 +1505,6 @@
 	"dan" Adv @ADVL> #15->19
 	"dïhte" Pron Pers Sg3 Gen @>N #15->19
 : 
-
 "<jïjnjh>"
 	"jïjnje" Pron Indef Pl Nom @>N #16->17
 : 
@@ -1528,6 +1517,7 @@
 "<gåarede>"
 	"gåaradidh" <mv> V IV Ind Prs Sg3 @FS-<ADVL #19->10
 : 
+
 "<åadtjoeh>"
 	"åadtjodh" <mv> V TV Ind Prs Pl3 @FMV #20->8
 	"åadtjodh" <mv> V TV Ind Prs Sg2 @FMV #20->8
@@ -3008,7 +2998,6 @@
 "<hijven>"
 	"hijven" Adv @-FADVL> #4->6
 : 
-
 "<dååjrehtimmieh>"
 	"dååjrehtimmie" N Sem/Perc-emo Pl Nom @OBJ> #5->5
 : 
@@ -3021,6 +3010,7 @@
 "<saemien>"
 	"saemie" N Sem/Hum_Lang Sg Gen @>P #8->9
 : 
+
 "<bïjre>"
 	"bïjre" Po @<ADVL #9->6
 "<,>"
@@ -4498,7 +4488,6 @@
 : 
 "<jïh>"
 	"jïh" CC @CNP #5->4
-
 "</>"
 	"/" PUNCT MIDDLE #6->7
 "<jallh>"
@@ -4510,6 +4499,7 @@
 "<dejnie>"
 	"dïhte" Pron Dem Sg Com @>N #9->11
 : 
+
 "<saemien>"
 	"saemien" A Attr @>N #10->11
 : 
@@ -6045,7 +6035,6 @@
 "<jïh>"
 	"jïh" CC @CNP #9->7
 : 
-
 "<darjomh>"
 	"darjome" N Sem/Feat Pl Nom @<SUBJ #10->6
 : 
@@ -6059,6 +6048,7 @@
 "<maehtieh>"
 	"maehtedh" <aux> V TV Ind Prs Pl3 @FS-N< #13->10
 : 
+
 "<meatan>"
 	"meatan" Adv @ADVL> #14->15
 : 

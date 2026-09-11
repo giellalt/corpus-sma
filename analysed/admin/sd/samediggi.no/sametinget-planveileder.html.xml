@@ -1,50 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id"><header><title/><genre code="admin"/><author><unknown/></author><wordcount>152</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/Miljoe-areal-og-kulturvern/Areal/Sametinget-planveileder</origFileName><parallel_text xml:lang="nob" location="sametinget-planveileder.html"/><parallel_text xml:lang="sme" location="samedikki-planaveahkki.html"/><parallel_text xml:lang="smj" location="samedikke-pladnabagadus.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
-<body><dependency><![CDATA["<Sámedikki>"
-	"Sámedikki" ? @X #1->0
-: 
-"<plánaveahkki>"
-	"plánaveahkki" ? @X #2->0
-: 
-"</>"
-	"/" PUNCT MIDDLE #3->4
-: 
-"<Areale>"
-	"areaale" N Sem/Dummytag Err/Orth Sg Nom @HNOUN #4->0
-: 
-"</>"
-	"/" PUNCT MIDDLE #5->6
-: 
-"<Byjrese>"
-	"byjrese" N Sem/Plc Sg Nom @HNOUN #6->4
-"<,>"
-	"," CLB #7->6
-: 
-"<areale>"
-	"areaale" N Sem/Dummytag Err/Orth Sg Nom @HNOUN #8->6
-: 
-"<jïh>"
-	"jïh" CC @CNP #9->8
-: 
-"<kultuvrevarjelimmie>"
-	"kultuvrevaarjelimmie" N Err/Orth Sem/Dummytag Sg Nom @HNOUN #10->8
-: 
-"</>"
-	"/" PUNCT MIDDLE #11->12
-: 
-"<Saemiedigkie>"
-	"Saemiedigkie" N Prop Sem/Org Sg Nom @HNOUN #12->10
-: 
-"<->"
-	"-" PUNCT MIDDLE #13->14
-: 
-"<Sametinget>"
-	"Sametinget" N Prop Sem/Org Sg Nom @HNOUN #14->12
-: 
-"<¶>"
-	"¶" CLB #15->4
-:\n
-"<Saemiedigkien>"
+<document xml:lang="sma" id="no_id"><header><title>Sámedikki plánaveahkki / Areale / Byjrese, areale jïh kultuvrevarjelimmie / Saemiedigkie - Sametinget</title><genre code="admin"/><author><unknown/></author><wordcount>139</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual/><origFileName>http://www.saemiedigkie.no/layout/set/print/Miljoe-areal-og-kulturvern/Areal/Sametinget-planveileder</origFileName><parallel_text xml:lang="nob" location="sametinget-planveileder.html"/><parallel_text xml:lang="sme" location="samedikki-planaveahkki.html"/><parallel_text xml:lang="smj" location="samedikke-pladnabagadus.html"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Saemiedigkien>"
 	"Saemiedigkie" N Prop Sem/Org Sg Gen @>N #1->2
 	"saemiedigkie" N Sem/Build_Org Sg Gen @>N #1->2
 : 
