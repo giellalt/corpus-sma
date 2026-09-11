@@ -1,29 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id">
-  <header>
-    <title>Saemien lidteratuvrem nænnoste 5,1 millijovnh kråvnajgujmie</title>
-    <genre code="admin"/>
-    <author>
-      <unknown/>
-    </author>
-    <translator>
-      <unknown/>
-    </translator>
-    <translated_from xml:lang="nob"/>
-    <year>2019</year>
-    <wordcount>374</wordcount>
-    <conversion_status type="standard"/>
-    <availability>
-      <license type="standard"/>
-    </availability>
-    <parallel_text xml:lang="nob" location="prm_styrke_samisk_litteratur_og_formidling.doc"/>
-    <metadata>
-      <uncomplete/>
-    </metadata>
-    <version>XSLtemplate $Revision: 180635 $; file-specific xsl  Revision; common.xsl  $Revision$; </version>
-  </header>
-  <body>
-    <dependency><![CDATA["<Saemien>"
+<document xml:lang="sma" id="no_id"><header><title>Saemien lidteratuvrem nænnoste 5,1 millijovnh kråvnajgujmie</title><genre code="admin"/><author><unknown/></author><translator><unknown/></translator><translated_from xml:lang="nob"/><year>2019</year><wordcount>374</wordcount><conversion_status type="standard"/><availability><license type="standard"/></availability><parallel_text xml:lang="nob" location="prm_styrke_samisk_litteratur_og_formidling.doc"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision: 180635 $; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Saemien>"
 	"saemien" A Attr @>N #1->2
 : 
 "<lidteratuvrem>"
@@ -45,6 +22,7 @@
 "<¶>"
 	"¶" CLB #7->3
 :\n
+: 
 "<Saemiedigkieraerie>"
 	"saemiedigkieraerie" N Sem/Hum_Org Sg Nom @SUBJ> #1->2
 : 
@@ -144,7 +122,7 @@
 	"jiehtedh" <mv> V TV Ind Prs Sg3 @FMVdic #14->0
 "<.>"
 	"." CLB #15->14
-:  
+:   
 "<¶>"
 	"¶" CLB #1->1
 :\n
@@ -1249,7 +1227,7 @@
 	"2020" Num Arab Sem/Year Sg Nom @<ADVL #10->7
 "<.>"
 	"." CLB #11->7
-:  
+: 
 "<¶>"
 	"¶" CLB #1->1
 :\n
@@ -1288,7 +1266,7 @@
 : 
 "<75 219>"
 	"75 219" Num Arab Sg Nom @HNOUN #12->9
-:  
+: 
 "<¶>"
 	"¶" CLB #13->5
 :\n
@@ -1305,8 +1283,8 @@
 	"strategije" N Sem/Prod-cogn Sg Nom @HNOUN #4->1
 		"litteratuvre" N Err/Orth Sem/Txt Cmp/SgNom Cmp #4->1
 : 
-"<->"
-	"-" PUNCT MIDDLE #5->6
+"<–>"
+	"–" PUNCT MIDDLE #5->6
 : 
 "<nænnoestamme>"
 	"nænnoestidh" <mv> V TV PrfPrc @IMV #6->0
@@ -1326,6 +1304,4 @@
 	"¶" CLB #1->1
 :\n
 
-]]></dependency>
-  </body>
-</document>
+]]></dependency></body></document>

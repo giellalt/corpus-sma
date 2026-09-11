@@ -1,32 +1,6 @@
 <?xml version='1.0' encoding='utf8'?>
-<document xml:lang="sma" id="no_id">
-  <header>
-    <title> 
-Untitled
-</title>
-    <genre code="facta"/>
-    <author>
-      <unknown/>
-    </author>
-    <wordcount>148</wordcount>
-    <conversion_status type="standard"/>
-    <availability>
-      <free/>
-    </availability>
-    <multilingual>
-      <language xml:lang="sme"/>
-      <language xml:lang="swe"/>
-      <language xml:lang="sma"/>
-    </multilingual>
-    <parallel_text xml:lang="sme" location="ingress_2_jorgaluvvon.doc"/>
-    <parallel_text xml:lang="swe" location="ingress_2_jorgaluvvon.doc"/>
-    <metadata>
-      <uncomplete/>
-    </metadata>
-    <version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version>
-  </header>
-  <body>
-    <dependency><![CDATA["<Saemiedigkie>"
+<document xml:lang="sma" id="no_id"><header><title/><genre code="facta"/><author><unknown/></author><wordcount>140</wordcount><conversion_status type="standard"/><availability><free/></availability><multilingual><language xml:lang="sma"/><language xml:lang="swe"/><language xml:lang="sme"/></multilingual><parallel_text xml:lang="sme" location="ingress_2_jorgaluvvon.doc"/><parallel_text xml:lang="swe" location="ingress_2_jorgaluvvon.doc"/><metadata><uncomplete/></metadata><version>XSLtemplate $Revision$; file-specific xsl  Revision; common.xsl  $Revision$; </version></header>
+<body><dependency><![CDATA["<Saemiedigkie>"
 	"Saemiedigkie" N Prop Sem/Org Sg Nom @SUBJ> #1->2
 	"saemiedigkie" N Sem/Build_Org Sg Nom @SUBJ> #1->2
 : 
@@ -50,39 +24,30 @@ Untitled
 "<.>"
 	"." CLB #8->2
 : 
-"<Saemiedigkie>"
-	"Saemiedigkie" N Prop Sem/Org Sg Nom @SUBJ> #1->3
-	"saemiedigkie" N Sem/Build_Org Sg Nom @SUBJ> #1->3
-: 
-"<veeljeme>"
-	"veeljeme" N Sem/Event Sg Nom @SUBJ> #2->3
+"<Saemiedigkieveeljeme>"
+	"saemiedigkieveeljeme" N Sem/Event Sg Nom @SUBJ> #1->2
 : 
 "<åtnasåvva>"
-	"åtnasovvedh" <mv> V IV Ind Prs Sg3 @FMV #3->0
+	"åtnasovvedh" <mv> V IV Ind Prs Sg3 @FMV #2->0
 : 
 "<fïerhten>"
-	"fïerhte" Pron Indef Sg Gen @>N #4->6
+	"fïerhte" Pron Indef Sg Gen @>N #3->5
 : 
 "<njealjede>"
-	"njealjede" A Ord Attr @>N #5->6
+	"njealjede" A Ord Attr @>N #4->5
 : 
 "<jaepien>"
-	"jaepie" N Sem/Time Sg Gen @<ADVL #6->3
+	"jaepie" N Sem/Time Sg Gen @<ADVL #5->2
 : 
 "<aktine>"
-	"akte" Num Ess @>N #7->8
-	"akte" Num Pl Ine @>N #7->8
-	"akte" Num Sg Com @>N #7->8
+	"akte" Num Ess @>N #6->7
+	"akte" Num Pl Ine @>N #6->7
+	"akte" Num Sg Com @>N #6->7
 : 
-"<s>"
-	"s" N Sem/Sign ABBR Gram/TAbbr Sg Acc @<OBJ #8->3
-	"s" N Sem/Sign ABBR Gram/TAbbr Sg Gen @<ADVL #8->3
-	"s" N Sem/Sign ABBR Gram/TAbbr Sg Nom @<SUBJ #8->3
-: 
-"<toerredigkieveeljeme>"
-	"toerredigkieveeljeme" ? @X #9->0
+"<stoerredigkieveeljeme>"
+	"stoerredigkieveeljeme" N Sem/Dummytag Sg Nom @<SUBJ #7->2
 "<.>"
-	"." CLB #10->3
+	"." CLB #8->2
 : 
 "<Saemiedigkien>"
 	"Saemiedigkie" N Prop Sem/Org Sg Gen @>N #1->2
@@ -91,89 +56,67 @@ Untitled
 "<reeremen>"
 	"reereme" N Sem/Org Sg Gen @ADVL> #2->3
 : 
-"<lea>"
-	"lea" <mv> V IV Ind Prs Sg3 @FMV #3->0
-: 
-"<h>"
-	"h" N Sem/Sign ABBR Gram/TAbbr Sg Acc @<OBJ #4->3
-	"h" N Sem/Sign ABBR Gram/TAbbr Sg Gen @>P #4->3
-	"h" N Sem/Sign ABBR Gram/TAbbr Sg Nom @<SPRED #4->3
+"<leah>"
+	"lea" <mv> V IV Ind Prs Pl3 @FMV #3->0
 : 
 "<bijjelen>"
-	"bijjelen" Po @>N #5->7
+	"bijjelen" Adv @>Num #4->5
+	"bijjelen" Pr @>Num #4->5
 : 
 "<100>"
-	"100" A Arab Ord Attr CLBfinal @>N #6->7
+	"100" Num Arab Sg Nom @>N #5->6
 : 
-"<b>"
-	"b" N Sem/Time ABBR Gram/TNumAbbr @<ADVL #7->3
-	"b" N Sem/Time ABBR Gram/TNumAbbr Attr @>N #7->3
-: 
-"<arkijh>"
-	"arkijh" ? @X #8->0
+"<barkijh>"
+	"barkije" N Sem/Hum Pl Nom @<SUBJ #6->3
 : 
 "<jih>"
-	"jïh" CC @CNP #9->8
+	"jïh" CC @CNP #7->6
 : 
 "<kontovrh>"
-	"kontovre" N Sem/Dummytag Pl Nom @<SUBJ #10->3
+	"kontovre" N Sem/Dummytag Pl Nom @<SUBJ #8->6
 : 
 "<åtna>"
-	"åtna" N Sem/Dummytag Sg Nom @<SUBJ #11->3
+	"åtna" N Sem/Dummytag Sg Nom @<SUBJ #9->3
 : 
-"<Divtasv>"
-	"Divtasv" ? @X #12->0
+"<Divtasvoenesne>"
+	"Divtasvoenesne" ? @X #10->0
+"<,>"
+	"," CLB #11->10
 : 
-"<oe>"
-	"oe" ? @X #13->0
+"<Evenasjesne>"
+	"Evenasjesne" ? @X #12->0
+"<,>"
+	"," CLB #13->12
 : 
-"<nesne>"
-	"nesne" ? @X #14->0
+"<Gaivoenesne>"
+	"Gaivoenesne" ? @X #14->0
 "<,>"
 	"," CLB #15->14
 : 
-"<Evenasjesne>"
-	"Evenasjesne" ? @X #16->0
-"<,>"
-	"," CLB #17->16
-: 
-"<Gaiv>"
-	"Gaiv" ? @X #18->0
-: 
-"<o>"
-	"o" N Sem/Sign ABBR Gram/TAbbr Sg Acc @<OBJ #19->3
-	"o" N Sem/Sign ABBR Gram/TAbbr Sg Gen @<ADVL #19->3
-	"o" N Sem/Sign ABBR Gram/TAbbr Sg Nom @<SUBJ #19->3
-: 
-"<enesne>"
-	"enesne" ? @X #20->0
-"<,>"
-	"," CLB #21->20
-: 
 "<Guovdag>"
-	"Guovdag" ? @X #22->0
-: 
+	"Guovdag" ? @X #16->0
+:  
 "<äjnosne>"
-	"äjnosne" ? @X #23->0
+	"äjnosne" ? @X #17->0
 "<,>"
-	"," CLB #24->23
+	"," CLB #18->17
 : 
 "<Karasjokesne>"
-	"Karasjok" N Prop Sem/Plc Sg Ine @<ADVL-ine #25->3
+	"Karasjok" N Prop Sem/Plc Sg Ine @<ADVL-ine #19->3
 "<,>"
-	"," CLB #26->25
+	"," CLB #20->19
 : 
 "<Snåasesne>"
-	"Snåase" N Prop Sem/Plc Sg Ine @<ADVL-ine #27->3
+	"Snåase" N Prop Sem/Plc Sg Ine @<ADVL-ine #21->3
 : 
 "<jih>"
-	"jïh" CC @CNP #28->27
+	"jïh" CC @CNP #22->21
 : 
 "<Unjarggesne>"
-	"Unjarggesne" ? @X #29->0
+	"Unjarggesne" ? @X #23->0
 "<.>"
-	"." CLB #30->3
-:  
+	"." CLB #24->3
+: 
 "<¶>"
 	"¶" CLB #1->1
 :\n
@@ -222,6 +165,4 @@ Untitled
 	"¶" CLB #1->1
 :\n
 
-]]></dependency>
-  </body>
-</document>
+]]></dependency></body></document>
